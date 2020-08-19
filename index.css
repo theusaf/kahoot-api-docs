@@ -58,6 +58,11 @@ article section{
   flex: 1;
   padding-left: 0.75rem;
 }
+code{
+  background: #444;
+  border-radius: 0.15rem;
+  padding: 0.1rem;
+}
 #selection{
   flex: 0;
   border-right: 1px solid #888;
@@ -74,11 +79,12 @@ article section{
   text-decoration: none;
   margin-left: 0.5rem;
   margin-top: 0.25rem;
-  transition: 0.5s;
+  transition: 0.25s;
+  word-break: break-all;
   border-left: 0.1rem solid transparent;
   padding-left: 0.1rem;
 }
-#selection a:hover{
+#selection a:hover,.navigation a:hover{
   color: #08f;
   background: #333;
   border-left: 0.1rem solid #08f;
@@ -86,8 +92,26 @@ article section{
 #selection a.selected{
   background: #222;
 }
-#output a{
+#output a:not(.navigation a){
   color: #08f;
+}
+.navigation{
+  margin: 1.5rem;
+  display: flex;
+}
+.navigation>div{
+  flex: 1;
+}
+.navigation a{
+  display: block;
+  text-decoration: none;
+  color: grey;
+  border-left: 0.1rem solid grey;
+  padding-left: 0.25rem;
+  transition: 0.25s;
+}
+.navigation span{
+  font-weight: bold;
 }
 @media screen and (max-width: 800px) {
   nav img{
