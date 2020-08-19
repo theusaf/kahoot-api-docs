@@ -78,3 +78,6 @@ article section{
 #selection a.selected{
   background: #222;
 }
+#output a{
+  color: #08f;
+}
