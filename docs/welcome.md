@@ -12,6 +12,9 @@ Kahoot's API uses mostly [JSON](https://www.json.org/json-en.html) and relies on
 - Making HTTP requests
 - WebSockets
 
+### Disclaimer:
+This documentation is not an official documentation for Kahoot and may be outdated, incorrect or incomplete.
+
 ---
 
 Some examples use [kahoot.js-updated](https://npmjs.com/package/kahoot.js-updated) and other similar projects to help you understand how to quickly create bots without knowing the API.

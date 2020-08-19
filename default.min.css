@@ -14,6 +14,10 @@
 	color: #777;
 }
 
+.hljs-attr{
+	color: #800;
+}
+
 .hljs-keyword,
 .hljs-attribute,
 .hljs-selector-tag,

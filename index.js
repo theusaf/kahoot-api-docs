@@ -14,9 +14,21 @@ function RenderDocument(data){
   for(var i in repl){
     repl[i].href = location.hash.split("?")[0] + repl[i].getAttribute("link");
   }
+  var repl2 = Array.from(document.getElementsByClassName("nam"));
+  for(var i in repl2){
+    repl2[i].name = location.hash.split("?")[0] + repl2[i].getAttribute("link");
+  }
+  if(location.hash.search(/\?/gm) !== -1){
+    try{
+      document.querySelector('[name="' + location.hash + '"]').scrollIntoView();
+    }catch(e){}
+  }
 }
 function FetchData(first){
   if(!first && location.hash.search(/\?/gm) !== -1){
+    try{
+      document.querySelector('[name="' + location.hash + '"]').scrollIntoView();
+    }catch(e){}
     return;
   }
   var path = location.hash.split("#")[1];
@@ -26,7 +38,9 @@ function FetchData(first){
   }
   var link = document.querySelector('[href="' + location.hash.split("?")[0] + '"]');
   document.title = link.textContent + " | Kahoot API Documentation V2";
-  document.querySelector(".selected").className = "";
+  try{
+    document.querySelector(".selected").className = "";
+  }catch(e){}
   link.className = "selected";
   var x = new XMLHttpRequest();
   x.open("GET","docs" + path.split("?")[0] + ".md");

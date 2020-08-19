@@ -20,6 +20,14 @@
     <script src="marked.min.js"></script>
     <script src="highlight.min.js"></script>
     <link rel="stylesheet" href="default.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://kahoot-win.herokuapp.com/ext/https://www.googletagmanager.com/gtag/js?id=G-5S0LGKYC6M"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5S0LGKYC6M');
+    </script>
     <!-- End Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://kahoot-win.herokuapp.com/ext/https://apis.google.com/js/platform.js"></script>
   </head>
@@ -68,13 +76,20 @@
         <h3>Enums</h3>
         <a href="#/enum/LiveEventGameOver">LiveEventGameOver</a>
         <a href="#/enum/LiveEventGetReady">LiveEventGetReady</a>
+        <a href="#/enum/LiveEventID">LiveEventID</a>
         <a href="#/enum/LiveEventQuestionStarted">LiveEventQuestionStarted</a>
         <a href="#/enum/LiveFunctionHandshakeClient">LiveFunctionHandshakeClient</a>
+        <a href="#/enum/LiveQuestionAnswer">LiveQuestionAnswer</a>
+        <a href="#/enum/LiveQuestionAnswerContent">LiveQuestionAnswerContent</a>
+        <a href="#/enum/LiveQuestionType">LiveQuestionType</a>
       </section>
       <section id="output">
         <p>Loading... Please wait.</p>
       </section>
     </article>
+    <footer>
+      <p>&copy; theusaf 2020</p>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

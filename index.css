@@ -62,6 +62,33 @@ code{
   background: #444;
   border-radius: 0.15rem;
   padding: 0.1rem;
+  text-align: left;
+}
+footer{
+  padding: 1rem;
+  background: #222;
+  color: white;
+}
+table{
+  overflow-x: auto;
+  border: 0.1rem solid grey;
+  border-spacing: 0;
+}
+tr:first-of-type{
+  background: #0af;
+}
+tr:nth-child(2n){
+  background: #222;
+}
+td{
+  max-width: 15rem;
+  min-width: 10rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+th{
+  text-transform: uppercase;
+  padding: 1rem;
 }
 #selection{
   flex: 0;
@@ -80,7 +107,7 @@ code{
   margin-left: 0.5rem;
   margin-top: 0.25rem;
   transition: 0.25s;
-  word-break: break-all;
+  word-break: break-word;
   border-left: 0.1rem solid transparent;
   padding-left: 0.1rem;
 }
@@ -92,8 +119,43 @@ code{
 #selection a.selected{
   background: #222;
 }
-#output a:not(.navigation a){
+#output{
+  overflow-x: auto;
+}
+#output a:not(.nav){
   color: #08f;
+}
+#output a[name]{
+  font-weight: bold;
+  color: white;
+  font-size: 1.15rem;
+}
+.type,.parent,.extends{
+  display: block;
+}
+.type::before,.parent::before,.extends::before{
+  font-weight: 500;
+  color: #aaa;
+}
+.parent::before{
+  content: "Parent: ";
+}
+.type::before{
+  content: "Type: ";
+}
+.extends::before{
+  content: "Extends ";
+}
+.info,.nam{
+  margin-left: 1rem;
+}
+.info p{
+  margin: 0;
+}
+.info{
+  border-left: 0.1rem solid grey;
+  padding-left: 0.25rem;
+  margin-bottom: 1.5rem;
 }
 .navigation{
   margin: 1.5rem;
