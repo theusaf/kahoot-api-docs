@@ -31,7 +31,8 @@ function FetchData(){
     });
   }
 }
-window.addEventListener("hashchange",function(){
+window.addEventListener("hashchange",function(event){
+  event.preventDefault();
   FetchData();
 });
 window.addEventListener("load",function(){
