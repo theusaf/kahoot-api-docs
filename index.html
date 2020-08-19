@@ -3,7 +3,7 @@
   <head>
     <title>Kahoot API Documentation V2</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="preload" href="/ext/https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style" onload="this.rel = 'stylesheet'">
+    <link rel="preload" href="https://kahoot-win.herokuapp.com/ext/https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" as="style" onload="this.rel = 'stylesheet'">
     <link rel="stylesheet" href="index.css">
     <meta name="image" content="https://kahoot-win.herokuapp.com/resource/misc/network.png">
     <meta property="og:image:secure_url" content="https://kahoot-win.herokuapp.com/resource/misc/network.png">
@@ -16,30 +16,50 @@
     <meta name="title" content="Learn Kahoot's API">
     <meta name="description" content="A documentation of Kahoot's APIs">
     <meta name="keywords" content="kahoot, website, kahoot winner, kahoot win, heroku, theusaf, tutorial, code, api, kahoot, docs, documentation">
-    <link rel="stylesheet" href="https://kahoot-win.herokuapp.com/how-it-works/default.min.css">
-    <script src="https://kahoot-win.herokuapp.com/how-it-works/marked.min.js"></script>
-    <script src="https://kahoot-win.herokuapp.com/how-it-works/highlight.min.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="/ext/https://www.googletagmanager.com/gtag/js?id=G-5S0LGKYC6M"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-5S0LGKYC6M');
-    </script>
+    <link rel="icon" href="https://kahoot.it/favicon.ico">
+    <script src="/marked.min.js"></script>
+    <script src="/highlight.min.js"></script>
+    <link rel="stylesheet" href="/default.min.css">
     <!-- End Global site tag (gtag.js) - Google Analytics -->
-    <script async src="/ext/https://apis.google.com/js/platform.js"></script>
-    <script data-ad-client="ca-pub-7270149282957761" async src="/ext/https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script async src="https://kahoot-win.herokuapp.com/ext/https://apis.google.com/js/platform.js"></script>
   </head>
   <body>
     <nav>
-
+      <a href="https://npmjs.com/package/kahoot.js-updated">Kahoot.JS</a>
+      <div>
+        <a href="#">Documentation</a>
+        <a href="https://github.com/theusaf/kahoot-api-docs">GitHub</a>
+      </div>
     </nav>
     <header>
-
+      <h1>Documentation V 2.0.0</h1>
+      <input type="text" name="search" placeholder="Search" autocomplete="off">
     </header>
     <article>
-
+      <section id="selection">
+        <h3>General</h3>
+        <a href="#/welcome" class="selected">Welcome</a>
+        <a href="#/faq">FAQ</a>
+        <h3>Packages</h3>
+        <a href="#/kahoot.js-updated">Kahoot.JS-Updated</a>
+        <a href="#/kahoot.py">Kahoot.PY</a>
+        <a href="#/kahoot-search">Kahoot Search</a>
+        <h3>Examples</h3>
+        <a href="#/example-client">Joining and interacting with games</a>
+        <a href="#/example-server">Hosting a game</a>
+        <h3>Classes</h3>
+        <a href="#/client">Client</a>
+        <a href="#/host">Host</a>
+        <a href="#/search">Search</a>
+        <a href="#/creator">Quiz Creator</a>
+        <h3>Enums</h3>
+        <a href="#/enum/LiveEventGetReady">LiveEventGetReady</a>
+        <a href="#/enum/LiveEventQuestionStarted">LiveEventQuestionStarted</a>
+        <a href="#/enum/LiveEventGameOver">LiveEventGameOver</a>
+      </section>
+      <section id="output">
+        <p>Loading... Please wait.</p>
+      </section>
     </article>
     <script src="index.js"></script>
   </body>
