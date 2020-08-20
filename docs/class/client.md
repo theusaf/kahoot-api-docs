@@ -70,6 +70,11 @@ Joining and interacting with Kahoot Live games.
     <li>Now, wait for various events and respond to them as needed.</li>
   </ol>
 </div>
+<a link="?scrollTo=join" class="nam">Join</a>
+<div class="info">
+  <p>Join the game.</p>
+  <p>Send a <a href="#/enum/LiveJoinPacket">LiveJoinPacket</a>.</p>
+</div>
 
 ### Events
 <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
