@@ -9,6 +9,10 @@ A channel category to send data.
 
 - `/service/controller` - Main service channel
 
+- `/service/status` - Status channel
+
+- `/service/player` - ~Player service channel~
+
 - `/meta/subscribe` - ~Subscription channel~
 
 - `/meta/unsubscribe` - ~Unsubscription channel~
