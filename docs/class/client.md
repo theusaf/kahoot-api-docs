@@ -21,6 +21,7 @@ Joining and interacting with Kahoot Live games.
   <div>
     <span>Events</span>
     <a link="?scrollTo=FeedbackRequested" class="nav">FeedbackRequested</a>
+    <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=QuizEnd" class="nav">QuizEnd</a>
     <a link="?scrollTo=QuizStart" class="nav">QuizStart</a>
   </div>
@@ -67,4 +68,11 @@ Joining and interacting with Kahoot Live games.
     <li>Finally, send a <a href="#/enum/LiveClientHandshake">LiveClientHandshake</a></li>
     <li>Now, wait for various events and respond to them as needed.</li>
   </ol>
+</div>
+
+### Events
+<a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
+<div class="info">
+  <p>The server accepts the handshake and sends back important information.</p>
+  <p>Happens when the server sends a <a href="#/enum/LiveClientHandshakeResponse">LiveClientHandshakeResponse</a>.</p>
 </div>

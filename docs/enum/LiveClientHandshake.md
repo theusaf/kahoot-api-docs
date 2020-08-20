@@ -1,9 +1,5 @@
 ## LiveHandshakeClient
 JSON data sent to Kahoot's socket to establish a connection.
-<div class="navigation">
-  <div>
-  </div>
-</div>
 
 <table>
   <tr>
@@ -42,7 +38,7 @@ JSON data sent to Kahoot's socket to establish a connection.
   <tr>
     <td>id</td>
     <td>String[Number]</td>
-    <td>0</td>
+    <td>1</td>
     <td>The sent message counter.</td>
   </tr>
 </table>

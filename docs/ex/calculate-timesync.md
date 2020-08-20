@@ -1,7 +1,8 @@
 ## Calculating the timesync
 The following explains how to calculate values for <a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a>
 
-*Not tested: Providing a constant value like 0 for lag and offset might work without issue*
+*Providing a constant value like 0 for lag and offset might work without issue. Needs more testing to figure out the effect of this value on the game.*
+**This calculation only needs to be done once (during handshake). The client then uses these values for the remaining messages.**
 
 <div class="navigation">
   <div>
