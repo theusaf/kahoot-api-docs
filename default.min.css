@@ -38,7 +38,7 @@
 	color: #33aa33;
 }
 
-.hljs-number{
+.hljs-number,.hljs-literal{
   color: #fa4;
 }
 
@@ -56,10 +56,6 @@
 .hljs-selector-attr,
 .hljs-selector-pseudo {
 	color: #BC6060;
-}
-
-.hljs-literal {
-	color: #78A960;
 }
 
 .hljs-built_in,
