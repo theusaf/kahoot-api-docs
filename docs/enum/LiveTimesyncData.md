@@ -6,6 +6,7 @@ JSON data including information about lag and time. Used when creating connectio
     <span>Variations</span>
     <a link="?scrollTo=ping" class="nav">Ping/Pong</a>
     <a link="?scrollTo=first-handshake" class="nav">FirstHandshake</a>
+    <a link="?scrollTo=second-handshake" class="nav">SecondHandshake</a>
   </div>
 </div>
 
@@ -37,24 +38,6 @@ JSON data including information about lag and time. Used when creating connectio
     <td></td>
   </tr>
   <tr>
-    <td>id</td>
-    <td>String[Number]</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>minimumVersion</td>
-    <td>String[Float]</td>
-    <td>1.0</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>version</td>
-    <td>String[Float]</td>
-    <td>1.0</td>
-    <td></td>
-  </tr>
-  <tr>
     <td>timesync</td>
     <td><a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
     <td>
@@ -70,19 +53,37 @@ JSON data including information about lag and time. Used when creating connectio
     </td>
     <td>Lag and connection information.</td>
   </tr>
+</table>
+
+<a class="nam" link="?scrollTo=second-handshake"></a>
+#### SecondHandshake
+<table>
   <tr>
-    <td>supportedConnectionTypes</td>
-    <td>Array[<a href="#/enum/ConnectionType">ConnectionType</a>]</td>
+    <th>Parameter</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>ack</td>
+    <td>Number</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>timesync</td>
+    <td><a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
     <td>
       <pre>
         <code>
-<!--   -->[
-<!--   -->  "websocket",
-<!--   -->  "long-polling"
-<!--   -->]
+<!--   -->{
+<!--   -->  "l": l,
+<!--   -->  "o": o,
+<!--   -->  "tc": <a href="https://en.wikipedia.org/wiki/Unix_time">Current Date (ms)</a>
+<!--   -->}
         </code>
       </pre>
     </td>
-    <td>The type of connections that the client supports.</td>
+    <td>Lag and connection information. L and O are the same as the first handshake calculation.</td>
   </tr>
 </table>

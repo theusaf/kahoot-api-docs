@@ -65,7 +65,7 @@ Joining and interacting with Kahoot Live games.
     <li>Decode the <a href="#/enum/LiveSessionClientToken?scrollTo=token">x-kahoot-session-token</a> by decoding the base64 string</li>
     <li>Combine the two tokens. See <a href="#/ex/decode-client?scrollTo=combine">Comine Tokens Example</a>. The resulting token is the token to use in the next step.</li>
     <li>Then, create a websocket connection to <code>wss://kahoot.it/cometd/{gameid}/{token}</code></li>
-    <li>Finally, send a <a href="#/enum/LiveClientHandshake">LiveClientHandshake</a></li>
+    <li>Finally, send a <a href="#/enum/LiveClientHandshake?scrollTo=first-handshake">LiveClientHandshake</a></li>
     <li>Now, wait for various events and respond to them as needed.</li>
   </ol>
 </div>
@@ -75,4 +75,5 @@ Joining and interacting with Kahoot Live games.
 <div class="info">
   <p>The server accepts the handshake and sends back important information.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveClientHandshakeResponse">LiveClientHandshakeResponse</a>.</p>
+  <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=second-handshake">LiveClientHandshake#2</a></p>
 </div>
