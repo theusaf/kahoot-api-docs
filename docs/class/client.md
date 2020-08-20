@@ -14,6 +14,7 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=connection" class="nav">CreateHandshake</a>
     <a link="?scrollTo=feedback" class="nav">Feedback</a>
     <a link="?scrollTo=join" class="nav">Join</a>
+    <a link="?scrollTo=jointeam" class="nav">Join Team Members</a>
     <a link="?scrollTo=leave" class="nav">Leave</a>
     <a link="?scrollTo=reconnect" class="nav">Reconnect</a>
     <a link="?scrollTo=jointeam" class="nav">SubmitTeamMembers</a>
@@ -74,6 +75,11 @@ Joining and interacting with Kahoot Live games.
 <div class="info">
   <p>Join the game.</p>
   <p>Send a <a href="#/enum/LiveJoinPacket">LiveJoinPacket</a>.</p>
+</div>
+<a link="?scrollTo=jointeam" class="nam">Join Team Members</a>
+<div class="info">
+  <p>Used when the gameMode is <code>team</code>; after sending the join packet.</p>
+  <p>Send a <a href="#/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
 </div>
 
 ### Events

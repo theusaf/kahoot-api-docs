@@ -1,10 +1,8 @@
-## LiveJoinPacket
+## LiveJoinTeamPacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
+A JSON packet containing "team members" for the client
 
-**There should be a minumum delay of ~0.5s between handshake and sending this message**
-
-A JSON message containing data when joining a Kahoot game.
 ### Merge
 *Needs testing: Are these values really needed?*
 <table>
@@ -50,20 +48,20 @@ A JSON message containing data when joining a Kahoot game.
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveJoinPacketContent">LiveJoinPacketContent</a></td>
+    <td><a href="#/enum/LiveJoinTeamPacketContent">LiveJoinTeamPacketContent</a></td>
     <td></td>
-    <td>Information about the client.</td>
+    <td>The team member information.</td>
   </tr>
   <tr>
-    <td>name</td>
-    <td>String</td>
+    <td>id</td>
+    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td>18</td>
     <td></td>
-    <td>The name of the client player</td>
   </tr>
   <tr>
     <td>type</td>
     <td>String</td>
-    <td>login</td>
+    <td>message</td>
     <td>The type of action</td>
   </tr>
 </table>
