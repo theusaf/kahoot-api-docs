@@ -43,7 +43,7 @@ function FetchData(first){
   try{
     document.querySelector(".selected").className = "";
   }catch(e){}
-  link.className = "selected";
+  try{link.className = "selected";}catch(e){}
   var x = new XMLHttpRequest();
   x.open("GET","docs" + path.split("?")[0] + ".md");
   x.send();
