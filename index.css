@@ -135,6 +135,9 @@ th{
   color: white;
   font-size: 1.15rem;
 }
+.hidden{
+  display: none;
+}
 .type,.parent,.extends{
   display: block;
 }
@@ -180,8 +183,27 @@ th{
 .navigation span{
   font-weight: bold;
 }
+.mobileonly{
+  display: none;
+}
 @media screen and (max-width: 800px) {
   nav img{
     display: none;
+  }
+  .mobileonly{
+    display: block;
+  }
+  .mobile-dark{
+    background: black;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .toggle + *{
+    display: none;
+  }
+  .toggle:checked + *{
+    display: block;
   }
 }

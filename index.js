@@ -30,6 +30,8 @@ function FetchData(first){
       document.querySelector('[name="' + location.hash + '"]').scrollIntoView();
     }catch(e){}
     return;
+  }else if(location.hash.search(/\?/gm) === -1){
+    scrollTo(0,0);
   }
   var path = location.hash.split("#")[1];
   if(path === "/" || !path){
