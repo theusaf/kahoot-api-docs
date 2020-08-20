@@ -219,7 +219,6 @@ th{
   }
   .mobile-dark{
     background: black;
-    width: 100%;
     color: white;
     margin: 0;
     padding: 0.5rem;
@@ -229,5 +228,8 @@ th{
   }
   .toggle:checked + *{
     display: block;
+  }
+  .mobilehide{
+    display: none;
   }
 }
