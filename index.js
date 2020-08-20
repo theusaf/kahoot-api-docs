@@ -62,6 +62,4 @@ window.addEventListener("hashchange",function(event){
   event.preventDefault();
   FetchData();
 });
-window.addEventListener("load",function(){
-  FetchData(true);
-});
+FetchData(true);

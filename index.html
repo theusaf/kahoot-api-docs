@@ -10,8 +10,8 @@
     <meta property="og:image" content="http://kahoot-win.herokuapp.com/resource/misc/network.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:url" content="https://kahoot-win.herokuapp.com/api">
-    <meta property="og:title" content="Learn Kahoot's API">
-    <meta property="og:description" content="The Kahoot API documentation.">
+    <meta property="og:title" content="Kahoot! API Docs. Version 2">
+    <meta property="og:description" content="The Kahoot API documentation V2.">
     <meta property="og:type" content="website">
     <meta name="title" content="Learn Kahoot's API">
     <meta name="description" content="A documentation of Kahoot's APIs">
@@ -30,14 +30,25 @@
     </script>
     <!-- End Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://kahoot-win.herokuapp.com/ext/https://apis.google.com/js/platform.js"></script>
+    <link rel="preload" href="https://kahoot.it/favicon.ico" as="image">
+    <link rel="preload" href="https://kahoot-win.herokuapp.com/favicon.ico" as="image">
+    <link rel="preload" href="https://kahootsmasher.club/favicon.ico" as="image">
   </head>
   <body>
     <nav>
       <a href="https://npmjs.com/package/kahoot.js-updated">
-        <img src="https://kahoot.it/favicon.ico" alt="Kahoot">
-        <img src="https://kahoot-win.herokuapp.com/favicon.ico" alt="Kahoot Winner">
-        <img src="https://kahootsmasher.club/favicon.ico" alt="Kahoot Smasher">
+        <img async-src="https://kahoot.it/favicon.ico" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" alt="Kahoot">
+        <img async-src="https://kahoot-win.herokuapp.com/favicon.ico" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" alt="Kahoot Winner">
+        <img async-src="https://kahootsmasher.club/favicon.ico" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFhAJ/wlseKgAAAABJRU5ErkJggg==" alt="Kahoot Smasher">
         Kahoot.JS
+        <script>
+          window.addEventListener("load",function(){
+            var asynk = document.querySelectorAll("[async-src]");
+            for(var i = 0;i<asynk.length;i++){
+              asynk[i].src = asynk[i].getAttribute("async-src");
+            }
+          });
+        </script>
       </a>
       <div>
         <a href="#" class="mobilehide">Documentation</a>
