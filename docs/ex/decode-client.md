@@ -35,7 +35,7 @@ const merger = "var _ = {" +
 	"}; " +
 	"var log = function(){};" +
 	"return ";
-const solver = merger + challenge;
+const solver = Function(merger + challenge);
 ```
 Now, just run `solver()` and you have one of two tokens!
 
