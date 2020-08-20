@@ -64,6 +64,11 @@ code{
   padding: 0.1rem;
   text-align: left;
 }
+del{
+  color: #900;
+  background: #a44;
+  border-radius: 0.25rem;
+}
 footer{
   padding: 1rem;
   background: #222;
