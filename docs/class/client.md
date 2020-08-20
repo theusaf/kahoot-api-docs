@@ -65,5 +65,6 @@ Joining and interacting with Kahoot Live games.
     <li>Combine the two tokens. See <a href="#/ex/decode-client?scrollTo=combine">Comine Tokens Example</a>. The resulting token is the token to use in the next step.</li>
     <li>Then, create a websocket connection to <code>wss://kahoot.it/cometd/{gameid}/{token}</code></li>
     <li>Finally, send a <a href="#/enum/LiveClientHandshake">LiveClientHandshake</a></li>
+    <li>Now, wait for various events and respond to them as needed.</li>
   </ol>
 </div>
