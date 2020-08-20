@@ -52,3 +52,18 @@ Joining and interacting with Kahoot Live games.
   <p>Answer the question.</p>
   <p>Send a <a href="#/enum/LiveQuestionAnswer">LiveQuestionAnswer</a>.</p>
 </div>
+<a link="?scrollTo=connection" class="nam">CreateHandshake</a>
+<div class="info">
+  <p>Create the connection to Kahoot's server.</p>
+  <p>Steps:</p>
+  <ol>
+    <li><code>GET https://kahoot.it/reserve/session/{gameid}</code></li>
+    <ul><li>This should respond with a <a href="#/enum/LiveSessionClientToken">LiveSessionClientToken</a></li></ul>
+    <li>Decode the challenge.</li>
+    <ul><li>See <a href="#/ex/decode-client">Decode Challenge Example</a></li></ul>
+    <li>Decode the <a href="#/enum/LiveSessionClientToken?scrollTo=token">x-kahoot-session-token</a> by decoding the base64 string</li>
+    <li>Combine the two tokens. See <a href="#/ex/decode-client?scrollTo=combine">Comine Tokens Example</a>. The resulting token is the token to use in the next step.</li>
+    <li>Then, create a websocket connection to <code>wss://kahoot.it/cometd/{gameid}/{token}</code></li>
+    <li>Finally, send a <a href="#/enum/LiveHandshakeClient">LiveHandshakeClient</a></li>
+  </ol>
+</div>

@@ -1,4 +1,5 @@
 var output = document.getElementById("output");
+var oldhash = null;
 // render a state
 function RenderDocument(data){
   if(!data){
@@ -29,10 +30,13 @@ function FetchData(first){
     try{
       document.querySelector('[name="' + location.hash + '"]').scrollIntoView();
     }catch(e){}
-    return;
+    if(oldhash === location.hash.split("?")[0]){
+      return;
+    }
   }else if(location.hash.search(/\?/gm) === -1){
     scrollTo(0,0);
   }
+  oldhash = location.hash.split("?")[0];
   var path = location.hash.split("#")[1];
   if(path === "/" || !path){
     location.hash = "#/welcome";
