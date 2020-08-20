@@ -138,12 +138,15 @@ th{
 .hidden{
   display: none;
 }
-.type,.parent,.extends{
+.type,.parent,.extends,.channel{
   display: block;
 }
-.type::before,.parent::before,.extends::before{
+.type::before,.parent::before,.extends::before,.channel::before{
   font-weight: 500;
   color: #aaa;
+}
+.channel::before{
+  content: "Channel: ";
 }
 .parent::before{
   content: "Parent: ";

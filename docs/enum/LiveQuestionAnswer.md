@@ -2,6 +2,7 @@
 <span class="extends">
   <a href="#/enum/LiveBaseMessage">LiveBaseMessage</a>
 </span>
+<span class="channel"><code>/service/controller</code></span>
 
 An answer to a Kahoot Question
 

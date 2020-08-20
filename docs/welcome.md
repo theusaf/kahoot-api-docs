@@ -1,6 +1,8 @@
 ## Welcome
 Welcome to the Kahoot API Documentation by [@theusaf](https://github.com/theusaf).
 
+**This documentation is currently a work in progress**
+
 ### What is this?
 This documentation lists events, urls, and functions used to interact with [Kahoot](https://kahoot.com)'s services.
 

@@ -39,7 +39,7 @@ function FetchData(first){
     return;
   }
   var link = document.querySelector('[href="' + location.hash.split("?")[0] + '"]');
-  document.title = link.textContent + " | Kahoot API Documentation V2";
+  try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
   try{
     document.querySelector(".selected").className = "";
   }catch(e){}
