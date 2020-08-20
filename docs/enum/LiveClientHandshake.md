@@ -1,13 +1,43 @@
-## LiveHandshakeClient
+## LiveClientHandshake
 JSON data sent to Kahoot's socket to establish a connection.
 
 <div class="navigation">
   <div>
     <span>Variations</span>
+    <a link="?scrollTo=pong" class="nav">Pong</a>
     <a link="?scrollTo=first-handshake" class="nav">FirstHandshake</a>
     <a link="?scrollTo=second-handshake" class="nav">SecondHandshake</a>
   </div>
 </div>
+
+<a class="nam" link="?scrollTo=pong"></a>
+### Pong
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>channel</td>
+    <td><a href="#/enum/LiveMessageChannel">LiveMessageChannel</a></td>
+    <td>/meta/connect</td>
+    <td>The channel to send the message to.</td>
+  </tr>
+  <tr>
+    <td>ext</td>
+    <td><a href="#/enum/LiveTimesyncData">LiveTimesyncData</a></td>
+    <td><a href="#/enum/LiveTimesyncData?scrollTo=ping">LiveTimesyncData#ping</a></td>
+    <td>Timesync data.</td>
+  </tr>
+  <tr>
+    <td>id</td>
+    <td>String[Number]</td>
+    <td>1</td>
+    <td>The sent message counter.</td>
+  </tr>
+</table>
 
 <a class="nam" link="?scrollTo=first-handshake"></a>
 ### FirstHandshake
@@ -70,7 +100,7 @@ JSON data sent to Kahoot's socket to establish a connection.
     <td>ext</td>
     <td><a href="#/enum/LiveTimesyncData">LiveTimesyncData</a></td>
     <td><a href="#/enum/LiveTimesyncData?scrollTo=first-handshake">LiveTimesyncData#first-handshake</a></td>
-    <td>The channel to send the message to.</td>
+    <td>Timesync data.</td>
   </tr>
   <tr>
     <td>id</td>

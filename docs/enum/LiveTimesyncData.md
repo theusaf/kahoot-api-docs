@@ -11,13 +11,35 @@ JSON data including information about lag and time. Used when creating connectio
 </div>
 
 ### Variations
-#### Ping/Pong
+#### Ping/Pong <a class="nam" link="?scrollTo=ping"></a>
 <table>
   <tr>
     <th>Parameter</th>
     <th>Type</th>
     <th>Default</th>
     <th>Description</th>
+  </tr>
+  <tr>
+    <td>ack</td>
+    <td>Number</td>
+    <td><a href="#/enum/LiveConnectionPacket">LiveConnectionPacket</a>.ext.ack</td>
+    <td>The ack located in the ping message.</td>
+  </tr>
+  <tr>
+    <td>timesync</td>
+    <td><a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
+    <td>
+      <pre>
+        <code>
+<!--   -->{
+<!--   -->  "l": l,
+<!--   -->  "o": o,
+<!--   -->  "tc": <a href="https://en.wikipedia.org/wiki/Unix_time">Current Date (ms)</a>
+<!--   -->}
+        </code>
+      </pre>
+    </td>
+    <td>Lag and connection information. L and O are the same as the first handshake calculation.</td>
   </tr>
 </table>
 

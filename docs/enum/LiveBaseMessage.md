@@ -1,5 +1,5 @@
 ## LiveBaseMessage
-The main JSON object for almost all Kahoot Live events
+The main JSON object for almost all Kahoot Live events. (to and from client)
 
 ### Data
 <table>
@@ -25,7 +25,7 @@ The main JSON object for almost all Kahoot Live events
     <td>data</td>
     <td>JSON Object</td>
     <td>(Varies)</td>
-    <td>This is the data for each event.</td>
+    <td>This is the data for each event. May be nonexistent.</td>
   </tr>
   <tr>
     <td>id</td>
