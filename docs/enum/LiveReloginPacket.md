@@ -1,10 +1,10 @@
-## LiveJoinPacket
+## LiveReloginPacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
-<span class="channel"><code>/service/controller</code></span>
 
-**There should be a minumum delay of ~0.5s between handshake and sending this message**
+**There should be a minimum delay of ~0.5s between handshake and sending this message.**
 
-A JSON message containing data when joining a Kahoot game.
+A JSON message containing information about the disconnected client in order to reconnect to the game.
+
 ### Merge
 <table>
   <tr>
@@ -48,15 +48,15 @@ A JSON message containing data when joining a Kahoot game.
     <td>Information about the client.</td>
   </tr>
   <tr>
-    <td>name</td>
-    <td>String</td>
+    <td>cid</td>
+    <td>Number</td>
     <td></td>
-    <td>The name of the client player</td>
+    <td>The player's CID/client id (not the same as clientId) before disconnection</td>
   </tr>
   <tr>
     <td>type</td>
     <td>String</td>
-    <td>login</td>
+    <td>relogin</td>
     <td>The type of action</td>
   </tr>
 </table>

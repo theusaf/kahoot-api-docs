@@ -17,7 +17,6 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=jointeam" class="nav">Join Team Members</a>
     <a link="?scrollTo=leave" class="nav">Leave</a>
     <a link="?scrollTo=reconnect" class="nav">Reconnect</a>
-    <a link="?scrollTo=jointeam" class="nav">SubmitTeamMembers</a>
   </div>
   <div>
     <span>Events</span>
@@ -81,15 +80,23 @@ Joining and interacting with Kahoot Live games.
   <p>Join the game.</p>
   <p>Send a <a href="#/enum/LiveJoinPacket">LiveJoinPacket</a>.</p>
 </div>
+<a link="?scrollTo=jointeam" class="nam">Join Team Members</a>
+<div class="info">
+  <p>Used when the gameMode is <code>team</code>; after sending the join packet.</p>
+  <p>Send a <a href="#/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
+</div>
 <a link="?scrollTo=leave" class="nam">Leave</a>
 <div class="info">
   <p>Leave the game.</p>
   <p>Send a <a href="#/enum/LiveLeavePacket">LiveLeavePacket</a>.</p>
 </div>
-<a link="?scrollTo=jointeam" class="nam">Join Team Members</a>
+<a link="?scrollTo=reconnect" class="nam">Reconnect</a>
 <div class="info">
-  <p>Used when the gameMode is <code>team</code>; after sending the join packet.</p>
-  <p>Send a <a href="#/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
+  <p>Join a game. Used when the socket unexpectedly closed and the client wants to reconnect.</p>
+  <ol>
+    <li>Follow steps for <a href="#/class/client?scrollTo=connection">CreateHandshake</a>.</li>
+    <li>Send a <a href="#/enum/LiveReloginPacket">LiveReloginPacket</a>.</li>
+  </ol>
 </div>
 
 ### Events

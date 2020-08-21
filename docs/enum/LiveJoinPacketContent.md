@@ -1,6 +1,6 @@
 ## LiveJoinPacketContent
 <span class="type">Stringified JSON</span>
-The JSON content for a [LiveJoinPacket](#/enum/LiveJoinPacket)
+The JSON content for a [LiveJoinPacket](#/enum/LiveJoinPacket) or a [LiveReloginPacket](#/enum/LiveReloginPacket)
 
 ```JSON
 {
