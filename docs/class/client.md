@@ -81,6 +81,11 @@ Joining and interacting with Kahoot Live games.
   <p>Join the game.</p>
   <p>Send a <a href="#/enum/LiveJoinPacket">LiveJoinPacket</a>.</p>
 </div>
+<a link="?scrollTo=leave" class="nam">Leave</a>
+<div class="info">
+  <p>Leave the game.</p>
+  <p>Send a <a href="#/enum/LiveLeavePacket">LiveLeavePacket</a>.</p>
+</div>
 <a link="?scrollTo=jointeam" class="nam">Join Team Members</a>
 <div class="info">
   <p>Used when the gameMode is <code>team</code>; after sending the join packet.</p>

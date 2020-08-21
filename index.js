@@ -12,7 +12,7 @@
     for(var i in code){
       hljs.highlightBlock(code[i]);
     }
-    var repl = Array.from(document.getElementsByClassName("nav"));
+    var repl = Array.from(document.querySelectorAll(".nav,.nam"));
     for(var i in repl){
       repl[i].href = location.hash.split("?")[0] + repl[i].getAttribute("link");
     }
