@@ -65,6 +65,7 @@ article{
 article section{
   flex: 1;
   padding-left: 0.75rem;
+  position: relative;
 }
 code{
   background: #444;
@@ -156,6 +157,16 @@ th{
   width: 5rem;
   animation: spin infinite 0.75s;
 }
+#dark-mode-switch{
+  width: 2rem;
+  height: 2rem;
+  background: #333;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  box-shadow: white 0 0 0.25rem;
+}
 .hidden{
   display: none;
 }
@@ -207,8 +218,32 @@ th{
 .navigation span{
   font-weight: bold;
 }
+.close{
+  background: #fd4;
+  display: inline-block;
+  width: 100%;
+  color: black;
+}
 .mobileonly{
   display: none;
+}
+.close::before{
+  content: "⇦ ";
+  display: pre;
+}
+.light article{
+  color: black;
+  background: white;
+}
+.light code{
+  color: white;
+}
+.light tr:nth-child(2n){
+  background: #aaa;
+}
+.light #dark-mode-switch{
+  background: #ddd;
+  box-shadow: black 0 0 0.25rem; /* Nice dissolve... */
 }
 @media screen and (max-width: 800px) {
   nav img{

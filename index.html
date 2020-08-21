@@ -60,7 +60,9 @@
       <h1>Documentation V 2.0.0</h1>
       <input type="text" name="search" placeholder="Search (WIP)" disabled autocomplete="off">
     </header>
-    <p class="mobile-dark mobileonly"><label for="mobile-menu">Menu</label></p>
+    <p style="margin: 0;">
+      <label for="mobile-menu" class="mobile-dark mobileonly" id="mobi-menu-toggle">Menu</label>
+    </p>
     <article>
       <noscript>
         <p>This website requires JavaScript to work properly. If you really cannot use JavaScript use the following steps to read the documentation:</p>
@@ -72,6 +74,7 @@
       </noscript>
       <input class="hidden toggle" id="mobile-menu" type="checkbox"/>
       <section id="selection">
+        <div id="dark-mode-switch"></div>
         <h3>General</h3>
         <a href="#/welcome" class="selected">Welcome</a>
         <a href="#/faq">FAQ</a>
