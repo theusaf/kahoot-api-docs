@@ -22,7 +22,7 @@ An answer to a Kahoot Question
   </tr>
   <tr>
     <td>gameid</td>
-    <td>Number</td>
+    <td>String[Number]</td>
     <td></td>
     <td>The game pin the client is connected to.</td>
   </tr>

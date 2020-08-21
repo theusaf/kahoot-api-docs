@@ -11,7 +11,7 @@ A channel category to send data.
 
 - `/service/status` - Status channel
 
-- `/service/player` - ~Player service channel~
+- `/service/player` - Player service channel
 
 - `/meta/subscribe` - ~Subscription channel~
 

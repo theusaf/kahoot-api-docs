@@ -2,6 +2,7 @@
 
 ### What does "DEFAULT" mean in the API Tables?
 `DEFAULT` is the value that is usually used by Kahoot! and you should probably not change this value when using the API.
+- `DEFAULT` may also mean valid values useable by the API
 
 ---
 ### Aren't the messages sent in a list/array?

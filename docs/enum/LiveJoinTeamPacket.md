@@ -4,7 +4,6 @@
 A JSON packet containing "team members" for the client
 
 ### Merge
-*Needs testing: Are these values really needed?*
 <table>
   <tr>
     <th>Parameter</th>
@@ -16,12 +15,6 @@ A JSON packet containing "team members" for the client
     <td>ext</td>
     <td>JSON Object</td>
     <td>{}</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>participantUserId</td>
-    <td>String or Null</td>
-    <td>null</td>
     <td></td>
   </tr>
 </table>
@@ -36,7 +29,7 @@ A JSON packet containing "team members" for the client
   </tr>
   <tr>
     <td>gameid</td>
-    <td>Number</td>
+    <td>String[Number]</td>
     <td></td>
     <td>The gameid the client is connected to.</td>
   </tr>

@@ -20,12 +20,6 @@ A JSON message containing data when joining a Kahoot game.
     <td>{}</td>
     <td></td>
   </tr>
-  <tr>
-    <td>participantUserId</td>
-    <td>String or Null</td>
-    <td>null</td>
-    <td></td>
-  </tr>
 </table>
 
 ### Data
@@ -38,7 +32,7 @@ A JSON message containing data when joining a Kahoot game.
   </tr>
   <tr>
     <td>gameid</td>
-    <td>Number</td>
+    <td>String[Number]</td>
     <td></td>
     <td>The gameid the client is connected to.</td>
   </tr>

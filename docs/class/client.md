@@ -71,6 +71,11 @@ Joining and interacting with Kahoot Live games.
     <li>Now, wait for various events and respond to them as needed.</li>
   </ol>
 </div>
+<a link="?scrollTo=feedback" class="nam">Send Feedback</a>
+<div class="info">
+  <p>Used at the end of the game after a <a href="#/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
+  <p>Send a <a href="#/enum/LiveFeedbackPacket">LiveFeedbackPacket</a>.</p>
+</div>
 <a link="?scrollTo=join" class="nam">Join</a>
 <div class="info">
   <p>Join the game.</p>
