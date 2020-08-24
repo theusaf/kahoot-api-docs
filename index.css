@@ -102,6 +102,7 @@ td{
   min-width: 10rem;
   text-align: center;
   padding: 0.5rem;
+  overflow: auto;
 }
 th{
   text-transform: uppercase;

@@ -1,7 +1,7 @@
-## LiveEventQuizEnd
+## LiveEventTimeOver
 <span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
-An event signifying the end of the quiz
+An event signifying the time end of a question.
 
 ### Data
 <table>
@@ -26,7 +26,7 @@ An event signifying the end of the quiz
   <tr>
     <td>id</td>
     <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
-    <td>3</td>
+    <td>4</td>
     <td>Event id</td>
   </tr>
   <tr>
@@ -37,9 +37,17 @@ An event signifying the end of the quiz
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventQuizEndContent">LiveEventQuizEndContent</a></td>
-    <td></td>
-    <td>Ranking, score, and quiz information</td>
+    <td>String[JSON Object]</td>
+    <td>
+      <pre>
+        <code>
+<!--   -->{
+<!--   -->  "questionNumber": (Number)
+<!--   -->}
+        </code>
+      </pre>
+    </td>
+    <td>The question number</td>
   </tr>
   <tr>
     <td>cid</td>

@@ -23,11 +23,13 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=FeedbackRequested" class="nav">FeedbackRequested</a>
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
+    <a link="?scrollTo=QuestionEnd" class="nav">QuestionEnd</a>
     <a link="?scrollTo=QuestionReady" class="nav">QuestionReady</a>
     <a link="?scrollTo=QuestionStart" class="nav">QuestionStart</a>
     <a link="?scrollTo=QuizEnd" class="nav">QuizEnd</a>
     <a link="?scrollTo=QuizStart" class="nav">QuizStart</a>
     <a link="?scrollTo=timetrack" class="nav">Timetrack</a>
+    <a link="?scrollTo=TimeOver" class="nav">TimeOver</a>
   </div>
 </div>
 
@@ -121,6 +123,11 @@ Joining and interacting with Kahoot Live games.
   <p>Happens when the server sends a <a href="#/enum/LiveConnectionPacket">LiveConnectionPacket</a>.</p>
   <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=pong">LiveClientHandshake#ping</a></p>
 </div>
+<a link="?scrollTo=QuestionEnd" class="nam">QuestionEnd</a>
+<div class="info">
+  <p>The server sends a <a href="#/enum/LiveEventQuestionEnd">LiveEventQuestionEnd</a>.</p>
+  <p>No response is needed.</p>
+</div>
 <a link="?scrollTo=QuestionReady" class="nam">QuestionReady</a>
 <div class="info">
   <p>The server sends a <a href="#/enum/LiveEventQuestionReady">LiveEventQuestionReady</a>.</p>
@@ -139,6 +146,11 @@ Joining and interacting with Kahoot Live games.
 <a link="?scrollTo=QuizStart" class="nam">QuizStart</a>
 <div class="info">
   <p>The server sends a <a href="#/enum/LiveEventQuizStart">LiveEventQuizStart</a>.</p>
+  <p>No response is needed.</p>
+</div>
+<a link="?scrollTo=TimeOver" class="nam">TimeOver</a>
+<div class="info">
+  <p>The server sends a <a href="#/enum/LiveEventTimeOver">LiveEventTimeOver</a>.</p>
   <p>No response is needed.</p>
 </div>
 <a link="?scrollTo=timetrack" class="nam">Timetrack</a>
