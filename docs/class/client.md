@@ -124,3 +124,8 @@ Joining and interacting with Kahoot Live games.
   <p>The server sends a <a href="#/enum/LiveEventTimetrack">LiveEventTimetrack</a> about the current time. This is usually in response to a function.</p>
   <p>No response is needed (this is the response to a client action)</p>
 </div>
+<a link="?scrollTo=QuizEnd" class="nam">QuizEnd</a>
+<div class="info">
+  <p>The server sends a <a href="#/enum/LiveEventQuizEnd">LiveEventQuizEnd</a>.</p>
+  <p>No response is needed.</p>
+</div>
