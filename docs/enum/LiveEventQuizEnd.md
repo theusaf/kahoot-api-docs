@@ -1,5 +1,5 @@
 ## LiveEventQuizEnd
-<span class="extends" href="#/enum/LiveBaseEvent"><a>LiveBaseEvent</a></span>
+<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 ### Data
