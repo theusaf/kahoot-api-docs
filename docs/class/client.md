@@ -109,7 +109,7 @@ Joining and interacting with Kahoot Live games.
 <div class="info">
   <p>The game ended and the host requested feedback.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
-  <p><strong>Respond with:</strong> <a href="#/enum/LiveFeedbackPacket">LiveFeedbackPacket</a></p>
+  <p>No response needed. You may <strong>Respond with:</strong> <a href="#/enum/LiveFeedbackPacket">LiveFeedbackPacket</a></p>
 </div>
 <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
 <div class="info">
