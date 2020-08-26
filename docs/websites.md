@@ -27,7 +27,7 @@ A Kahoot! website for joining and winning games. Made by [theusaf](https://githu
 A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing.
 
 - ### [kahoot-bot.herokuapp.com](http://kahoot-bot.herokuapp.com/)
-A Kahoot! botting website for joining and answering games. Has a really bad UI, but it works.
+A Kahoot! botting website for joining and answering games. Has a really bad UI, but it works. Does not support team mode.
 
 The following sites do not appear to be working:
 - ~kahootsmasher.club~ (Not working, likely blocked by Kahoot!)
