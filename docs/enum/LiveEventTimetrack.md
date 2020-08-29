@@ -26,7 +26,7 @@ Information about the current time on the server when the action was recieved
         </code>
       </pre>
     </td>
-    <td>The time information when the message was recieved.</td>
+    <td>The time information when the message was recieved. For some packets (such as leaving), this may be an empty object.</td>
   </tr>
   <tr>
     <td>id</td>
