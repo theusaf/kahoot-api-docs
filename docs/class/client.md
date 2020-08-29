@@ -20,7 +20,9 @@ Joining and interacting with Kahoot Live games.
   </div>
   <div>
     <span>Events</span>
+    <a link="?scrollTo=Disconnect" class="nav">Disconnect</a>
     <a link="?scrollTo=FeedbackRequested" class="nav">FeedbackRequested</a>
+    <a link="?scrollTo=replay" class="nav">GameReset</a>
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
     <a link="?scrollTo=QuestionEnd" class="nav">QuestionEnd</a>
@@ -105,11 +107,23 @@ Joining and interacting with Kahoot Live games.
 </div>
 
 ### Events
+<a link="?scrollTo=Disconnect" class="nam">Disconnect</a>
+<div class="info">
+  <p>The game has ended, the player was kicked, or Kahoot! disconnected the client from its server.</p>
+  <p>Happens when the server sends a <a href="#/enum/LiveEventDisconnect">LiveEventDisconnect</a>.</p>
+  <p>No response needed. You may close the connection.</p>
+</div>
 <a link="?scrollTo=FeedbackRequested" class="nam">FeedbackRequested</a>
 <div class="info">
   <p>The game ended and the host requested feedback.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
   <p>No response needed. You may <strong>Respond with:</strong> <a href="#/enum/LiveFeedbackPacket">LiveFeedbackPacket</a></p>
+</div>
+<a link="?scrollTo=replay" class="nam">GameReset</a>
+<div class="info">
+  <p>The host decided to play the game again (or continue to the next game in the list).</p>
+  <p>Happens when the server sends a <a href="#/enum/LiveEventReplay">LiveEventReplay</a>.</p>
+  <p>No response needed? (needs testing). You should prepare the client for a new game.</p>
 </div>
 <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
 <div class="info">
