@@ -21,7 +21,8 @@ The official Kahoot! website for joining games. Always up-to-date and maintained
 A Kahoot! website for joining and winning games. Made by [theusaf](https://github.com/theusaf) and is actively maintained. It looks similar to kahoot.it and contains a list of Kahoot!s that is has played, allowing users to win some Kahoot!s without input.
   - Alt sites:
     - kahoot-win.glitch.me (maintained by theusaf)
-    - kahoot-live.herokuapp.com (outdated)
+    - kahoot-live.herokuapp.com (outdated, not maintained by theusaf)
+    - kahoot-jack.herokuapp.com (more 'Kahoot!y.' not maintained by theusaf)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
 A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing.
