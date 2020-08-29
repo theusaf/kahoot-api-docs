@@ -111,7 +111,7 @@ Joining and interacting with Kahoot Live games.
 <div class="info">
   <p>The game has ended, the player was kicked, or Kahoot! disconnected the client from its server.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveEventDisconnect">LiveEventDisconnect</a>.</p>
-  <p>No response needed. You may close the connection.</p>
+  <p>Respond with a <a href="#/enum/LiveLeavePacket">LiveLeavePacket</a> (needs testing: is this really necessary?). You may close the connection.</p>
 </div>
 <a link="?scrollTo=FeedbackRequested" class="nam">FeedbackRequested</a>
 <div class="info">

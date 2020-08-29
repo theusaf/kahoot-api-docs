@@ -7,7 +7,7 @@ A packet that signifies the intent to disconnect from the game.
 ```json
 {
   "ext": {
-    "timesync": current_time
+    "timesync": current_time (See LiveTimesyncDataSync)
   }
 }
 ```
