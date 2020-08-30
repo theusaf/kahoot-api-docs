@@ -13,3 +13,5 @@ All messages are sent as part of a list or messages but almost all messages are 
 ---
 <a class="nam" link="?scrollTo=datamerge"></a>
 ### What is the difference between `DATA` and `MERGE`?
+`DATA` is information located in the `data` property of the parent enum/class
+`MERGE` is information appended/combined with the parent enum/class
