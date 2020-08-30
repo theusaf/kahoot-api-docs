@@ -38,6 +38,7 @@ The following sites do not appear to be working:
 - ~kahoot.ninja~ (Not working, unmaintained)
 - ~mem.rip/kahoot~ (Not working, service down)
 - ~kahootflooder.com~ (Not working, unmaintained?)
+- ~kahooters.org~ (Not working, webspam. The page never sends anything to a server and claims to recieve requests, wasting users time.)
 
 <a class="nam" link="?scrollTo=host"></a>
 ## Host
