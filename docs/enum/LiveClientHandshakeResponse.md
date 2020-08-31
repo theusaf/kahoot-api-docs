@@ -3,6 +3,8 @@ The JSON response to a handshake request sent by the <a href="#/class/client">cl
 <span class="extends"><a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a></span>
 <span class="channel"><code>/meta/handshake</code></span>
 
+Missing info: Server rejection response
+
 The message contains the clientId which will be used in all future messages to and from the client.
 - Parameters are merged with the base message.
 
