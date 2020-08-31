@@ -15,7 +15,7 @@ Information about the name of the accepted player
     <td>playerName</td>
     <td>String</td>
     <td></td>
-    <td>The name of the player. (If the name changed, the new name will be here)</td>
+    <td>The name of the player. (If the name changed, the new name will be here). Nonexistent when reconnecting.</td>
   </tr>
   <tr>
     <td>quizType</td>

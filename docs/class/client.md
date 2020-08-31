@@ -33,6 +33,7 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=QuestionStart" class="nav">QuestionStart</a>
     <a link="?scrollTo=QuizEnd" class="nav">QuizEnd</a>
     <a link="?scrollTo=QuizStart" class="nav">QuizStart</a>
+    <a link="?scrollTo=status" class="nav">Status</a>
     <a link="?scrollTo=timetrack" class="nav">Timetrack</a>
     <a link="?scrollTo=TimeOver" class="nav">TimeOver</a>
   </div>
@@ -181,6 +182,12 @@ Joining and interacting with Kahoot Live games.
 <a link="?scrollTo=QuizStart" class="nam">QuizStart</a>
 <div class="info">
   <p>The server sends a <a href="#/enum/LiveEventQuizStart">LiveEventQuizStart</a>.</p>
+  <p>No response is needed.</p>
+</div>
+<a link="?scrollTo=status" class="nam">Status</a>
+<div class="info">
+  <p>Usually sent after the client tries to join a game.</p>
+  <p>The server sends a <a href="#/enum/LiveEventStatus">LiveEventStatus</a>.</p>
   <p>No response is needed.</p>
 </div>
 <a link="?scrollTo=TimeOver" class="nam">TimeOver</a>
