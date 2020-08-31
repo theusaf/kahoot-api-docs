@@ -26,6 +26,7 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=JoinResponse" class="nav">JoinResponse</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
+    <a link="?scrollTo=podium" class="nav">Podium</a>
     <a link="?scrollTo=QuestionEnd" class="nav">QuestionEnd</a>
     <a link="?scrollTo=QuestionReady" class="nav">QuestionReady</a>
     <a link="?scrollTo=QuestionStart" class="nav">QuestionStart</a>
@@ -143,6 +144,12 @@ Joining and interacting with Kahoot Live games.
   <p>The server sends a ping to determine if the client is still connected.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveConnectionPacket">LiveConnectionPacket</a>.</p>
   <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=pong">LiveClientHandshake#ping</a></p>
+</div>
+<a link="?scrollTo=podium" class="nam">Podium</a>
+<div class="info">
+  <p>The quiz has ended. Contains the podium information. Emitted after the QuizEnd event.</p>
+  <p>Happens when the server sends a <a href="#/enum/LiveEventPodium">LiveEventPodium</a>.</p>
+  <p>No response needed.</p>
 </div>
 <a link="?scrollTo=QuestionEnd" class="nam">QuestionEnd</a>
 <div class="info">
