@@ -129,7 +129,7 @@
       Search(files.slice(1),term);
     }
     x.onload = function(){
-      if(file.textContent.search(term) !== -1){
+      if(file.textContent.toLowerCase().search(term.toLowerCase()) !== -1){
         AddSearch(file);
       }else{
         var rchunk = x.response.split(" ");
