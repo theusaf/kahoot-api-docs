@@ -129,9 +129,9 @@ Joining and interacting with Kahoot Live games.
 </div>
 <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
 <div class="info">
-  <p>The server accepts the handshake and sends back important information.</p>
+  <p>The server accepts/rejects the handshake and sends back important information.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveClientHandshakeResponse">LiveClientHandshakeResponse</a>.</p>
-  <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=second-handshake">LiveClientHandshake#2</a></p>
+  <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=second-handshake">LiveClientHandshake#2</a> (if successful). Else, you may disconnect the socket.</p>
 </div>
 <a link="?scrollTo=JoinResponse" class="nam">JoinResponse</a>
 <div class="info">

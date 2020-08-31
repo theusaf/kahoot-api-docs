@@ -3,11 +3,19 @@ The JSON response to a handshake request sent by the <a href="#/class/client">cl
 <span class="extends"><a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a></span>
 <span class="channel"><code>/meta/handshake</code></span>
 
-Missing info: Server rejection response
+<div class="navigation">
+  <div>
+    <span>Variations</span>
+    <a link="?scrollTo=success" class="nav">Success</a>
+    <a link="?scrollTo=fail" class="nav">Failure</a>
+  </div>
+</div>
 
 The message contains the clientId which will be used in all future messages to and from the client.
 - Parameters are merged with the base message.
 
+<a link="?scrollTo=success" class="nam"></a>
+### Success
 <table>
   <tr>
     <th>Parameter</th>
@@ -60,5 +68,41 @@ The message contains the clientId which will be used in all future messages to a
     <td>extension of <a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a>.ext, merged with <a href="#/enum/LiveHandshakeTimesync">LiveHandshakeTimesync</a></td>
     <td></td>
     <td>Timesync information.</td>
+  </tr>
+</table>
+
+<a link="?scrollTo=fail" class="nam"></a>
+### Failure
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>advice</td>
+    <td><a href="#/enum/LiveHandshakeAdvice?scrollTo=fail">LiveHandshakeAdvice#fail</a></td>
+    <td></td>
+    <td>Advice to the client to do an action.</td>
+  </tr>
+  <tr>
+    <td>ext</td>
+    <td>extension of <a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a>.ext, merged with <a href="#/enum/LiveHandshakeTimesync">LiveHandshakeTimesync</a></td>
+    <td></td>
+    <td>Timesync information.</td>
+  </tr>
+  <tr><td colspan="4"><strong>The following are merged with the parent data.</strong></td></tr>
+  <tr>
+    <td>error</td>
+    <td>String</td>
+    <td>403::handshake_denied</td>
+    <td>The error. (Usually means that your ip was blocked for spamming too many clients in a short time)</td>
+  </tr>
+  <tr>
+    <td>successful</td>
+    <td>Boolean</td>
+    <td>false</td>
+    <td></td>
   </tr>
 </table>
