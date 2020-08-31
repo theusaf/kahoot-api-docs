@@ -36,6 +36,7 @@
     <td>The player's unique id</td>
   </tr>
 </table>
+
 - No response needed
 
 <a link="?scrollTo=duplicate" class="nam"></a>
@@ -66,6 +67,7 @@
     <td>The error.</td>
   </tr>
 </table>
+
 - No response needed, should try to login using a different name
 
 <a link="?scrollTo=reconnect" class="nam"></a>
@@ -96,5 +98,6 @@
     <td>The error.</td>
   </tr>
 </table>
+
 - (needs testing) No response needed, try joining instead of reconnecting?
 - may require a new connection.
