@@ -109,7 +109,7 @@
     }
   });
   function AddSearch(file){
-    if(document.getElementById("output").querySelector("#prep")){
+    if(output.querySelector("#prep")){
       output.innerHTML = "";
     }
     console.log(file)
@@ -137,16 +137,19 @@
         var done = false;
         for(var i = 0;(i<tchunk.length && !done);i++){
           for(var j = 0;j<rchunk.length;j++){
-            if(tchunk.length === 1 ? rchunk[j].toLowerCase().search(tchunk[i].toLowerCase()) !== -1 : rchunk[j] === tchunk[i]){
+            if(tchunk.length === 1 ? rchunk[j].toLowerCase().search(tchunk[i].toLowerCase()) !== -1 : rchunk[j].toLowerCase() === tchunk[i].toLowerCase()){
               AddSearch(file);
               done = true;
               break;
             }
           }
+          if(!done && tchunk.length > 1){
+            break;
+          }
         }
       }
       if(cancelSearch || files.length === 1){
-        if(document.getElementById("output").querySelector("#prep")){
+        if(output.querySelector("#prep")){
           output.innerHTML = "No results found.";
         }
         return cancelSearch = false;
