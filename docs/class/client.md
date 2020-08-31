@@ -25,6 +25,7 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=replay" class="nav">GameReset</a>
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=JoinResponse" class="nav">JoinResponse</a>
+    <a link="?scrollTo=NameAccept" class="nav">NameAccept</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
     <a link="?scrollTo=podium" class="nav">Podium</a>
     <a link="?scrollTo=QuestionEnd" class="nav">QuestionEnd</a>
@@ -138,6 +139,12 @@ Joining and interacting with Kahoot Live games.
   <p>The server recieves the join/reconnect request and responds to it.</p>
   <p>Happens when the server sends a <a href="#/enum/LiveEventJoinResponse">LiveEventJoinResponse</a>.</p>
   <p>Response to this message may vary, depending on the server's response.</p>
+</div>
+<a link="?scrollTo=NameAccept" class="nam">NameAccept</a>
+<div class="info">
+  <p>The server has checked your name and approved/changed it.</p>
+  <p>Happens when the server sends a <a href="#/enum/LiveEventNameAccept">LiveEventNameAccept</a>.</p>
+  <p>You may respond with a <a href="#/enum/LiveRequestData">LiveRequestData</a>.</p>
 </div>
 <a link="?scrollTo=ping" class="nam">Ping</a>
 <div class="info">
