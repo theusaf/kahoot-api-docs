@@ -37,6 +37,12 @@
     }else if(location.hash.search(/\?/gm) === -1){
       scrollTo(0,0);
     }
+    if(location.hash === "#/search"){
+      if(first){
+        location.hash = "#";
+      }
+      return;
+    }
     oldhash = location.hash.split("?")[0];
     var path = location.hash.split("#")[1];
     if(path === "/" || !path){
@@ -86,4 +92,66 @@
       document.documentElement.className = "light";
     }
   });
+  var search = document.getElementById("search");
+  var cancelSearch = false;
+  search.addEventListener("keydown",function(e){
+    if((e.code && e.code === "Enter") || (e.keyCode === 13)){
+      location.hash = "#/search";
+      output.innerHTML = '<div id="prep">\
+        <div style="flex: 1;">\
+          <img src="loading.svg" alt="Loading... Please wait">\
+        </div>\
+      </div>';
+      // begin searching
+      var files = Array.from(document.getElementById("selection").querySelectorAll("a"));
+      cancelSearch = false;
+      Search(files,search.value);
+    }
+  });
+  function AddSearch(file){
+    if(document.getElementById("output").querySelector("#prep")){
+      output.innerHTML = "";
+    }
+    console.log(file)
+    var link = document.createElement("div");
+    link.innerHTML = '<a class="search" href="'+ file.href +'">'+ file.textContent +'</a>';
+    output.appendChild(link);
+  }
+  function Search(files,term){
+    var file = files[0];
+    var x = new XMLHttpRequest;
+    x.open("GET","/docs/" + file.href.split("#/")[1] + ".md");
+    x.send();
+    x.onerror = function(){
+      if(cancelSearch || files.length === 1){
+        return cancelSearch = false;
+      }
+      Search(files.slice(1),term);
+    }
+    x.onload = function(){
+      if(file.textContent.search(term.search(term)) !== -1){
+        AddSearch(file);
+      }else{
+        var rchunk = x.response.split(" ");
+        var tchunk = term.split(" ");
+        var done = false;
+        for(var i = 0;(i<tchunk.length && !done);i++){
+          for(var j = 0;j<rchunk.length;j++){
+            if(tchunk.length === 1 ? rchunk[j].toLowerCase().search(tchunk[i].toLowerCase()) !== -1 : rchunk[j] === tchunk[i]){
+              AddSearch(file);
+              done = true;
+              break;
+            }
+          }
+        }
+      }
+      if(cancelSearch || files.length === 1){
+        if(document.getElementById("output").querySelector("#prep")){
+          output.innerHTML = "No results found.";
+        }
+        return cancelSearch = false;
+      }
+      Search(files.slice(1),term);
+    };
+  }
 })();
