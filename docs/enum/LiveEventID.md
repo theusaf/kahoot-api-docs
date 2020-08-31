@@ -29,7 +29,7 @@ A special identifier for various Kahoot Live events.
 
 - `14` - AcceptName
 
-- `15` - DenyName
+- `15` - ~DenyName~
 
 - `16` - RequestRecoveryData
 
