@@ -85,13 +85,20 @@
     document.documentElement.className = "light";
   }
   var darkSwitch = document.getElementById("dark-mode-switch");
-  darkSwitch.addEventListener("click",function(){
+  function toggleDark(){
     if(localStorage.EnableLightMode){
       delete localStorage.EnableLightMode;
       document.documentElement.className = "";
     }else{
       localStorage.EnableLightMode = true;
       document.documentElement.className = "light";
+    }
+  }
+  darkSwitch.addEventListener("click",toggleDark);
+  darkSwitch.addEventListener("keydown",function(e){
+    if((e.code && (e.code === "Enter" || e.code === "Space")) || e.keyCode === 13 || e.keyCode === 32){
+      e.preventDefault();
+      toggleDark();
     }
   });
   var search = document.getElementById("search");
