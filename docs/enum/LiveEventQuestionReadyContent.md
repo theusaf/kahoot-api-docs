@@ -25,7 +25,7 @@ The content describing the [LiveEventQuestionReady](#/enum/LiveEventQuestionRead
     <td>gameBlockLayout</td>
     <td><a href="#/enum/GameBlockLayout">gameBlockLayout</a></td>
     <td>CLASSIC</td>
-    <td>The layout of the question.</td>
+    <td>The layout of the question. May be nonexistent.</td>
   </tr>
   <tr>
     <td>quizQuestionAnswers</td>

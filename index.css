@@ -91,11 +91,17 @@ table{
   border: 0.1rem solid grey;
   border-spacing: 0;
 }
+table table tr:first-of-type{
+  background: #fa0;
+}
 tr:first-of-type{
   background: #0af;
 }
 tr:nth-child(2n){
   background: #222;
+}
+tr:nth-child(2n + 1):not(:first-of-type){
+  background: rgba(0,0,0,0.3);
 }
 td{
   max-width: 15rem;

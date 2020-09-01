@@ -33,7 +33,9 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=QuestionStart" class="nav">QuestionStart</a>
     <a link="?scrollTo=QuizEnd" class="nav">QuizEnd</a>
     <a link="?scrollTo=QuizStart" class="nav">QuizStart</a>
+    <a link="?scrollTo=RequestData" class="nav">RequestData</a>
     <a link="?scrollTo=status" class="nav">Status</a>
+    <a link="?scrollTo=teamaccept" class="nav">TeamAccept</a>
     <a link="?scrollTo=teamtalk" class="nav">TeamTalk</a>
     <a link="?scrollTo=timetrack" class="nav">Timetrack</a>
     <a link="?scrollTo=TimeOver" class="nav">TimeOver</a>
@@ -194,6 +196,18 @@ Joining and interacting with Kahoot Live games.
   <div class="info">
     <p>Usually sent after the client tries to join a game.</p>
     <p>The server sends a <a href="#/enum/LiveEventStatus">LiveEventStatus</a>.</p>
+    <p>No response is needed.</p>
+  </div>
+  <a link="?scrollTo=RequestData" class="nam">RequestData</a>
+  <div class="info">
+    <p>The server sends the backup data to the client.</p>
+    <p>The server sends a <a href="#/enum/LiveEventBackup">LiveEventBackup</a>.</p>
+    <p>No response is needed.</p>
+  </div>
+  <a link="?scrollTo=teamaccept" class="nam">TeamAccept</a>
+  <div class="info">
+    <p>Your team members have been accepted.</p>
+    <p>The server sends a <a href="#/enum/LiveEventTeamAccept">LiveEventTeamAccept</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=teamtalk" class="nam">TeamTalk</a>
