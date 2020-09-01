@@ -1,4 +1,5 @@
 (function(){
+  var cancelSearch = false;
   var output = document.getElementById("output");
   var oldhash = null;
   // render a state
@@ -43,6 +44,7 @@
       }
       return;
     }
+    cancelSearch = true;
     oldhash = location.hash.split("?")[0];
     var path = location.hash.split("#")[1];
     if(path === "/" || !path){
@@ -93,7 +95,6 @@
     }
   });
   var search = document.getElementById("search");
-  var cancelSearch = false;
   search.addEventListener("keydown",function(e){
     if((e.code && e.code === "Enter") || (e.keyCode === 13)){
       location.hash = "#/search";
