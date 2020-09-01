@@ -5,22 +5,6 @@
 
 A JSON message containing information about the disconnected client in order to reconnect to the game.
 
-### Merge
-<table>
-  <tr>
-    <th>Parameter</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>ext</td>
-    <td>JSON Object</td>
-    <td>{}</td>
-    <td></td>
-  </tr>
-</table>
-
 ### Data
 <table>
   <tr>

@@ -39,7 +39,7 @@ A special identifier for various Kahoot Live events.
 
 - `19` - ReceiveTeam
 
-- `20` - ~TeamTalkStart~
+- `20` - TeamTalkStart
 
 - `21` - ~TeamTalkEnd~
 

@@ -3,22 +3,6 @@
 <span class="channel"><code>/service/controller</code></span>
 A JSON packet containing "team members" for the client
 
-### Merge
-<table>
-  <tr>
-    <th>Parameter</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>ext</td>
-    <td>JSON Object</td>
-    <td>{}</td>
-    <td></td>
-  </tr>
-</table>
-
 ### Data
 <table>
   <tr>

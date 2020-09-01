@@ -33,4 +33,10 @@ The main JSON object for almost all Kahoot Live events. (to and from client)
     <td></td>
     <td>A count of how many messages have been sent to the server. The server will respond to actions, such as answering questions with the same id, signifying that it has recieved the packet.</td>
   </tr>
+  <tr>
+    <td>ext</td>
+    <td>JSON Object</td>
+    <td>{}</td>
+    <td></td>
+  </tr>
 </table>
