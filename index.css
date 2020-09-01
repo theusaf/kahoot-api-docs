@@ -245,6 +245,9 @@ th{
 .light code{
   color: white;
 }
+.light #output a[name]{
+  color: black;
+}
 .light tr:nth-child(2n){
   background: #aaa;
 }
