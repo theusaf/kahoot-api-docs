@@ -44,6 +44,11 @@
       }
       return;
     }
+    output.innerHTML = '<div id="prep">\
+      <div style="flex: 1;">\
+        <img src="loading.svg" alt="Loading... Please wait">\
+      </div>\
+    </div>';
     cancelSearch = true;
     oldhash = location.hash.split("?")[0];
     var path = location.hash.split("#")[1];
