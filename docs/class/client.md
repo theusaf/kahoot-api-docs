@@ -11,6 +11,7 @@ Joining and interacting with Kahoot Live games.
   <div>
     <span>Functions</span>
     <a link="?scrollTo=answer" class="nav">Answer</a>
+    <a link="?scrollTo=answer2step" class="nav">Answer Two Factor</a>
     <a link="?scrollTo=connection" class="nav">CreateHandshake</a>
     <a link="?scrollTo=feedback" class="nav">Feedback</a>
     <a link="?scrollTo=join" class="nav">Join</a>
@@ -39,6 +40,9 @@ Joining and interacting with Kahoot Live games.
     <a link="?scrollTo=teamtalk" class="nav">TeamTalk</a>
     <a link="?scrollTo=timetrack" class="nav">Timetrack</a>
     <a link="?scrollTo=TimeOver" class="nav">TimeOver</a>
+    <a link="?scrollTo=TwoFactorReset" class="nav">TwoFactorReset</a>
+    <a link="?scrollTo=TwoFactorRight" class="nav">TwoFactorRight</a>
+    <a link="?scrollTo=TwoFactorWrong" class="nav">TwoFactorWrong</a>
   </div>
 </div>
 
@@ -70,6 +74,11 @@ Joining and interacting with Kahoot Live games.
   <div class="info">
     <p>Answer the question.</p>
     <p>Send a <a href="#/enum/LiveQuestionAnswer">LiveQuestionAnswer</a>.</p>
+  </div>
+  <a link="?scrollTo=answer2step" class="nam">Answer Two Factor</a>
+  <div class="info">
+    <p>Answer the two factor authentification.</p>
+    <p>Send a <a href="#/enum/LiveTwoStepAnswer">LiveTwoStepAnswer</a>.</p>
   </div>
   <a link="?scrollTo=connection" class="nam">CreateHandshake</a>
   <div class="info">
@@ -225,5 +234,23 @@ Joining and interacting with Kahoot Live games.
   <div class="info">
     <p>The server sends a <a href="#/enum/LiveEventTimetrack">LiveEventTimetrack</a> about the current time. This is usually in response to a function.</p>
     <p>No response is needed (this is the response to a client action)</p>
+  </div>
+  <a link="?scrollTo=TwoFactorReset" class="nam">TwoFactorReset</a>
+  <div class="info">
+    <p>The two-factor code has been reset.</p>
+    <p>The server sends a <a href="#/enum/LiveEventTwoFactorReset">LiveEventTwoFactorReset</a></p>
+    <p>No response is needed. You may <a href="#/class/client?scrollTo=answer2step">answer the two factor code</a> if you have not answered it successfully yet.</p>
+  </div>
+  <a link="?scrollTo=TwoFactorRight" class="nam">TwoFactorRight</a>
+  <div class="info">
+    <p>The two-factor code was answered correctly.</p>
+    <p>The server sends a <a href="#/enum/LiveEventTwoFactorRight">LiveEventTwoFactorRight</a></p>
+    <p>No response is needed.</p>
+  </div>
+  <a link="?scrollTo=TwoFactorWrong" class="nam">TwoFactorWrong</a>
+  <div class="info">
+    <p>The two-factor code was answered incorrectly.</p>
+    <p>The server sends a <a href="#/enum/LiveEventTwoFactorWrong">LiveEventTwoFactorWrong</a></p>
+    <p>No response is needed.</p>
   </div>
 </div>
