@@ -33,6 +33,12 @@ Information about the points data and answer streak.
     <td>answerStreakPoints</td>
     <td>JSON Object</td>
     <td>
+     (see below)
+    </td>
+    <td>Information about the answer streaks.</td>
+  </tr>
+  <tr>
+    <td colspan="4">
       <table>
         <tr>
           <th>parameter</th>
@@ -72,6 +78,5 @@ Information about the points data and answer streak.
         </tr>
       </table>
     </td>
-    <td>Information about the answer streaks.</td>
   </tr>
 </table>

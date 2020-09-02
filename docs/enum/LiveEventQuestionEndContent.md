@@ -83,7 +83,7 @@ The content describing the [LiveEventQuestionEnd](#/enum/LiveEventQuestionEnd).
   </tr>
   <tr>
     <td>nemesis</td>
-    <td></td>
+    <td><a href="#/enum/LiveEventNemesis">LiveEventNemesis</a></td>
     <td></td>
     <td>If there is no nemesis (first place), this property will be nonexistent.</td>
   </tr>
