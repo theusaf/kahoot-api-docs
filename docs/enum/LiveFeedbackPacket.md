@@ -20,7 +20,7 @@ A JSON message containing data about feedback when requested by a [LiveEventFeed
     <td></td>
   </tr>
   <tr>
-    <td>message</td>
+    <td>type</td>
     <td>String</td>
     <td>message</td>
     <td></td>
