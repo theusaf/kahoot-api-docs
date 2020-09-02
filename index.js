@@ -8,6 +8,7 @@
       return;
     }
     output.innerHTML = marked(data.html);
+    console.log(data.title)
     document.title = data.title;
     var code = Array.from(output.querySelectorAll("pre code"));
     for(var i in code){

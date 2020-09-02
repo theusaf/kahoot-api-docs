@@ -5,21 +5,6 @@
 **There should be a minumum delay of ~0.5s between handshake and sending this message**
 
 A JSON message containing data when joining a Kahoot game.
-### Merge
-<table>
-  <tr>
-    <th>Parameter</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>ext</td>
-    <td>JSON Object</td>
-    <td>{}</td>
-    <td></td>
-  </tr>
-</table>
 
 ### Data
 <table>
