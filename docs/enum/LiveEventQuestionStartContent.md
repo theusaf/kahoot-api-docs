@@ -1,6 +1,6 @@
-## LiveEventQuestionReadyContent
+## LiveEventQuestionStartContent
 <span class="type">String[JSON Object]</span>
-The content describing the [LiveEventQuestionReady](#/enum/LiveEventQuestionReady).
+The content describing the [LiveEventQuestionStart](#/enum/LiveEventQuestionStart).
 
 <table>
   <tr>
