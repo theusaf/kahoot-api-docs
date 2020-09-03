@@ -7,6 +7,7 @@
     <span>Variations</span>
     <a link="?scrollTo=success" class="nav">Success</a>
     <a link="?scrollTo=duplicate" class="nav">Duplicate name</a>
+    <a link="?scrollTo=missingSession" class="nav">Session Not Found</a>
     <a link="?scrollTo=reconnect" class="nav">ReconnectError</a>
   </div>
 </div>
@@ -69,6 +70,35 @@
 </table>
 
 - No response needed, should try to login using a different name
+
+<a link="?scrollTo=missingSession" class="nam"></a>
+**Session Not Found**
+<table>
+  <tr>
+    <th>Parameter</th>
+    <th>type</th>
+    <th>default</th>
+    <th>description</th>
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>String</td>
+    <td>loginResponse</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td>String</td>
+    <td>Player not found</td>
+    <td>A description of the error</td>
+  </tr>
+  <tr>
+    <td>error</td>
+    <td>String</td>
+    <td>NONEXISTING_SESSION</td>
+    <td>The error.</td>
+  </tr>
+</table>
 
 <a link="?scrollTo=reconnect" class="nam"></a>
 **ReconnectError**
