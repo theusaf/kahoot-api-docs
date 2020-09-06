@@ -16,6 +16,12 @@ Information about the feedback.
     <td>The final score of the player</td>
   </tr>
   <tr>
+    <td>nickname</td>
+    <td>String</td>
+    <td></td>
+    <td>The name of the player.</td>
+  </tr>
+  <tr>
     <td>fun</td>
     <td>Number</td>
     <td>1 - 5</td>
