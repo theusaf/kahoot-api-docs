@@ -73,14 +73,14 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>0</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>0</td>
+      <td></td>
     </tr>
   </table>
 </div>
@@ -163,14 +163,14 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>1</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>1</td>
+      <td></td>
     </tr>
   </table>
 </div>
@@ -245,14 +245,14 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>2</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>2</td>
+      <td></td>
     </tr>
   </table>
 </div>
@@ -311,14 +311,14 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>3</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>3</td>
+      <td></td>
     </tr>
   </table>
 </div>
@@ -401,21 +401,19 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>4</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>4</td>
+      <td></td>
     </tr>
   </table>
 </div>
 
-**Needs testing:**
-*What is state 5? Does this state exist?*
-*State 5 might be quiz ranking information, but this is not confirmed. If you can confirm this, please make an issue/pr on GitHub.*
+State 5 is essentially the same as state 4.
 
 <a link="?scrollTo=QuizEnd" class="nam">QuizEnd</a>
 <div class="info">
@@ -471,14 +469,14 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>6</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>6</td>
+      <td></td>
     </tr>
   </table>
 </div>
@@ -537,14 +535,14 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <td>false</td>
             <td>Whether the player was kicked.</td>
           </tr>
-          <tr>
-            <td>state</td>
-            <td>Number</td>
-            <td>7</td>
-            <td></td>
-          </tr>
         </table>
       </td>
+    </tr>
+    <tr>
+      <td>state</td>
+      <td>Number</td>
+      <td>7</td>
+      <td></td>
     </tr>
   </table>
 </div>
