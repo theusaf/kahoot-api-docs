@@ -20,7 +20,8 @@ The official Kahoot! website for joining games. Always up-to-date and maintained
 - ### [kahoot-win.herokuapp.com](https://kahoot-win.herokuapp.com)
 A Kahoot! website for joining and winning games. Made by [theusaf](https://github.com/theusaf) and is actively maintained. It looks similar to kahoot.it and contains a list of Kahoot!s that is has played, allowing users to win some Kahoot!s without input.
   - Alt sites:
-    - kahoot-win.glitch.me (maintained by theusaf)
+    - tooooooo-fast.herokuapp.com (maintained by theusaf.)
+    - kahoot-win.glitch.me (made by theusaf. (deprecated))
     - kahoot-live.herokuapp.com (outdated, not maintained by theusaf)
     - kahoot-jack.herokuapp.com (more 'Kahoot!y.' not maintained by theusaf)
 
