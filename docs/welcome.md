@@ -27,4 +27,4 @@ This documentation is not an official documentation for Kahoot and may be outdat
 
 Some examples use [kahoot.js-updated](https://npmjs.com/package/kahoot.js-updated) and other similar projects to help you understand how to quickly create bots without knowing the API.
 
-*This documentation is not affiliated with Kahoot! AB.*
+*This documentation is not affiliated with Kahoot! AS.*
