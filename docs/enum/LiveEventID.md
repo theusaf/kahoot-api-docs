@@ -43,6 +43,8 @@ A special identifier for various Kahoot Live events.
 
 - `21` - ~TeamTalkEnd~
 
+- `30` - ~PauseGame~
+
 - `31` - ~IFrameEvent~
 
 - `32` - ~ServerIFrameEvent~
