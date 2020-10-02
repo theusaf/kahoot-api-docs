@@ -26,13 +26,13 @@ A Kahoot! website for joining and winning games. Made by [theusaf](https://githu
     - kahoot-jack.herokuapp.com (more 'Kahoot!y.' not maintained by theusaf)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
-A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing.
+A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. Does not support team mode.
 
 - ### ~[mem.rip](https://mem.rip/kahoot/)~
 A Kahoot! botting website for spamming games. Made by [memcorrupt](https://mem.rip/). At the moment, this site is not working, but mem has announced that he plans to update it soon.
 
 - ### [ktools.tk](https://ktools.tk/)
-A Kahoot! botting website for spamming games. Based off an older version of Omegaboot and unmaintained. It's likely that it is not down because of low traffic.
+A Kahoot! botting website for spamming games. Based off an older version of Omegaboot and unmaintained. It's likely that it is not down because of low traffic. Does not support team mode.
 
 - ### [kahoot-bot.herokuapp.com](http://kahoot-bot.herokuapp.com/)
 A Kahoot! botting website for joining and answering games. Has a really bad UI, but it works. Does not support team mode.
@@ -45,7 +45,7 @@ The following sites do not appear to be working:
 - ~kahoot.ninja~ (Not working, unmaintained)
 - ~mem.rip/kahoot~ (Not working, currently blocked by kahoot.)
 - ~kahootflooder.com~ (Not working, unmaintained?)
-- ~kahooters.org~ (Not working, webspam. The page never sends anything to a server and claims to recieve requests, wasting users time.)
+- ~kahooters.org~ (Not working, webspam. The page never sends anything to a server and claims to receive requests, wasting users time.)
 
 <a class="nam" link="?scrollTo=host"></a>
 ## Host
