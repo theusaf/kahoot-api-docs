@@ -41,7 +41,7 @@ A Kahoot! botting website for spamming games. Based off an older version of Omeg
 A Kahoot! botting website for joining and answering games. Has a really bad UI, but it works. Does not support team mode.
 
 - ### [kahootflood.weebly.com](https://kahootflood.weebly.com/)
-A Kahoot! botting application for spamming games with lots of bots. Uses `kahoot.js-updated` and therefore supports team mode. Note: Please don't ruin people's lives by spamming a huge amount of bots, that's essentially DDOS and is probably not a good idea.
+A Kahoot! botting application for spamming games with lots of bots. Uses `kahoot.js-updated` and therefore supports team mode.
 
 The following sites do not appear to be working:
 - ~kahootsmasher.club~ (Not working, likely blocked by Kahoot!)
@@ -50,6 +50,7 @@ The following sites do not appear to be working:
 - ~kahoot.ninja~ (Not working, unmaintained)
 - ~mem.rip/kahoot~ (Not working, currently blocked by kahoot.)
 - ~kahootflooder.com~ (Not working, unmaintained?)
+- ~omegaboot.com~ (Not working, taken down by Kahoot!)
 - ~kahooters.org~ (Not working, webspam. The page never sends anything to a server and claims to receive requests, wasting users time.)
 
 <a class="nam" link="?scrollTo=host"></a>
