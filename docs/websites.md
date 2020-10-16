@@ -32,9 +32,6 @@ A Kahoot! botting website for joining and winning games with a simple, feature-p
 - ### ~[mem.rip](https://mem.rip/kahoot/)~
 A Kahoot! botting website for spamming games. Made by [memcorrupt](https://mem.rip/). At the moment, this site is not working, but mem has announced that he plans to update it soon.
 
-- ### ~[omegaboot.com](https://omegaboot.com)~
-A Kahoot! botting service for spamming lots of bots in a game. Originally made by [idiidk](https://github.com/idiidk), taken down by Kahoot! then purchased and remade by sx. At this moment, omegaboot is still taken down by Kahoot! but sx has announced that he plans to revive the project and update it soon.
-
 - ### [ktools.tk](https://ktools.tk/)
 A Kahoot! botting website for spamming games. Based off an older version of Omegaboot and unmaintained. It's likely that it is not down because of low traffic. Does not support team mode.
 
@@ -43,6 +40,9 @@ A Kahoot! botting website for joining and answering games. Has a really bad UI, 
 
 - ### [kahootflood.weebly.com](https://kahootflood.weebly.com/)
 A Kahoot! botting application for spamming games with lots of bots. Uses `kahoot.js-updated` and therefore supports team mode.
+
+- ### ~[omegaboot.com](https://omegaboot.com)~
+A Kahoot! botting service for spamming lots of bots in a game. Originally made by [idiidk](https://github.com/idiidk), taken down by Kahoot!. Recently, a user called "sx" has taken over the server and claims to be reviving the service. However, this is likely a scam as idiidk somehow messed up selling the discord server.
 
 The following sites do not appear to be working:
 - ~kahootsmasher.club~ (Not working, likely blocked by Kahoot!)
