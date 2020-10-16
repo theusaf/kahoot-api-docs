@@ -37,6 +37,9 @@ A Kahoot! botting website for spamming games. Based off an older version of Omeg
 - ### [kahoot-bot.herokuapp.com](http://kahoot-bot.herokuapp.com/)
 A Kahoot! botting website for joining and answering games. Has a really bad UI, but it works. Does not support team mode.
 
+- ### [kahootflood.weebly.com](https://kahootflood.weebly.com/)
+A Kahoot! botting application for spamming games with lots of bots. Uses `kahoot.js-updated` and therefore supports team mode. Note: Please don't ruin people's lives by spamming a huge amount of bots, that's essentially DDOS and is probably not legal.
+
 The following sites do not appear to be working:
 - ~kahootsmasher.club~ (Not working, likely blocked by Kahoot!)
 - ~omegaboot.com~ (Taken down by Kahoot!)
