@@ -41,9 +41,6 @@ A Kahoot! botting website for joining and answering games. Has a really bad UI, 
 - ### [kahootflood.weebly.com](https://kahootflood.weebly.com/)
 A Kahoot! botting application for spamming games with lots of bots. Uses `kahoot.js-updated` and therefore supports team mode.
 
-- ### ~[omegaboot.com](https://omegaboot.com)~
-A Kahoot! botting service for spamming lots of bots in a game. Originally made by [idiidk](https://github.com/idiidk), taken down by Kahoot!. Recently, a user called "sx" has taken over the server and claims to be reviving the service. However, this is likely a scam as idiidk somehow messed up selling the discord server.
-
 The following sites do not appear to be working:
 - ~kahootsmasher.club~ (Not working, likely blocked by Kahoot!)
 - ~kahoot-hack.glitch.me~ (Clone of kahoot.ninja's frontend with no backend support or working links...)
