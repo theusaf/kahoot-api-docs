@@ -7,12 +7,10 @@ Search for public Kahoot!s on Discover!
     <a link="?scrollTo=query" class="nav">query</a>
     <a link="?scrollTo=cursor" class="nav">cursor</a>
     <a link="?scrollTo=limit" class="nav">limit</a>
-
     <a link="?scrollTo=limit" class="nav">topics</a>
     <a link="?scrollTo=limit" class="nav">grades</a>
     <a link="?scrollTo=limit" class="nav">orderBy</a>
     <a link="?scrollTo=creator" class="nav">creator</a>
-
     <a link="?scrollTo=searchCluster" class="nav">searchCluster</a>
     <a link="?scrollTo=includeExtendedCounters" class="nav">includeExtendedCounters</a>
   </div>
@@ -85,7 +83,7 @@ Search for public Kahoot!s on Discover!
 </div>
 
 <div>
-  <a link="?scrollTo=topics" class="nam"></a>
+  <a link="?scrollTo=topics" class="nam">topics</a>
   <div class="info">
     The topics to filter by.
     <table>
@@ -104,7 +102,7 @@ Search for public Kahoot!s on Discover!
 </div>
 
 <div>
-  <a link="?scrollTo=searchCluster" class="nam"></a>
+  <a link="?scrollTo=searchCluster" class="nam">searchCluster</a>
   <div class="info">
     <table>
       <tr>
@@ -122,7 +120,7 @@ Search for public Kahoot!s on Discover!
 </div>
 
 <div>
-  <a link="?scrollTo=includeExtendedCounters" class="nam"></a>
+  <a link="?scrollTo=includeExtendedCounters" class="nam">includeExtendedCounters</a>
   <div class="info">
   <table>
     <tr>
