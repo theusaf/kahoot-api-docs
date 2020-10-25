@@ -1,3 +1,4 @@
+$A JSON message containing data about feedback when requested by a LiveEventFeedbackRequest
 ## LiveFeedbackPacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>

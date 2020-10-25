@@ -7,9 +7,27 @@
     if(!data){
       return;
     }
+    var des;
+    if(data.html.search(/\$/) === 0){
+      // description set
+      des = data.html.match(/^\$.*/i)[0].substr(1);
+      data.html = data.html.replace(/^\$.*\n/i,"");
+    }
     output.innerHTML = marked(data.html);
-    console.log(data.title)
     document.title = data.title;
+    // other metadata
+    var url = document.querySelector('[property="og:url"]'),
+      title = document.querySelector('[property="og:title"]'),
+      title2 = document.querySelector('[name="title"]'),
+      desc = document.querySelector('[property="og:description"]'),
+      desc2 = document.querySelector('[name="description"]');
+    if(location.hash !== "#/welcome"){
+      url.setAttribute("content",location.href);
+      title.setAttribute("content",data.title);
+      title2.setAttribute("content",data.title);
+      desc.setAttribute("content",des || output.innerText);
+      desc2.setAttribute("content",des || output.innerText);
+    }
     var code = Array.from(output.querySelectorAll("pre code"));
     for(var i in code){
       hljs.highlightBlock(code[i]);

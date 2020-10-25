@@ -1,3 +1,4 @@
+$The recovery data, containing quiz info and the current event.
 ## LiveEventRecoveryData
 <span class="type">JSON Object</span>
 

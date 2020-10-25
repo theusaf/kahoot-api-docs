@@ -1,3 +1,4 @@
+$Documentation for the live Kahoot! client. Learn the various events and methods in Kahoot!
 ## Client
 Joining and interacting with Kahoot Live games.
 

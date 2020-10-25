@@ -1,3 +1,4 @@
+$JSON data including information about lag and time. Used when creating connections and replying to pings.
 ## LiveTimesyncData
 JSON data including information about lag and time. Used when creating connections and replying to pings.
 

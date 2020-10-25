@@ -1,3 +1,4 @@
+$Content about the team talk/upcoming question
 ## LiveEventTeamTalkContent
 <span class="type">String[JSON Object]</span>
 

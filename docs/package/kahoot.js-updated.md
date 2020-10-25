@@ -1,3 +1,4 @@
+$Kahoot.JS-Updated is a NodeJS package for interacting with Kahoot! Learn how to use it and create your own Kahoot! client.
 ## Kahoot.JS-Updated
 Kahoot.JS-Updated is a NodeJS package for interacting with Kahoot! ([client](#class/client))
 

@@ -1,3 +1,4 @@
+$A packet that signifies the intent to disconnect from the game.
 ## LiveLeavePacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/meta/disconnect</code></span>

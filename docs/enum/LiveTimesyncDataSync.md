@@ -1,3 +1,4 @@
+$Information about the lag and time with the Kahoot server.
 ## LiveTimesyncDataSync
 Information about the lag and time with the Kahoot server.
 

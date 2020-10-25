@@ -1,3 +1,4 @@
+$The player in ahead of the client.
 ## LiveEventNemesis
 <span class="type">JSON Object</span>
 The player in ahead of the client.

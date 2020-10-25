@@ -1,3 +1,4 @@
+$An event signifying the question is about to start.
 ## LiveEventQuestionReady
 <span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>

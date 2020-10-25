@@ -1,3 +1,4 @@
+$A tutorial on how to calculate the timesync information needed for some client messages
 ## Calculating the timesync
 The following explains how to calculate values for <a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a>
 

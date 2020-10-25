@@ -1,3 +1,4 @@
+$The type of question being played.
 ## LiveQuestionType
 The type of question being played.
 

@@ -1,3 +1,4 @@
+$JSON data sent to Kahoot's socket to establish a connection.
 ## LiveClientHandshake
 JSON data sent to Kahoot's socket to establish a connection.
 

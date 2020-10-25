@@ -1,3 +1,4 @@
+$KahootPY is a python package for interacting with Kahoot based off of kahoot.js-updated.
 ## KahootPY
 KahootPY is a python package for interacting with Kahoot. It is based on kahoot.js-updated and is made by [theusaf](https://github.com/theusaf). KahootPY is also event/callback based.
 

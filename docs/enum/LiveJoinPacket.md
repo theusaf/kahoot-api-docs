@@ -1,3 +1,4 @@
+$A JSON message containing data when joining a Kahoot game.
 ## LiveJoinPacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>

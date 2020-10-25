@@ -1,3 +1,4 @@
+$The content sent at the end of the quiz, including information about the player's rank, final score, and number of correct answers.
 ## LiveEventQuizEndContent
 <span class="type">String[JSON Object]</span>
 The information provided in a [LiveEventQuizEnd](#/enum/LiveEventQuizEnd)

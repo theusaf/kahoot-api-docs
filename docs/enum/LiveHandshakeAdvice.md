@@ -1,3 +1,4 @@
+$Advice used by Kahoot's server in various messages.
 ## LiveHandshakeAdvice
 Advice used by Kahoot's server in various messages.
 

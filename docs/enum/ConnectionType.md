@@ -1,3 +1,4 @@
+$A type of connection to Kahoot's server.
 ## ConnectionType
 A type of connection to Kahoot's server.
 

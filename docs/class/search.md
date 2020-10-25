@@ -1,3 +1,4 @@
+$Search for quizzes using Kahoot!'s discover API. Learn all the options to fully customize your searches.
 ## Search
 Search for public Kahoot!s on Discover!
 

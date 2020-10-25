@@ -1,10 +1,11 @@
+$A message sent to answer the two-step authentification.
 ## LiveTwoStepAnswer
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
 
 A message sent to answer the two-step authentification.
 
-**Note: There should be a delay between code reset and sending this message.** 
+**Note: There should be a delay between code reset and sending this message.**
 
 ### Data
 <table>

@@ -1,3 +1,4 @@
+$Information about the name of the accepted player
 ## LiveEventNameAcceptContent
 <span class="type">String[JSON Object]</span>
 

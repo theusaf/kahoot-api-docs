@@ -1,3 +1,4 @@
+$A JSON message asking for connection information.
 ## LiveConnectionPacket
 A JSON message asking for connection information.
 <span class="extends"><a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a></span>

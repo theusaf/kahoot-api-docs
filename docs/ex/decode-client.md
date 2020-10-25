@@ -1,3 +1,4 @@
+$Learn how to decode the Kahoot! tokens to create your connection.
 ## Decoding the tokens
 Decoding the tokens is a little complicated, but the easiest way would be to evaluate the JavaScript.
 

@@ -1,3 +1,4 @@
+$The JSON response to a handshake request sent by the client
 ## LiveClientHandshakeResponse
 The JSON response to a handshake request sent by the <a href="#/class/client">client</a>.
 <span class="extends"><a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a></span>

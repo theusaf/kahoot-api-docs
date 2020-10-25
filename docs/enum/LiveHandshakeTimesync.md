@@ -1,3 +1,4 @@
+$The handshake timesync data included with a LiveClientHandshakeResponse
 ## LiveHandshakeTimesync
 The handshake timesync data included with [LiveClientHandshakeResponse](#/enum/LiveClientHandshakeResponse).
 

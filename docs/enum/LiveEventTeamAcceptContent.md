@@ -1,3 +1,4 @@
+$The content of the accepted team
 ## LiveEventTeamAcceptContent
 <span class="type">String[JSON Object]</span>
 

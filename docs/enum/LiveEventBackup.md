@@ -1,3 +1,4 @@
+$Backup data about the current event
 ## LiveEventBackup
 <span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>

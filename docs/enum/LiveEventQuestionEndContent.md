@@ -1,3 +1,4 @@
+$Content sent at the end of the question, with information about the player's points, rank, and choice
 ## LiveEventQuestionEndContent
 <span class="type">String[JSON Object]</span>
 The content describing the [LiveEventQuestionEnd](#/enum/LiveEventQuestionEnd).

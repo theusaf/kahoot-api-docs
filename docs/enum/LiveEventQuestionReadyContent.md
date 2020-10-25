@@ -1,3 +1,4 @@
+$Content about the upcoming question, including the type of question and the layout of the question.
 ## LiveEventQuestionReadyContent
 <span class="type">String[JSON Object]</span>
 The content describing the [LiveEventQuestionReady](#/enum/LiveEventQuestionReady).

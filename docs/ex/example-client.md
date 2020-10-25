@@ -1,3 +1,4 @@
+$A quick example of how to use kahoot.js-updated to join a game.
 ## Creating a client / bot
 *Note: These tutorials use kahoot.js-updated*
 ### Basic joining and answering
@@ -5,7 +6,7 @@
 const kahootJS = require("kahoot.js-updated");
 const bot = new kahootJS();
 bot.join(12345, "luggage password"); // (PIN,NAME)
-bot.on("questionStart", question => {
+bot.on("QuestionStart", question => {
   question.answer(0);
 });
 ```
@@ -21,7 +22,7 @@ function wait(n){
 async function sendBots(pin,name,amount){
   for(let i = 0; i < amount;i++){
     const bot = new kahootJS;
-    bot.join(pin,name + i);
+    await bot.join(pin,name + i);
     await wait(0.1);
   }
 }

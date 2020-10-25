@@ -1,3 +1,4 @@
+$Information about the feedback.
 ## LiveFeedbackPacketContent
 <span class="type">Stringified JSON</span>
 Information about the feedback.

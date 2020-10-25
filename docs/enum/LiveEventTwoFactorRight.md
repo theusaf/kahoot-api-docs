@@ -1,3 +1,4 @@
+$An event signifying that the two factor code was answered correctly.
 ## LiveEventTwoFactorRight
 <span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>

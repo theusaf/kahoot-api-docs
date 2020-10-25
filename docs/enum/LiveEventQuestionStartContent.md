@@ -1,3 +1,4 @@
+$Content about the question when the question starts, including the type, layout, and remaining time left in the question.
 ## LiveEventQuestionStartContent
 <span class="type">String[JSON Object]</span>
 The content describing the [LiveEventQuestionStart](#/enum/LiveEventQuestionStart).

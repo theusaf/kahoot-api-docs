@@ -1,3 +1,4 @@
+$The main JSON object for some Kahoot live events. (to client)
 ## LiveBaseMessageResponse
 The main JSON object for some Kahoot live events. (to client)
 

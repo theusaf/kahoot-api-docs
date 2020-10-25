@@ -1,3 +1,4 @@
+$A JSON message containing information about the disconnected client in order to reconnect to the game.
 ## LiveReloginPacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 

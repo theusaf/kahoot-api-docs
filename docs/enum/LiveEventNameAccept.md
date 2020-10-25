@@ -1,3 +1,4 @@
+$A packet sent when the name is accepted.
 ## LiveEventNameAccept
 <span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>

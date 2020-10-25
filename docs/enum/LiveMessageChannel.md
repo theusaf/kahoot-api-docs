@@ -1,3 +1,4 @@
+$A channel category to send data.
 ## LiveMessageChannel
 A channel category to send data.
 

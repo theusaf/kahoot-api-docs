@@ -1,3 +1,4 @@
+$The token JSON or "Not found" (if the session doesn't exist)
 ## LiveSessionClientToken
 The token JSON or `Not found` (if the session doesn't exist)
 

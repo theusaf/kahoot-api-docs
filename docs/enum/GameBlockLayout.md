@@ -1,3 +1,4 @@
+$The game block layout types
 ## GameBlockLayout
 <span class="type">String</span>
 

@@ -1,3 +1,4 @@
+$Information about the points data and answer streak.
 ## LiveEventQuestionPointsData
 <span class="type">JSON Object</span>
 Information about the points data and answer streak.

@@ -1,3 +1,4 @@
+$The answer data for a LiveQuestionAnswer
 ## LiveQuestionAnswerContent
 <span class="type">Stringified JSON</span>
 

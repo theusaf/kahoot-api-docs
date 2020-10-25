@@ -1,3 +1,4 @@
+$The main JSON object for almost all Kahoot Live events. (to and from client)
 ## LiveBaseEvent
 The main JSON object for almost all Kahoot Live events. (to and from client)
 

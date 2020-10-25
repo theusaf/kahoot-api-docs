@@ -1,3 +1,4 @@
+$A JSON packet containing "team members" for the client
 ## LiveJoinTeamPacket
 <span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
