@@ -8,9 +8,12 @@ Search for public Kahoot!s on Discover!
     <a link="?scrollTo=query" class="nav">query</a>
     <a link="?scrollTo=cursor" class="nav">cursor</a>
     <a link="?scrollTo=limit" class="nav">limit</a>
-    <a link="?scrollTo=limit" class="nav">topics</a>
-    <a link="?scrollTo=limit" class="nav">grades</a>
-    <a link="?scrollTo=limit" class="nav">orderBy</a>
+    <a link="?scrollTo=topics" class="nav">topics</a>
+    <a link="?scrollTo=grades" class="nav">grades</a>
+    <a link="?scrollTo=usage" class="nav">usage</a>
+    <a link="?scrollTo=language" class="nav">language</a>
+    <a link="?scrollTo=orderBy" class="nav">orderBy</a>
+    <a link="?scrollTo=includeKahoot" class="nav">includeKahoot</a>
     <a link="?scrollTo=creator" class="nav">creator</a>
     <a link="?scrollTo=searchCluster" class="nav">searchCluster</a>
     <a link="?scrollTo=includeExtendedCounters" class="nav">includeExtendedCounters</a>
@@ -97,6 +100,139 @@ Search for public Kahoot!s on Discover!
         <td><a href="#/enum/SearchSubjectValue">SearchSubjectValue</a></td>
         <td></td>
         <td>The subject(s) to filter results by.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div>
+  <a link="?scrollTo=grades" class="nam">grades</a>
+  <div class="info">
+    The grades to filter by
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+      <tr>
+        <td>String</td>
+        <td></td>
+        <td>
+          <p>A string of grade(s) to filter by.</p>
+          <p>Grades are from grades 1-12 and are formatted as <code>grade_nn</code> where nn is a two digit number like <code>05</code> or <code>12</code>.</p>
+          <p>Each grade is separated by a comma and uri-encoded: <code>grade_01,grade_10</code> => <code>grade01%2Cgrade_10</code></p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div>
+  <a link="?scrollTo=usage" class="nam">usage</a>
+  <div class="info">
+    Filters the results by the type of user who created it
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+      <tr>
+        <td>String</td>
+        <td></td>
+        <td>
+          <p>A list of usage(s) split by uri-encoded commas from the following list:</p>
+          <ul style="text-align: left">
+            <li>teacher</li>
+            <li>student</li>
+            <li>business</li>
+            <li>social</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div>
+  <a link="?scrollTo=language" class="nam">language</a>
+  The languages to filter by
+  <div class="info">
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+      <tr>
+        <td><a href="#/enum/SearchLanguage">SearchLanguage</a></td>
+        <td></td>
+        <td>This can be a list/single language, separated by commas and uri-endoded.</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div>
+  <a link="?scrollTo=orderBy" class="nam">orderBy</a>
+  How to sort the results.
+  <div class="info">
+    <table>
+      <tr>
+        <th>type</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+      <tr>
+        <td>String</td>
+        <td>relevance</td>
+        <td>
+          <p>One of:</p>
+          <ul style="text-align: left">
+            <li><code>relevance</code> - How relevant the result is to the query</li>
+            <li><code>plays</code> - The number of plays the quiz has</li>
+            <li><code>quality</code> - Sort by the ratings given through the feedback feature?</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div>
+  <a link="?scrollTo=includeKahoot" class="nam">includeKahoot</a>
+  Whether to include the quiz data along with the card information in the response
+  <div class="info">
+    <table>
+      <tr>
+        <th>type</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+      <tr>
+        <td>Boolean</td>
+        <td>false</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div>
+  <a link="?scrollTo=creator" class="nam">creator</a>
+  <div class="info">
+    The username of the creator of the Kahoot.
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+      <tr>
+        <td>String</td>
+        <td></td>
+        <td>The creator's username. Useful for finding Kahoots made by a specific account.</td>
       </tr>
     </table>
   </div>

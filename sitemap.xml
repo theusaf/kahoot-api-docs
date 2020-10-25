@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2020-10-25T16:31:35.734Z</lastmod>
+    <lastmod>2020-10-25T20:55:47.333Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/#/class/search</loc>
-    <lastmod>2020-10-25T14:59:16.177Z</lastmod>
+    <lastmod>2020-10-25T20:10:02.888Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -326,6 +326,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/#/enum/SearchLanguage</loc>
+    <lastmod>2020-10-25T17:50:41.745Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/#/enum/SearchQueryEntity</loc>
+    <lastmod>2020-10-25T21:09:34.217Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/#/enum/SearchQueryResult</loc>
+    <lastmod>2020-10-25T20:57:32.769Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/#/enum/SearchSubjectValue</loc>
     <lastmod>2020-10-25T16:30:56.871Z</lastmod>
     <priority>0.5</priority>
@@ -348,6 +363,11 @@
   <url>
     <loc>https://kahoot.js.org/#/ex/random-name</loc>
     <lastmod>2020-10-25T15:02:25.827Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/#/ex/search</loc>
+    <lastmod>2020-10-25T20:43:40.149Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
