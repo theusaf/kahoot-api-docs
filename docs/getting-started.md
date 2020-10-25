@@ -1,3 +1,4 @@
+$How to use this API documentation.
 ## Getting Started
 How to use this API documentation.
 

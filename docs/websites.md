@@ -1,3 +1,4 @@
+$A list of websites for playing, searching, hosting, creating, and botting Kahoot.
 ## Websites
 A list of websites for playing, searching, hosting, creating, and botting Kahoot.
 
