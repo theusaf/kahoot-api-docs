@@ -61,6 +61,16 @@
       if(first){
         location.hash = "#";
       }
+      var search = document.getElementById("search");
+      output.innerHTML = '<div id="prep">\
+        <div style="flex: 1;">\
+          <img src="loading.svg" alt="Loading... Please wait">\
+        </div>\
+      </div>';
+      // begin searching
+      var files = Array.from(document.getElementById("selection").querySelectorAll("a"));
+      cancelSearch = false;
+      Search(files,search.value);
       return;
     }
     output.innerHTML = '<div id="prep">\
