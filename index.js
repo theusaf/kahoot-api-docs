@@ -13,6 +13,7 @@
       des = data.html.match(/^\$.*/i)[0].substr(1);
       data.html = data.html.replace(/^\$.*\n/i,"");
     }
+    data.html = data.html.replace("http-equiv=\"refresh\"",""); // remove extra redirect
     output.innerHTML = marked(data.html);
     document.title = data.title;
     // other metadata
@@ -50,9 +51,13 @@
   function FetchData(first,newloc){
     // newloc should be the URL to go to.
     if(!newloc){newloc = {};}
+    if(sessionStorage.redirect){
+      newloc = new URL(sessionStorage.redirect);
+      delete sessionStorage.redirect;
+    }
     if("History" in window){
       // redirect
-      if(location.search.search("/") !== -1){ // probably has a path
+      if((location || newloc).search.search("/") !== -1){ // probably has a path
         cancelSearch = true;
         output.innerHTML = '<div id="prep">\
           <div style="flex: 1;">\

@@ -3,32 +3,12 @@
   <head>
     <title>404 Not Found</title>
     <script>
-      if(location.pathname.search(/\/docs\//i) !== 0){
-        // redirect
-        document.title = "Redirecting...";
-        var search = location.search;
-        var path = location.pathname;
-        var meta = document.createElement("meta");
-        meta.httpEquiv = "refresh";
-        meta.content = "0;URL='" + location.protocol + "//" + location.host + "/" + (search || "?") + path;
-        document.head.appendChild(meta);
-      }
+      sessionStorage.redirect = location.href;
     </script>
+    <meta http-equiv="refresh" content="0;URL='/'">
   </head>
   <body>
     <h1>Could not fetch the document</h1>
     <p>This may be due to a typo or the document has not been created yet.</p>
-    <noscript>
-      <p>This website requires JavaScript to redirect you to the correct location.</p>
-    </noscript>
-    <script>
-      if(location.pathname.search(/\/docs\//i) !== 0){
-        // redirect
-        document.title = "Redirecting...";
-        var search = location.search;
-        var path = location.pathname;
-        location.href = `${location.protocol}//${location.host}/${search || "?"}${path}`;
-      }
-    </script>
   </body>
 </html>
