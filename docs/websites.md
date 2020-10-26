@@ -37,7 +37,7 @@ A Kahoot! botting website for joining and winning games with a simple, feature-p
 - ### ~[mem.rip](https://mem.rip/kahoot/)~
 A Kahoot! botting website for spamming games. Made by [memcorrupt](https://mem.rip/). At the moment, this site is not working, but mem has announced that he plans to update it soon.
 
-- ### [ktools.tk](https://ktools.tk/)
+- ### [ktools.tk](http://ktools.tk/)
 A Kahoot! botting website for spamming games. Based off an older version of Omegaboot and unmaintained. It's likely that it is not down because of low traffic. Does not support team mode.
 
 - ### [kahoot-bot.herokuapp.com](http://kahoot-bot.herokuapp.com/)
