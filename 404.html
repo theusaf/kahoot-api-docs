@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>404 Not Found</title>
+  </head>
+  <body>
+    <h1>Could not fetch the document</h1>
+    <p>This may be due to a typo or the document has not been created yet.</p>
+    <noscript>
+      <p>This website requires JavaScript to redirect you to the correct location.</p>
+    </noscript>
+    <script>
+      if(location.pathname.search(/\/docs\//i) !== 0){
+        // redirect
+        document.title = "Reirecting...";
+        var search = location.search;
+        var path = location.pathname;
+        location.href = `${location.protocol}//${location.host}/${search || "?"}${path}`;
+      }
+    </script>
+  </body>
+</html>

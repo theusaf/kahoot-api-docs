@@ -21,7 +21,7 @@
       title2 = document.querySelector('[name="title"]'),
       desc = document.querySelector('[property="og:description"]'),
       desc2 = document.querySelector('[name="description"]');
-    if(location.hash !== "#/welcome"){
+    if(location.hash !== "#/welcome" || location.pathname === "/welcome"){
       url.setAttribute("content",location.href);
       title.setAttribute("content",data.title);
       title2.setAttribute("content",data.title);
@@ -40,17 +40,91 @@
     for(var i in repl2){
       repl2[i].name = location.hash.split("?")[0] + repl2[i].getAttribute("link");
     }
-    if(location.hash.search(/\?/gm) !== -1){
-      try{
-        document.querySelector('[name="' + location.hash + '"]').scrollIntoView();
-      }catch(e){}
+    if(location.hash.search(/\?/gm) !== -1 || location.search){
+      var str = location.search || location.hash;
+      // prefer search over hash
+      try{document.querySelector('[name="' + str + '"]').scrollIntoView();}catch(e){}
     }
   }
-  function FetchData(first){
+  function FetchData(first,newloc){
+    // newloc should be the URL to go to.
+    if(!newloc){newloc = {};}
+    if("History" in window){
+      // redirect
+      if(location.search.search("/") != -1){ // probably has a path
+        cancelSearch = true;
+        output.innerHTML = '<div id="prep">\
+          <div style="flex: 1;">\
+            <img src="/loading.svg" alt="Loading... Please wait">\
+          </div>\
+        </div>';
+        var split = location.search.split("/"),
+          search = split[0],
+          path = "/" + split.slice(1).join("/").split("#")[0];
+        // begin fetching data
+        var link = document.querySelector('[href="' + path + '"]');
+        try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
+        try{document.querySelector(".selected").className = "";}catch(e){}
+        try{link.className = "selected";}catch(e){}
+        var x = new XMLHttpRequest();
+        x.open("GET","/docs" + path + ".md");
+        x.send();
+        x.onload = function(){
+          if(search === "?"){
+            search = "";
+          }
+          // replace/push state
+          var data = {
+            title: document.title,
+            html: x.response
+          };
+          if(first){
+            history.replaceState(data,document.title,path + search);
+            RenderDocument(data);
+          }else{
+            history.pushState(data,document.title,path + search);
+            RenderDocument(data);
+          }
+          oldhash = location.pathname;
+        }
+      }else{ // probably History api path
+        var path = newloc.pathname || location.pathname,
+          search = newloc.search || location.search
+        try{document.querySelector('[name="' + search + '"]').scrollIntoView();}catch(e){}
+        if(!first && oldhash === path){
+          history.replaceState(history.state,document.title,newloc.href || location.href);
+          return;
+        }
+        var link = document.querySelector('[href="' + path + '"]');
+        try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
+        try{document.querySelector(".selected").className = "";}catch(e){}
+        try{link.className = "selected";}catch(e){}
+        var x = new XMLHttpRequest();
+        x.open("GET","/docs" + path + ".md");
+        x.send();
+        x.onload = function(){
+          if(search === "?"){
+            search = "";
+          }
+          // replace/push state
+          var data = {
+            title: document.title,
+            html: x.response
+          };
+          if(first){
+            history.replaceState(data,document.title,path + search);
+            RenderDocument(data);
+          }else{
+            history.pushState(data,document.title,path + search);
+            RenderDocument(data);
+          }
+          oldhash = location.pathname;
+        }
+      }
+      return;
+    }
     if(!first && location.hash.search(/\?/gm) !== -1){
-      try{
-        document.querySelector('[name="' + location.hash + '"]').scrollIntoView();
-      }catch(e){}
+      try{document.querySelector('[name="' + location.hash + '"]').scrollIntoView();}catch(e){}
       if(oldhash === location.hash.split("?")[0]){
         return;
       }
@@ -75,7 +149,7 @@
     }
     output.innerHTML = '<div id="prep">\
       <div style="flex: 1;">\
-        <img src="loading.svg" alt="Loading... Please wait">\
+        <img src="/loading.svg" alt="Loading... Please wait">\
       </div>\
     </div>';
     cancelSearch = true;
@@ -85,11 +159,9 @@
       location.hash = "#/welcome";
       return;
     }
-    var link = document.querySelector('[href="' + location.hash.split("?")[0] + '"]');
+    var link = document.querySelector('[href="' + location.hash.split("?")[0].substr(1) + '"]');
     try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
-    try{
-      document.querySelector(".selected").className = "";
-    }catch(e){}
+    try{document.querySelector(".selected").className = "";}catch(e){}
     try{link.className = "selected";}catch(e){}
     var x = new XMLHttpRequest();
     x.open("GET","docs" + path.split("?")[0] + ".md");
@@ -101,10 +173,26 @@
       });
     }
   }
-  window.addEventListener("hashchange",function(event){
-    event.preventDefault();
-    FetchData();
-  });
+  if(!("History" in window)){
+    window.addEventListener("hashchange",function(event){
+      event.preventDefault();
+      FetchData();
+    });
+  }else{
+    window.addEventListener("popstate",function(event){
+      RenderDocument(event.state);
+    });
+    window.addEventListener("click",function(event){
+      if(event.target.nodeName === "A"){
+        event.preventDefault();
+        var url = new URL(event.target.href);
+        if(!("History" in window)){
+          return;
+        }
+        FetchData(false,url);
+      }
+    });
+  }
   FetchData(true);
   var mobiToggle = document.getElementById("mobi-menu-toggle");
   var mobiToggleIn = document.getElementById("mobile-menu");
