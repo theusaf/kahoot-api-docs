@@ -23,12 +23,12 @@ JSON data including information about lag and time. Used when creating connectio
   <tr>
     <td>ack</td>
     <td>Number</td>
-    <td><a href="#/enum/LiveConnectionPacket">LiveConnectionPacket</a>.ext.ack</td>
+    <td><a href="/enum/LiveConnectionPacket">LiveConnectionPacket</a>.ext.ack</td>
     <td>The ack located in the ping message.</td>
   </tr>
   <tr>
     <td>timesync</td>
-    <td><a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
+    <td><a href="/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
     <td>
       <pre>
         <code>
@@ -62,7 +62,7 @@ JSON data including information about lag and time. Used when creating connectio
   </tr>
   <tr>
     <td>timesync</td>
-    <td><a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
+    <td><a href="/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
     <td>
       <pre>
         <code>
@@ -95,7 +95,7 @@ JSON data including information about lag and time. Used when creating connectio
   </tr>
   <tr>
     <td>timesync</td>
-    <td><a href="#/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
+    <td><a href="/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a></td>
     <td>
       <pre>
         <code>

@@ -1,6 +1,6 @@
 $A request for the servers "backup" data
 ## LiveRequestData
-<span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
+<span class="extends"><a href="/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
 
 A request for the servers "backup" data
@@ -13,7 +13,7 @@ A request for the servers "backup" data
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>16</td>
     <td></td>
   </tr>

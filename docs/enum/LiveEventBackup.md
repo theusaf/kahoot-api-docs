@@ -1,6 +1,6 @@
 $Backup data about the current event
 ## LiveEventBackup
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 Backup data about the current event
@@ -26,7 +26,7 @@ Backup data about the current event
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>17</td>
     <td></td>
   </tr>
@@ -38,7 +38,7 @@ Backup data about the current event
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventRecoveryData">LiveEventRecoveryData</a></td>
+    <td><a href="/enum/LiveEventRecoveryData">LiveEventRecoveryData</a></td>
     <td></td>
     <td>The recovery data stringified object. Contains info about the current event</td>
   </tr>

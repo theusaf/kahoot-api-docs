@@ -1,6 +1,6 @@
 $A message sent to answer the two-step authentification.
 ## LiveTwoStepAnswer
-<span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
+<span class="extends"><a href="/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
 
 A message sent to answer the two-step authentification.
@@ -17,7 +17,7 @@ A message sent to answer the two-step authentification.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>50</td>
     <td></td>
   </tr>

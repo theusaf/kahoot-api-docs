@@ -1,7 +1,7 @@
 $The team members for a LiveJoinTeamPacket
 ## LiveJoinTeamPacketContent
 <span class="type">Stringified JSON Array</span>
-The team members for a [LiveJoinTeamPacket](#/enum/LiveJoinTeamPacket)
+The team members for a [LiveJoinTeamPacket](/enum/LiveJoinTeamPacket)
 
 ```JSON
 [

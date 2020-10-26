@@ -1,6 +1,6 @@
 $An event signifying that the two factor code was answered incorrectly.
 ## LiveEventTwoFactorWrong
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 An event signifying that the two factor code was answered incorrectly.
@@ -27,7 +27,7 @@ An event signifying that the two factor code was answered incorrectly.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>51</td>
     <td></td>
   </tr>

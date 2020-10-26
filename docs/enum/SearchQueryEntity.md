@@ -15,13 +15,13 @@ The search query result entity containing the card and kahoot
   </tr>
   <tr>
     <td>card</td>
-    <td><a href="#/enum/SearchQueryCard">SearchQueryCard</a></td>
+    <td><a href="/enum/SearchQueryCard">SearchQueryCard</a></td>
     <td></td>
     <td>The card information about the Kahoot! quiz</td>
   </tr>
   <tr>
     <td>kahoot</td>
-    <td><a href="#/enum/KahootQuiz">KahootQuiz</a></td>
+    <td><a href="/enum/KahootQuiz">KahootQuiz</a></td>
     <td></td>
     <td>Usually doesn't exist, unless includeKahoot is specified in the query</td>
   </tr>

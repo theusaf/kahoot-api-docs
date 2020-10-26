@@ -1,6 +1,6 @@
 $An event signifying the start of the question
 ## LiveEventQuestionStart
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 An event signifying the start of the question
 
@@ -20,7 +20,7 @@ An event signifying the start of the question
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>2</td>
     <td></td>
   </tr>
@@ -32,7 +32,7 @@ An event signifying the start of the question
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventQuestionStartContent">LiveEventQuestionStartContent</a></td>
+    <td><a href="/enum/LiveEventQuestionStartContent">LiveEventQuestionStartContent</a></td>
     <td></td>
     <td>The content about the question.</td>
   </tr>

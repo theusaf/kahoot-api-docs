@@ -1,6 +1,6 @@
 $A JSON packet containing "team members" for the client
 ## LiveJoinTeamPacket
-<span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
+<span class="extends"><a href="/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
 A JSON packet containing "team members" for the client
 
@@ -26,13 +26,13 @@ A JSON packet containing "team members" for the client
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveJoinTeamPacketContent">LiveJoinTeamPacketContent</a></td>
+    <td><a href="/enum/LiveJoinTeamPacketContent">LiveJoinTeamPacketContent</a></td>
     <td></td>
     <td>The team member information.</td>
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>18</td>
     <td></td>
   </tr>

@@ -1,6 +1,6 @@
 $An event signifying the reset of the two-factor code.
 ## LiveEventTwoFactorReset
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 An event signifying the reset of the two-factor code.
@@ -21,7 +21,7 @@ An event signifying the reset of the two-factor code.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>53</td>
     <td></td>
   </tr>

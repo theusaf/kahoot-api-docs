@@ -3,7 +3,7 @@ $Learn how to decode the Kahoot! tokens to create your connection.
 Decoding the tokens is a little complicated, but the easiest way would be to evaluate the JavaScript.
 
 ### Evaluating the script
-The `challenge` function from the [LiveSessionClientToken](#/enum/LiveSessionClientToken)</a> looks likes this:
+The `challenge` function from the [LiveSessionClientToken](/enum/LiveSessionClientToken)</a> looks likes this:
 ```js
 decode.call(this, 'G6CXXJd12LBRhyFvJMPl0GCJU7PzKGeCc4BtOkmPKBKsYb3lbjcobY9Ob4bp3nfsfaL7kDK7th2jcoiYKkgmN2jCT3z2krUnfnRn'); function decode(message) {var offset = ((41 *39) *(100 + 	 11 *9)); if( this   . 	 angular	 . 	 isArray (   offset	 )) console   .   log 	 ("Offset derived as: {", offset, "}"); return  _. replace   ( message,/./g, function(char, position) {return String.fromCharCode((((char.charCodeAt(0)*position)+ offset ) % 77) + 48);});}
 ```

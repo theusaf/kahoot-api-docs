@@ -2,381 +2,381 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2020-10-25T20:55:47.333Z</lastmod>
+    <lastmod>2020-10-26T17:55:32.146Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/faq</loc>
-    <lastmod>2020-08-30T00:51:05.361Z</lastmod>
+    <loc>https://kahoot.js.org/faq</loc>
+    <lastmod>2020-10-26T17:52:04.836Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/getting-started</loc>
-    <lastmod>2020-10-25T15:24:01.321Z</lastmod>
+    <loc>https://kahoot.js.org/getting-started</loc>
+    <lastmod>2020-10-26T17:51:59.932Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/websites</loc>
+    <loc>https://kahoot.js.org/websites</loc>
     <lastmod>2020-10-25T15:24:09.621Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/welcome</loc>
+    <loc>https://kahoot.js.org/welcome</loc>
     <lastmod>2020-09-21T14:23:03.873Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/class/client</loc>
-    <lastmod>2020-10-25T14:58:38.667Z</lastmod>
+    <loc>https://kahoot.js.org/class/client</loc>
+    <lastmod>2020-10-26T17:55:19.939Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/class/search</loc>
-    <lastmod>2020-10-25T20:10:02.888Z</lastmod>
+    <loc>https://kahoot.js.org/class/search</loc>
+    <lastmod>2020-10-26T17:55:22.192Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/ConnectionType</loc>
+    <loc>https://kahoot.js.org/enum/ConnectionType</loc>
     <lastmod>2020-10-25T15:04:05.853Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/GameBlockLayout</loc>
+    <loc>https://kahoot.js.org/enum/GameBlockLayout</loc>
     <lastmod>2020-10-25T15:04:16.553Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveBaseEvent</loc>
-    <lastmod>2020-10-25T15:04:29.761Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveBaseEvent</loc>
+    <lastmod>2020-10-26T17:52:46.996Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveBaseMessage</loc>
-    <lastmod>2020-10-25T15:04:38.905Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveBaseMessage</loc>
+    <lastmod>2020-10-26T17:52:50.596Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveBaseMessageResponse</loc>
-    <lastmod>2020-10-25T15:04:45.409Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveBaseMessageResponse</loc>
+    <lastmod>2020-10-26T17:52:53.223Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveClientHandshake</loc>
-    <lastmod>2020-10-25T15:04:51.687Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveClientHandshake</loc>
+    <lastmod>2020-10-26T17:52:56.843Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveClientHandshakeResponse</loc>
-    <lastmod>2020-10-25T15:05:03.000Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveClientHandshakeResponse</loc>
+    <lastmod>2020-10-26T17:53:00.485Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveConnectionPacket</loc>
-    <lastmod>2020-10-25T15:05:09.630Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveConnectionPacket</loc>
+    <lastmod>2020-10-26T17:53:03.437Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventBackup</loc>
-    <lastmod>2020-10-25T15:05:17.072Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventBackup</loc>
+    <lastmod>2020-10-26T17:53:06.076Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventDisconnect</loc>
-    <lastmod>2020-10-25T15:05:35.622Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventDisconnect</loc>
+    <lastmod>2020-10-26T17:53:08.149Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventFeedbackRequest</loc>
-    <lastmod>2020-10-25T15:05:51.698Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventFeedbackRequest</loc>
+    <lastmod>2020-10-26T17:53:10.681Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventID</loc>
+    <loc>https://kahoot.js.org/enum/LiveEventID</loc>
     <lastmod>2020-10-25T15:05:58.103Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventJoinResponse</loc>
-    <lastmod>2020-10-25T15:06:41.900Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventJoinResponse</loc>
+    <lastmod>2020-10-26T17:53:14.953Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventNameAccept</loc>
-    <lastmod>2020-10-25T15:06:52.483Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventNameAccept</loc>
+    <lastmod>2020-10-26T17:53:17.352Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventNameAcceptContent</loc>
+    <loc>https://kahoot.js.org/enum/LiveEventNameAcceptContent</loc>
     <lastmod>2020-10-25T15:06:59.653Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventNemesis</loc>
+    <loc>https://kahoot.js.org/enum/LiveEventNemesis</loc>
     <lastmod>2020-10-25T15:07:06.453Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventPodium</loc>
-    <lastmod>2020-10-25T15:07:12.358Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventPodium</loc>
+    <lastmod>2020-10-26T17:53:21.957Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionEnd</loc>
-    <lastmod>2020-10-25T15:07:21.032Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionEnd</loc>
+    <lastmod>2020-10-26T17:53:24.954Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionEndContent</loc>
-    <lastmod>2020-10-25T15:07:59.978Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionEndContent</loc>
+    <lastmod>2020-10-26T17:53:27.272Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionPointsData</loc>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionPointsData</loc>
     <lastmod>2020-10-25T15:08:08.344Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionReady</loc>
-    <lastmod>2020-10-25T15:08:15.727Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionReady</loc>
+    <lastmod>2020-10-26T17:53:31.430Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionReadyContent</loc>
-    <lastmod>2020-10-25T15:09:06.357Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionReadyContent</loc>
+    <lastmod>2020-10-26T17:53:33.798Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionStart</loc>
-    <lastmod>2020-10-25T15:09:14.221Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionStart</loc>
+    <lastmod>2020-10-26T17:53:36.702Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuestionStartContent</loc>
-    <lastmod>2020-10-25T15:09:39.102Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuestionStartContent</loc>
+    <lastmod>2020-10-26T17:53:38.997Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuizEnd</loc>
-    <lastmod>2020-10-25T15:09:48.028Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuizEnd</loc>
+    <lastmod>2020-10-26T17:53:40.960Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuizEndContent</loc>
-    <lastmod>2020-10-25T15:10:26.516Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuizEndContent</loc>
+    <lastmod>2020-10-26T17:53:43.054Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventQuizStart</loc>
-    <lastmod>2020-10-25T15:10:33.178Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventQuizStart</loc>
+    <lastmod>2020-10-26T17:53:46.062Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventRecoveryData</loc>
-    <lastmod>2020-10-25T15:10:44.561Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventRecoveryData</loc>
+    <lastmod>2020-10-26T17:53:48.800Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventReplay</loc>
-    <lastmod>2020-10-25T15:10:58.622Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventReplay</loc>
+    <lastmod>2020-10-26T17:53:51.297Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventStatus</loc>
-    <lastmod>2020-10-25T15:11:16.221Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventStatus</loc>
+    <lastmod>2020-10-26T17:53:53.871Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTeamAccept</loc>
-    <lastmod>2020-10-25T15:11:22.443Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTeamAccept</loc>
+    <lastmod>2020-10-26T17:53:56.647Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTeamAcceptContent</loc>
-    <lastmod>2020-10-25T15:11:28.608Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTeamAcceptContent</loc>
+    <lastmod>2020-10-26T17:53:58.893Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTeamTalk</loc>
-    <lastmod>2020-10-25T15:11:34.617Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTeamTalk</loc>
+    <lastmod>2020-10-26T17:54:00.972Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTeamTalkContent</loc>
-    <lastmod>2020-10-25T15:11:40.951Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTeamTalkContent</loc>
+    <lastmod>2020-10-26T17:54:03.351Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTimeOver</loc>
-    <lastmod>2020-10-25T15:11:47.723Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTimeOver</loc>
+    <lastmod>2020-10-26T17:54:05.712Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTimetrack</loc>
-    <lastmod>2020-10-25T15:11:56.227Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTimetrack</loc>
+    <lastmod>2020-10-26T17:54:09.072Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTwoFactorReset</loc>
-    <lastmod>2020-10-25T15:12:02.280Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTwoFactorReset</loc>
+    <lastmod>2020-10-26T17:54:11.346Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTwoFactorRight</loc>
-    <lastmod>2020-10-25T15:12:07.935Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTwoFactorRight</loc>
+    <lastmod>2020-10-26T17:54:14.807Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveEventTwoFactorWrong</loc>
-    <lastmod>2020-10-25T15:12:14.750Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveEventTwoFactorWrong</loc>
+    <lastmod>2020-10-26T17:54:17.134Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveFeedbackPacket</loc>
-    <lastmod>2020-10-25T15:12:33.128Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveFeedbackPacket</loc>
+    <lastmod>2020-10-26T17:54:20.173Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveFeedbackPacketContent</loc>
+    <loc>https://kahoot.js.org/enum/LiveFeedbackPacketContent</loc>
     <lastmod>2020-10-25T15:12:39.191Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveHandshakeAdvice</loc>
+    <loc>https://kahoot.js.org/enum/LiveHandshakeAdvice</loc>
     <lastmod>2020-10-25T15:12:45.781Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveHandshakeTimesync</loc>
-    <lastmod>2020-10-25T15:12:57.885Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveHandshakeTimesync</loc>
+    <lastmod>2020-10-26T17:54:24.584Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveJoinPacket</loc>
-    <lastmod>2020-10-25T15:13:05.206Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveJoinPacket</loc>
+    <lastmod>2020-10-26T17:54:27.548Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveJoinPacketContent</loc>
-    <lastmod>2020-10-25T15:13:17.582Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveJoinPacketContent</loc>
+    <lastmod>2020-10-26T17:54:29.684Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveJoinTeamPacket</loc>
-    <lastmod>2020-10-25T15:13:24.165Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveJoinTeamPacket</loc>
+    <lastmod>2020-10-26T17:54:31.479Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveJoinTeamPacketContent</loc>
-    <lastmod>2020-10-25T15:13:33.583Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveJoinTeamPacketContent</loc>
+    <lastmod>2020-10-26T17:54:33.084Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveLeavePacket</loc>
-    <lastmod>2020-10-25T15:13:41.451Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveLeavePacket</loc>
+    <lastmod>2020-10-26T17:54:36.030Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveMessageChannel</loc>
+    <loc>https://kahoot.js.org/enum/LiveMessageChannel</loc>
     <lastmod>2020-10-25T15:13:46.917Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveQuestionAnswer</loc>
-    <lastmod>2020-10-25T15:13:53.028Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveQuestionAnswer</loc>
+    <lastmod>2020-10-26T17:54:40.384Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveQuestionAnswerContent</loc>
-    <lastmod>2020-10-25T15:14:02.556Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveQuestionAnswerContent</loc>
+    <lastmod>2020-10-26T17:54:42.689Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveQuestionType</loc>
+    <loc>https://kahoot.js.org/enum/LiveQuestionType</loc>
     <lastmod>2020-10-25T15:14:08.467Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveReloginPacket</loc>
-    <lastmod>2020-10-25T15:14:16.647Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveReloginPacket</loc>
+    <lastmod>2020-10-26T17:54:46.039Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveRequestData</loc>
-    <lastmod>2020-10-25T15:14:22.195Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveRequestData</loc>
+    <lastmod>2020-10-26T17:54:49.314Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveSessionClientToken</loc>
+    <loc>https://kahoot.js.org/enum/LiveSessionClientToken</loc>
     <lastmod>2020-10-25T15:14:42.853Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveTimesyncData</loc>
-    <lastmod>2020-10-25T15:14:49.123Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveTimesyncData</loc>
+    <lastmod>2020-10-26T17:54:52.730Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveTimesyncDataSync</loc>
-    <lastmod>2020-10-25T15:14:58.412Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveTimesyncDataSync</loc>
+    <lastmod>2020-10-26T17:54:55.316Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/LiveTwoStepAnswer</loc>
-    <lastmod>2020-10-25T15:15:11.118Z</lastmod>
+    <loc>https://kahoot.js.org/enum/LiveTwoStepAnswer</loc>
+    <lastmod>2020-10-26T17:54:57.301Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/SearchLanguage</loc>
+    <loc>https://kahoot.js.org/enum/SearchLanguage</loc>
     <lastmod>2020-10-25T17:50:41.745Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/SearchQueryEntity</loc>
-    <lastmod>2020-10-25T21:09:34.217Z</lastmod>
+    <loc>https://kahoot.js.org/enum/SearchQueryEntity</loc>
+    <lastmod>2020-10-26T17:55:00.690Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/SearchQueryResult</loc>
-    <lastmod>2020-10-25T20:57:32.769Z</lastmod>
+    <loc>https://kahoot.js.org/enum/SearchQueryResult</loc>
+    <lastmod>2020-10-26T17:55:02.279Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/enum/SearchSubjectValue</loc>
+    <loc>https://kahoot.js.org/enum/SearchSubjectValue</loc>
     <lastmod>2020-10-25T16:30:56.871Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/ex/calculate-timesync</loc>
-    <lastmod>2020-10-25T14:59:47.716Z</lastmod>
+    <loc>https://kahoot.js.org/ex/calculate-timesync</loc>
+    <lastmod>2020-10-26T17:52:27.249Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/ex/decode-client</loc>
-    <lastmod>2020-10-25T15:00:20.134Z</lastmod>
+    <loc>https://kahoot.js.org/ex/decode-client</loc>
+    <lastmod>2020-10-26T17:52:30.424Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/ex/example-client</loc>
+    <loc>https://kahoot.js.org/ex/example-client</loc>
     <lastmod>2020-10-25T15:01:06.999Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/ex/random-name</loc>
+    <loc>https://kahoot.js.org/ex/random-name</loc>
     <lastmod>2020-10-25T15:02:25.827Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/ex/search</loc>
+    <loc>https://kahoot.js.org/ex/search</loc>
     <lastmod>2020-10-25T20:43:40.149Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/package/kahoot.js-updated</loc>
+    <loc>https://kahoot.js.org/package/kahoot.js-updated</loc>
     <lastmod>2020-10-25T14:55:41.503Z</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://kahoot.js.org/#/package/kahoot.py</loc>
+    <loc>https://kahoot.js.org/package/kahoot.py</loc>
     <lastmod>2020-10-25T14:57:13.771Z</lastmod>
     <priority>0.6</priority>
   </url>

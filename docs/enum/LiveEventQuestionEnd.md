@@ -1,6 +1,6 @@
 $An event signifying the end of the question
 ## LiveEventQuestionEnd
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 An event signifying the end of the question
 
@@ -26,7 +26,7 @@ An event signifying the end of the question
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>8</td>
     <td>Event id</td>
   </tr>
@@ -38,7 +38,7 @@ An event signifying the end of the question
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventQuestionEndContent">LiveEventQuestionEndContent</a></td>
+    <td><a href="/enum/LiveEventQuestionEndContent">LiveEventQuestionEndContent</a></td>
     <td></td>
     <td>Ranking, score, and quiz information</td>
   </tr>

@@ -20,7 +20,7 @@ The content of the accepted team
   </tr>
   <tr>
     <td>recoveryData</td>
-    <td><a href="#/enum/LiveEventRecoveryData">LiveEventRecoveryData</a></td>
+    <td><a href="/enum/LiveEventRecoveryData">LiveEventRecoveryData</a></td>
     <td></td>
     <td>The "recovery" data.</td>
   </tr>

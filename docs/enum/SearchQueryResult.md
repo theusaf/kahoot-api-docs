@@ -19,7 +19,7 @@ The JSON results of the search query.
   </tr>
   <tr>
     <td>entities</td>
-    <td>JSON Array[<a href="#/enum/SearchQueryEntity">SearchQueryEntity</a>]</td>
+    <td>JSON Array[<a href="/enum/SearchQueryEntity">SearchQueryEntity</a>]</td>
     <td></td>
     <td>The results of the query</td>
   </tr>

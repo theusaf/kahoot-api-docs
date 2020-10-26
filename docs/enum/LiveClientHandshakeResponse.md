@@ -1,7 +1,7 @@
 $The JSON response to a handshake request sent by the client
 ## LiveClientHandshakeResponse
-The JSON response to a handshake request sent by the <a href="#/class/client">client</a>.
-<span class="extends"><a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a></span>
+The JSON response to a handshake request sent by the <a href="/class/client">client</a>.
+<span class="extends"><a href="/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a></span>
 <span class="channel"><code>/meta/handshake</code></span>
 
 <div class="navigation">
@@ -44,7 +44,7 @@ The message contains the clientId which will be used in all future messages to a
   </tr>
   <tr>
     <td>supportedConnectionTypes</td>
-    <td>Array[<a href="#/enum/ConnectionType">ConnectionType</a>]</td>
+    <td>Array[<a href="/enum/ConnectionType">ConnectionType</a>]</td>
     <td>
       <pre>
         <code>
@@ -60,13 +60,13 @@ The message contains the clientId which will be used in all future messages to a
   </tr>
   <tr>
     <td>advice</td>
-    <td><a href="#/enum/LiveHandshakeAdvice">LiveHandshakeAdvice</a></td>
+    <td><a href="/enum/LiveHandshakeAdvice">LiveHandshakeAdvice</a></td>
     <td></td>
     <td>Advice to the client to do an action.</td>
   </tr>
   <tr>
     <td>ext</td>
-    <td>extension of <a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a>.ext, merged with <a href="#/enum/LiveHandshakeTimesync">LiveHandshakeTimesync</a></td>
+    <td>extension of <a href="/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a>.ext, merged with <a href="/enum/LiveHandshakeTimesync">LiveHandshakeTimesync</a></td>
     <td></td>
     <td>Timesync information.</td>
   </tr>
@@ -83,13 +83,13 @@ The message contains the clientId which will be used in all future messages to a
   </tr>
   <tr>
     <td>advice</td>
-    <td><a href="#/enum/LiveHandshakeAdvice?scrollTo=fail">LiveHandshakeAdvice#fail</a></td>
+    <td><a href="/enum/LiveHandshakeAdvice?scrollTo=fail">LiveHandshakeAdvice#fail</a></td>
     <td></td>
     <td>Advice to the client to do an action.</td>
   </tr>
   <tr>
     <td>ext</td>
-    <td>extension of <a href="#/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a>.ext, merged with <a href="#/enum/LiveHandshakeTimesync">LiveHandshakeTimesync</a></td>
+    <td>extension of <a href="/enum/LiveBaseMessageResponse">LiveBaseMessageResponse</a>.ext, merged with <a href="/enum/LiveHandshakeTimesync">LiveHandshakeTimesync</a></td>
     <td></td>
     <td>Timesync information.</td>
   </tr>

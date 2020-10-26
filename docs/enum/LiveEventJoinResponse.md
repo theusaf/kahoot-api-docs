@@ -1,6 +1,6 @@
 $The response to a client join request. Gives information about the player's id and a descriptive error message if it failed
 ## LiveEventJoinResponse
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/controller</code></span>
 
 <div class="navigation">

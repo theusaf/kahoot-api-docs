@@ -8,7 +8,7 @@
 ---
 <a class="nam" link="?scrollTo=list"></a>
 ### Aren't the messages sent in a list/array?
-All messages are sent as part of a list or messages but almost all messages are a list of a single message. The only time there is more than 1 message per message list is in some [Host](#/class/host) functions/events.
+All messages are sent as part of a list or messages but almost all messages are a list of a single message. The only time there is more than 1 message per message list is in some [Host](/class/host) functions/events.
 
 ---
 <a class="nam" link="?scrollTo=datamerge"></a>

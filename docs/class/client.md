@@ -74,12 +74,12 @@ Joining and interacting with Kahoot Live games.
   <a link="?scrollTo=answer" class="nam">Answer</a>
   <div class="info">
     <p>Answer the question.</p>
-    <p>Send a <a href="#/enum/LiveQuestionAnswer">LiveQuestionAnswer</a>.</p>
+    <p>Send a <a href="/enum/LiveQuestionAnswer">LiveQuestionAnswer</a>.</p>
   </div>
   <a link="?scrollTo=answer2step" class="nam">Answer Two Factor</a>
   <div class="info">
     <p>Answer the two factor authentification.</p>
-    <p>Send a <a href="#/enum/LiveTwoStepAnswer">LiveTwoStepAnswer</a>.</p>
+    <p>Send a <a href="/enum/LiveTwoStepAnswer">LiveTwoStepAnswer</a>.</p>
   </div>
   <a link="?scrollTo=connection" class="nam">CreateHandshake</a>
   <div class="info">
@@ -87,42 +87,42 @@ Joining and interacting with Kahoot Live games.
     <p>Steps:</p>
     <ol>
       <li><code>GET https://kahoot.it/reserve/session/{gameid}</code></li>
-      <ul><li>This should respond with a <a href="#/enum/LiveSessionClientToken">LiveSessionClientToken</a></li></ul>
+      <ul><li>This should respond with a <a href="/enum/LiveSessionClientToken">LiveSessionClientToken</a></li></ul>
       <li>Decode the challenge.</li>
-      <ul><li>See <a href="#/ex/decode-client">Decode Challenge Example</a></li></ul>
-      <li>Decode the <a href="#/enum/LiveSessionClientToken?scrollTo=token">x-kahoot-session-token</a> by decoding the base64 string</li>
-      <li>Combine the two tokens. See <a href="#/ex/decode-client?scrollTo=combine">Comine Tokens Example</a>. The resulting token is the token to use in the next step.</li>
+      <ul><li>See <a href="/ex/decode-client">Decode Challenge Example</a></li></ul>
+      <li>Decode the <a href="/enum/LiveSessionClientToken?scrollTo=token">x-kahoot-session-token</a> by decoding the base64 string</li>
+      <li>Combine the two tokens. See <a href="/ex/decode-client?scrollTo=combine">Comine Tokens Example</a>. The resulting token is the token to use in the next step.</li>
       <li>Then, create a websocket connection to <code>wss://kahoot.it/cometd/{gameid}/{token}</code></li>
-      <li>Finally, send a <a href="#/enum/LiveClientHandshake?scrollTo=first-handshake">LiveClientHandshake</a></li>
+      <li>Finally, send a <a href="/enum/LiveClientHandshake?scrollTo=first-handshake">LiveClientHandshake</a></li>
       <li>Now, wait for various events and respond to them as needed.</li>
     </ol>
   </div>
   <a link="?scrollTo=feedback" class="nam">Send Feedback</a>
   <div class="info">
-    <p>Used at the end of the game after a <a href="#/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
-    <p>Send a <a href="#/enum/LiveFeedbackPacket">LiveFeedbackPacket</a>.</p>
+    <p>Used at the end of the game after a <a href="/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
+    <p>Send a <a href="/enum/LiveFeedbackPacket">LiveFeedbackPacket</a>.</p>
   </div>
   <a link="?scrollTo=join" class="nam">Join</a>
   <div class="info">
     <p>Join the game.</p>
-    <p>Send a <a href="#/enum/LiveJoinPacket">LiveJoinPacket</a>.</p>
+    <p>Send a <a href="/enum/LiveJoinPacket">LiveJoinPacket</a>.</p>
   </div>
   <a link="?scrollTo=jointeam" class="nam">Join Team Members</a>
   <div class="info">
     <p>Used when the gameMode is <code>team</code>; after sending the join packet.</p>
-    <p>Send a <a href="#/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
+    <p>Send a <a href="/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
   </div>
   <a link="?scrollTo=leave" class="nam">Leave</a>
   <div class="info">
     <p>Leave the game.</p>
-    <p>Send a <a href="#/enum/LiveLeavePacket">LiveLeavePacket</a>.</p>
+    <p>Send a <a href="/enum/LiveLeavePacket">LiveLeavePacket</a>.</p>
   </div>
   <a link="?scrollTo=reconnect" class="nam">Reconnect</a>
   <div class="info">
     <p>Join a game. Used when the socket unexpectedly closed and the client wants to reconnect.</p>
     <ol>
-      <li>Follow steps for <a href="#/class/client?scrollTo=connection">CreateHandshake</a>.</li>
-      <li>Send a <a href="#/enum/LiveReloginPacket">LiveReloginPacket</a>.</li>
+      <li>Follow steps for <a href="/class/client?scrollTo=connection">CreateHandshake</a>.</li>
+      <li>Send a <a href="/enum/LiveReloginPacket">LiveReloginPacket</a>.</li>
     </ol>
   </div>
 </div>
@@ -132,126 +132,126 @@ Joining and interacting with Kahoot Live games.
   <a link="?scrollTo=Disconnect" class="nam">Disconnect</a>
   <div class="info">
     <p>The game has ended, the player was kicked, or Kahoot! disconnected the client from its server.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveEventDisconnect">LiveEventDisconnect</a>.</p>
-    <p>Respond with a <a href="#/enum/LiveLeavePacket">LiveLeavePacket</a> (needs testing: is this really necessary?). You may close the connection.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveEventDisconnect">LiveEventDisconnect</a>.</p>
+    <p>Respond with a <a href="/enum/LiveLeavePacket">LiveLeavePacket</a> (needs testing: is this really necessary?). You may close the connection.</p>
   </div>
   <a link="?scrollTo=FeedbackRequested" class="nam">FeedbackRequested</a>
   <div class="info">
     <p>The game ended and the host requested feedback.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
-    <p>No response needed. You may <strong>Respond with:</strong> <a href="#/enum/LiveFeedbackPacket">LiveFeedbackPacket</a></p>
+    <p>Happens when the server sends a <a href="/enum/LiveEventFeedbackRequest">LiveEventFeedbackRequest</a>.</p>
+    <p>No response needed. You may <strong>Respond with:</strong> <a href="/enum/LiveFeedbackPacket">LiveFeedbackPacket</a></p>
   </div>
   <a link="?scrollTo=replay" class="nam">GameReset</a>
   <div class="info">
     <p>The host decided to play the game again (or continue to the next game in the list).</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveEventReplay">LiveEventReplay</a>.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveEventReplay">LiveEventReplay</a>.</p>
     <p>No response needed? (needs testing). You should prepare the client for a new game.</p>
   </div>
   <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
   <div class="info">
     <p>The server accepts/rejects the handshake and sends back important information.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveClientHandshakeResponse">LiveClientHandshakeResponse</a>.</p>
-    <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=second-handshake">LiveClientHandshake#2</a> (if successful). Else, you may disconnect the socket.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveClientHandshakeResponse">LiveClientHandshakeResponse</a>.</p>
+    <p><strong>Respond with:</strong> <a href="/enum/LiveClientHandshake?scrollTo=second-handshake">LiveClientHandshake#2</a> (if successful). Else, you may disconnect the socket.</p>
   </div>
   <a link="?scrollTo=JoinResponse" class="nam">JoinResponse</a>
   <div class="info">
     <p>The server recieves the join/reconnect request and responds to it.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveEventJoinResponse">LiveEventJoinResponse</a>.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveEventJoinResponse">LiveEventJoinResponse</a>.</p>
     <p>Response to this message may vary, depending on the server's response.</p>
   </div>
   <a link="?scrollTo=NameAccept" class="nam">NameAccept</a>
   <div class="info">
     <p>The server has checked your name and approved/changed it.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveEventNameAccept">LiveEventNameAccept</a>.</p>
-    <p>You may respond with a <a href="#/enum/LiveRequestData">LiveRequestData</a>.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveEventNameAccept">LiveEventNameAccept</a>.</p>
+    <p>You may respond with a <a href="/enum/LiveRequestData">LiveRequestData</a>.</p>
   </div>
   <a link="?scrollTo=ping" class="nam">Ping</a>
   <div class="info">
     <p>The server sends a ping to determine if the client is still connected.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveConnectionPacket">LiveConnectionPacket</a>.</p>
-    <p><strong>Respond with:</strong> <a href="#/enum/LiveClientHandshake?scrollTo=pong">LiveClientHandshake#ping</a></p>
+    <p>Happens when the server sends a <a href="/enum/LiveConnectionPacket">LiveConnectionPacket</a>.</p>
+    <p><strong>Respond with:</strong> <a href="/enum/LiveClientHandshake?scrollTo=pong">LiveClientHandshake#ping</a></p>
   </div>
   <a link="?scrollTo=podium" class="nam">Podium</a>
   <div class="info">
     <p>The quiz has ended. Contains the podium information. Emitted after the QuizEnd event.</p>
-    <p>Happens when the server sends a <a href="#/enum/LiveEventPodium">LiveEventPodium</a>.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveEventPodium">LiveEventPodium</a>.</p>
     <p>No response needed.</p>
   </div>
   <a link="?scrollTo=QuestionEnd" class="nam">QuestionEnd</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventQuestionEnd">LiveEventQuestionEnd</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventQuestionEnd">LiveEventQuestionEnd</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=QuestionReady" class="nam">QuestionReady</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventQuestionReady">LiveEventQuestionReady</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventQuestionReady">LiveEventQuestionReady</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=QuestionStart" class="nam">QuestionStart</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventQuestionStart">LiveEventQuestionStart</a>.</p>
-    <p>No response is needed. You may <a href="#/class/client?scrollTo=answer">answer</a> the question now.</p>
+    <p>The server sends a <a href="/enum/LiveEventQuestionStart">LiveEventQuestionStart</a>.</p>
+    <p>No response is needed. You may <a href="/class/client?scrollTo=answer">answer</a> the question now.</p>
   </div>
   <a link="?scrollTo=QuizEnd" class="nam">QuizEnd</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventQuizEnd">LiveEventQuizEnd</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventQuizEnd">LiveEventQuizEnd</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=QuizStart" class="nam">QuizStart</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventQuizStart">LiveEventQuizStart</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventQuizStart">LiveEventQuizStart</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=status" class="nam">Status</a>
   <div class="info">
     <p>Usually sent after the client tries to join a game.</p>
-    <p>The server sends a <a href="#/enum/LiveEventStatus">LiveEventStatus</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventStatus">LiveEventStatus</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=RequestData" class="nam">RequestData</a>
   <div class="info">
     <p>The server sends the backup data to the client.</p>
-    <p>The server sends a <a href="#/enum/LiveEventBackup">LiveEventBackup</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventBackup">LiveEventBackup</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=teamaccept" class="nam">TeamAccept</a>
   <div class="info">
     <p>Your team members have been accepted.</p>
-    <p>The server sends a <a href="#/enum/LiveEventTeamAccept">LiveEventTeamAccept</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventTeamAccept">LiveEventTeamAccept</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=teamtalk" class="nam">TeamTalk</a>
   <div class="info">
     <p>Team mode is active and team talk has started.</p>
-    <p>The server sends a <a href="#/enum/LiveEventTeamTalk">LiveEventTeamTalk</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventTeamTalk">LiveEventTeamTalk</a>.</p>
     <p>No response is needed. (You can technically answer the question now [for the main Kahoot! player], but that will be suspicious)</p>
   </div>
   <a link="?scrollTo=TimeOver" class="nam">TimeOver</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventTimeOver">LiveEventTimeOver</a>.</p>
+    <p>The server sends a <a href="/enum/LiveEventTimeOver">LiveEventTimeOver</a>.</p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=timetrack" class="nam">Timetrack</a>
   <div class="info">
-    <p>The server sends a <a href="#/enum/LiveEventTimetrack">LiveEventTimetrack</a> about the current time. This is usually in response to a function.</p>
+    <p>The server sends a <a href="/enum/LiveEventTimetrack">LiveEventTimetrack</a> about the current time. This is usually in response to a function.</p>
     <p>No response is needed (this is the response to a client action)</p>
   </div>
   <a link="?scrollTo=TwoFactorReset" class="nam">TwoFactorReset</a>
   <div class="info">
     <p>The two-factor code has been reset.</p>
-    <p>The server sends a <a href="#/enum/LiveEventTwoFactorReset">LiveEventTwoFactorReset</a></p>
-    <p>No response is needed. You may <a href="#/class/client?scrollTo=answer2step">answer the two factor code</a> if you have not answered it successfully yet.</p>
+    <p>The server sends a <a href="/enum/LiveEventTwoFactorReset">LiveEventTwoFactorReset</a></p>
+    <p>No response is needed. You may <a href="/class/client?scrollTo=answer2step">answer the two factor code</a> if you have not answered it successfully yet.</p>
   </div>
   <a link="?scrollTo=TwoFactorRight" class="nam">TwoFactorRight</a>
   <div class="info">
     <p>The two-factor code was answered correctly.</p>
-    <p>The server sends a <a href="#/enum/LiveEventTwoFactorRight">LiveEventTwoFactorRight</a></p>
+    <p>The server sends a <a href="/enum/LiveEventTwoFactorRight">LiveEventTwoFactorRight</a></p>
     <p>No response is needed.</p>
   </div>
   <a link="?scrollTo=TwoFactorWrong" class="nam">TwoFactorWrong</a>
   <div class="info">
     <p>The two-factor code was answered incorrectly.</p>
-    <p>The server sends a <a href="#/enum/LiveEventTwoFactorWrong">LiveEventTwoFactorWrong</a></p>
+    <p>The server sends a <a href="/enum/LiveEventTwoFactorWrong">LiveEventTwoFactorWrong</a></p>
     <p>No response is needed.</p>
   </div>
 </div>

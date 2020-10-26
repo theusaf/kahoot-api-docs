@@ -1,6 +1,6 @@
 $The team members have been accepted.
 ## LiveEventTeamAccept
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 The team members have been accepted.
@@ -27,7 +27,7 @@ The team members have been accepted.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>19</td>
     <td></td>
   </tr>
@@ -39,7 +39,7 @@ The team members have been accepted.
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventTeamAcceptContent">LiveEventTeamAcceptContent</a></td>
+    <td><a href="/enum/LiveEventTeamAcceptContent">LiveEventTeamAcceptContent</a></td>
     <td></td>
     <td>The content about the accepted team.</td>
   </tr>

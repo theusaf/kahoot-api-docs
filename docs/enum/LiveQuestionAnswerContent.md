@@ -2,7 +2,7 @@ $The answer data for a LiveQuestionAnswer
 ## LiveQuestionAnswerContent
 <span class="type">Stringified JSON</span>
 
-The answer data for a [LiveQuestionAnswer](#/enum/LiveQuestionAnswer)
+The answer data for a [LiveQuestionAnswer](/enum/LiveQuestionAnswer)
 
 ### Data
 <table>
@@ -16,7 +16,7 @@ The answer data for a [LiveQuestionAnswer](#/enum/LiveQuestionAnswer)
     <td>choice</td>
     <td>Number/String/Array</td>
     <td></td>
-    <td>Values used to answer the question. Varies based on the <a href="#/enum/LiveQuestionType">question type</a>.</td>
+    <td>Values used to answer the question. Varies based on the <a href="/enum/LiveQuestionType">question type</a>.</td>
   </tr>
   <tr>
     <td>questionIndex</td>
@@ -41,7 +41,7 @@ The answer data for a [LiveQuestionAnswer](#/enum/LiveQuestionAnswer)
   </tr>
   <tr>
     <td>type</td>
-    <td><a href="#/enum/LiveQuestionType">LiveQuestionType</a></td>
+    <td><a href="/enum/LiveQuestionType">LiveQuestionType</a></td>
     <td></td>
     <td>The type of the question.</td>
   </tr>

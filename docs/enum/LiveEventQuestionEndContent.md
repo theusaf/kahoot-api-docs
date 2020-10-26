@@ -1,7 +1,7 @@
 $Content sent at the end of the question, with information about the player's points, rank, and choice
 ## LiveEventQuestionEndContent
 <span class="type">String[JSON Object]</span>
-The content describing the [LiveEventQuestionEnd](#/enum/LiveEventQuestionEnd).
+The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
 
 <table>
   <tr>
@@ -18,7 +18,7 @@ The content describing the [LiveEventQuestionEnd](#/enum/LiveEventQuestionEnd).
   </tr>
   <tr>
     <td>type</td>
-    <td><a href="#/enum/LiveQuestionType">LiveQuestionType</a></td>
+    <td><a href="/enum/LiveQuestionType">LiveQuestionType</a></td>
     <td>quiz</td>
     <td>The type of the question.</td>
   </tr>
@@ -72,7 +72,7 @@ The content describing the [LiveEventQuestionEnd](#/enum/LiveEventQuestionEnd).
   </tr>
   <tr>
     <td>pointsData</td>
-    <td><a href="#/enum/LiveEventQuestionPointsData">LiveEventQuestionPointsData</a></td>
+    <td><a href="/enum/LiveEventQuestionPointsData">LiveEventQuestionPointsData</a></td>
     <td></td>
     <td>Extra points/streak information</td>
   </tr>
@@ -84,7 +84,7 @@ The content describing the [LiveEventQuestionEnd](#/enum/LiveEventQuestionEnd).
   </tr>
   <tr>
     <td>nemesis</td>
-    <td><a href="#/enum/LiveEventNemesis">LiveEventNemesis</a></td>
+    <td><a href="/enum/LiveEventNemesis">LiveEventNemesis</a></td>
     <td></td>
     <td>If there is no nemesis (first place), this property will be nonexistent.</td>
   </tr>

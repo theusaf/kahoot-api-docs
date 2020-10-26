@@ -22,14 +22,14 @@ JSON data sent to Kahoot's socket to establish a connection.
   </tr>
   <tr>
     <td>channel</td>
-    <td><a href="#/enum/LiveMessageChannel">LiveMessageChannel</a></td>
+    <td><a href="/enum/LiveMessageChannel">LiveMessageChannel</a></td>
     <td>/meta/connect</td>
     <td>The channel to send the message to.</td>
   </tr>
   <tr>
     <td>ext</td>
-    <td><a href="#/enum/LiveTimesyncData">LiveTimesyncData</a></td>
-    <td><a href="#/enum/LiveTimesyncData?scrollTo=ping">LiveTimesyncData#ping</a></td>
+    <td><a href="/enum/LiveTimesyncData">LiveTimesyncData</a></td>
+    <td><a href="/enum/LiveTimesyncData?scrollTo=ping">LiveTimesyncData#ping</a></td>
     <td>Timesync data.</td>
   </tr>
   <tr>
@@ -78,7 +78,7 @@ JSON data sent to Kahoot's socket to establish a connection.
   </tr>
   <tr>
     <td>supportedConnectionTypes</td>
-    <td>Array[<a href="#/enum/ConnectionType">ConnectionType</a>]</td>
+    <td>Array[<a href="/enum/ConnectionType">ConnectionType</a>]</td>
     <td>
       <pre>
         <code>
@@ -93,14 +93,14 @@ JSON data sent to Kahoot's socket to establish a connection.
   </tr>
   <tr>
     <td>channel</td>
-    <td><a href="#/enum/LiveMessageChannel">LiveMessageChannel</a></td>
+    <td><a href="/enum/LiveMessageChannel">LiveMessageChannel</a></td>
     <td>/meta/handshake</td>
     <td>The channel to send the message to.</td>
   </tr>
   <tr>
     <td>ext</td>
-    <td><a href="#/enum/LiveTimesyncData">LiveTimesyncData</a></td>
-    <td><a href="#/enum/LiveTimesyncData?scrollTo=first-handshake">LiveTimesyncData#first-handshake</a></td>
+    <td><a href="/enum/LiveTimesyncData">LiveTimesyncData</a></td>
+    <td><a href="/enum/LiveTimesyncData?scrollTo=first-handshake">LiveTimesyncData#first-handshake</a></td>
     <td>Timesync data.</td>
   </tr>
   <tr>
@@ -136,14 +136,14 @@ JSON data sent to Kahoot's socket to establish a connection.
   </tr>
   <tr>
     <td>channel</td>
-    <td><a href="#/enum/LiveMessageChannel">LiveMessageChannel</a></td>
+    <td><a href="/enum/LiveMessageChannel">LiveMessageChannel</a></td>
     <td>/meta/connect</td>
     <td>The channel to send the message to.</td>
   </tr>
   <tr>
     <td>ext</td>
-    <td><a href="#/enum/LiveTimesyncData">LiveTimesyncData</a></td>
-    <td><a href="#/enum/LiveTimesyncData?scrollTo=second-handshake">LiveTimesyncData#second-handshake</a></td>
+    <td><a href="/enum/LiveTimesyncData">LiveTimesyncData</a></td>
+    <td><a href="/enum/LiveTimesyncData?scrollTo=second-handshake">LiveTimesyncData#second-handshake</a></td>
     <td>The channel to send the message to.</td>
   </tr>
   <tr>

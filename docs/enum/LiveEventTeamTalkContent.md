@@ -26,13 +26,13 @@ Content about the team talk/upcoming question
   </tr>
   <tr>
     <td>gameBlockType</td>
-    <td><a href="#/enum/LiveQuestionType">LiveQuestionType</a></td>
+    <td><a href="/enum/LiveQuestionType">LiveQuestionType</a></td>
     <td>quiz</td>
     <td>The type of the question</td>
   </tr>
   <tr>
     <td>gameBlockLayout</td>
-    <td><a href="#/enum/GameBlockLayout">GameBlockLayout</a></td>
+    <td><a href="/enum/GameBlockLayout">GameBlockLayout</a></td>
     <td>CLASSIC</td>
     <td>The layout of the question</td>
   </tr>

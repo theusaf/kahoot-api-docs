@@ -1,6 +1,6 @@
 $An event signifying that the game is restarting
 ## LiveEventReplay
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 ### Data
@@ -19,7 +19,7 @@ $An event signifying that the game is restarting
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>5</td>
     <td></td>
   </tr>

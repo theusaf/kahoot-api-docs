@@ -12,7 +12,7 @@ The main JSON object for almost all Kahoot Live events. (to and from client)
   </tr>
   <tr>
     <td>channel</td>
-    <td><a href="#/enum/LiveMessageChannel">LiveMessageChannel</a></td>
+    <td><a href="/enum/LiveMessageChannel">LiveMessageChannel</a></td>
     <td>/service/player</td>
     <td>The channel section for the message. This value should be listed under 'Channel' in each event. (While it is usually <code>/service/player</code>, this is not always the case)</td>
   </tr>

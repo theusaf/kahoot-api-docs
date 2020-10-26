@@ -1,6 +1,6 @@
 $The handshake timesync data included with a LiveClientHandshakeResponse
 ## LiveHandshakeTimesync
-The handshake timesync data included with [LiveClientHandshakeResponse](#/enum/LiveClientHandshakeResponse).
+The handshake timesync data included with [LiveClientHandshakeResponse](/enum/LiveClientHandshakeResponse).
 
 <table>
   <tr>
@@ -25,7 +25,7 @@ The handshake timesync data included with [LiveClientHandshakeResponse](#/enum/L
     <td>tc</td>
     <td><a href="https://en.wikipedia.org/wiki/Unix_time">Unix Date (ms)</a></td>
     <td></td>
-    <td>The client time sent with the <a href="#/enum/LiveClientHandshake">LiveClientHandshake</a></td>
+    <td>The client time sent with the <a href="/enum/LiveClientHandshake">LiveClientHandshake</a></td>
   </tr>
   <tr>
     <td>ts</td>

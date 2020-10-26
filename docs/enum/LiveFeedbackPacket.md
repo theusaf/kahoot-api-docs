@@ -1,8 +1,8 @@
 $A JSON message containing data about feedback when requested by a LiveEventFeedbackRequest
 ## LiveFeedbackPacket
-<span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
+<span class="extends"><a href="/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/controller</code></span>
-A JSON message containing data about feedback when requested by a [LiveEventFeedbackRequest](#/enum/LiveEventFeedbackRequest)
+A JSON message containing data about feedback when requested by a [LiveEventFeedbackRequest](/enum/LiveEventFeedbackRequest)
 
 **There should be a minumum delay of ~0.5s between request and sending this message**
 
@@ -16,7 +16,7 @@ A JSON message containing data about feedback when requested by a [LiveEventFeed
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>11</td>
     <td></td>
   </tr>
@@ -40,7 +40,7 @@ A JSON message containing data about feedback when requested by a [LiveEventFeed
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveFeedbackPacketContent">LiveFeedbackPacketContent</a></td>
+    <td><a href="/enum/LiveFeedbackPacketContent">LiveFeedbackPacketContent</a></td>
     <td></td>
     <td>The details about each feedback field.</td>
   </tr>

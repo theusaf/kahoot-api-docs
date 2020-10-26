@@ -1,6 +1,6 @@
 $An event signifying the question is about to start.
 ## LiveEventQuestionReady
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 An event signifying the question is about to start.
 
@@ -20,7 +20,7 @@ An event signifying the question is about to start.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>1</td>
     <td></td>
   </tr>
@@ -32,7 +32,7 @@ An event signifying the question is about to start.
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventQuestionReadyContent">LiveEventQuestionReadyContent</a></td>
+    <td><a href="/enum/LiveEventQuestionReadyContent">LiveEventQuestionReadyContent</a></td>
     <td></td>
     <td>The content about the question</td>
   </tr>

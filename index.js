@@ -41,9 +41,10 @@
       repl2[i].name = location.hash.split("?")[0] + repl2[i].getAttribute("link");
     }
     if(location.hash.search(/\?/gm) !== -1 || location.search){
-      var str = location.search || location.hash;
-      // prefer search over hash
-      try{document.querySelector('[name="' + str + '"]').scrollIntoView();}catch(e){}
+      var str = location.search || location.hash; // prefer search over hash
+      setTimeout(function(){
+        try{document.querySelector('[name="' + str + '"]').scrollIntoView();}catch(e){}
+      });
     }
   }
   function FetchData(first,newloc){
@@ -66,6 +67,7 @@
         try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
         try{document.querySelector(".selected").className = "";}catch(e){}
         try{link.className = "selected";}catch(e){}
+        if(path === "/" || path === "/search"){path = "/welcome";}
         var x = new XMLHttpRequest();
         x.open("GET","/docs" + path + ".md");
         x.send();
@@ -88,8 +90,8 @@
           oldhash = location.pathname;
         }
       }else{ // probably History api path
-        var path = newloc.pathname || location.pathname,
-          search = newloc.search || location.search
+        var path = (newloc || location).pathname,
+          search = (newloc || location).search
         try{document.querySelector('[name="' + search + '"]').scrollIntoView();}catch(e){}
         if(!first && oldhash === path){
           history.replaceState(history.state,document.title,newloc.href || location.href);
@@ -99,6 +101,7 @@
         try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
         try{document.querySelector(".selected").className = "";}catch(e){}
         try{link.className = "selected";}catch(e){}
+        if(path === "/" || path === "/search"){path = "/welcome";}
         var x = new XMLHttpRequest();
         x.open("GET","/docs" + path + ".md");
         x.send();
@@ -120,6 +123,9 @@
           }
           oldhash = location.pathname;
         }
+      }
+      if(!(newloc || location).search){
+        scrollTo(0,0);
       }
       return;
     }
@@ -180,13 +186,20 @@
     });
   }else{
     window.addEventListener("popstate",function(event){
-      RenderDocument(event.state);
+      if(event.state.isSearch){
+        output.innerHTML = event.state.data;
+        document.title = event.state.title;
+      }else{
+        RenderDocument(event.state);
+      }
+      oldhash = location.pathname;
     });
     window.addEventListener("click",function(event){
       if(event.target.nodeName === "A"){
         event.preventDefault();
         var url = new URL(event.target.href);
         if(!("History" in window)){
+          location.hash = "#" + url.pathname;
           return;
         }
         FetchData(false,url);
@@ -226,10 +239,19 @@
   var search = document.getElementById("search");
   search.addEventListener("keydown",function(e){
     if((e.code && e.code === "Enter") || (e.keyCode === 13)){
-      location.hash = "#/search";
+      document.title = "Search results for '" + search.value + "'";
+      if("History" in window){
+        history.pushState({
+          title: document.title,
+          data: "",
+          isSearch: true
+        },document.title,"/search");
+      }else{
+        location.hash = "#/search";
+      }
       output.innerHTML = '<div id="prep">\
         <div style="flex: 1;">\
-          <img src="loading.svg" alt="Loading... Please wait">\
+          <img src="/loading.svg" alt="Loading... Please wait">\
         </div>\
       </div>';
       // begin searching
@@ -249,8 +271,9 @@
   }
   function Search(files,term){
     var file = files[0];
+    var url = new URL(file.href);
     var x = new XMLHttpRequest;
-    x.open("GET","/docs/" + file.href.split("#/")[1] + ".md");
+    x.open("GET","/docs" + url.pathname + ".md");
     x.send();
     x.onerror = function(){
       if(cancelSearch || files.length === 1){
@@ -281,6 +304,21 @@
       if(cancelSearch || files.length === 1){
         if(output.querySelector("#prep")){
           output.innerHTML = "No results found.";
+          if("History" in window){
+            history.replaceState({
+              title: document.title,
+              data: "No results found.",
+              isSearch: true
+            },document.title,"/search");
+          }
+        }else{
+          if("History" in window){
+            history.replaceState({
+              title: document.title,
+              data: output.innerHTML,
+              isSearch: true
+            },document.title,"/search");
+          }
         }
         return cancelSearch = false;
       }

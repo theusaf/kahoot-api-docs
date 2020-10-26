@@ -11,7 +11,7 @@ Information about the current time on the server when the action was recieved
   </tr>
   <tr>
     <td>channel</td>
-    <td><a href="#/enum/LiveMessageChannel">LiveMessageChannel</a></td>
+    <td><a href="/enum/LiveMessageChannel">LiveMessageChannel</a></td>
     <td></td>
     <td>The channel that the client's message channel was in.</td>
   </tr>

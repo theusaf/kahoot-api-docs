@@ -23,7 +23,7 @@ Search for public Kahoot!s on Discover!
 ### Important Notes:
 - The base path for all Kahoot! searches is: [https://(create).kahoot.it/rest/kahoots/](https://kahoot.it/rest/kahoots/)
   - The subdomain can be ignored, and can be set to any Kahoot! subdomain.
-- All searches will return a [SearchQueryResult](#/enum/SearchQueryResult)
+- All searches will return a [SearchQueryResult](/enum/SearchQueryResult)
 - All "options" are querystring options.
   - Example: `https://kahoot.it/rest/kahoots/?query=foo%20bar&cursor=50&limit=5`
 
@@ -32,7 +32,7 @@ Search for public Kahoot!s on Discover!
 <div>
   <a link="?scrollTo=query" class="nam">query</a>
   <div class="info">
-    The search query to use. There are some queries that do not work. See <a href="#/ex/search?scrollTo=correction">Search Example#correction</a>
+    The search query to use. There are some queries that do not work. See <a href="/ex/search?scrollTo=correction">Search Example#correction</a>
     <table>
       <tr>
         <th>Type</th>
@@ -97,7 +97,7 @@ Search for public Kahoot!s on Discover!
         <th>Description</th>
       </tr>
       <tr>
-        <td><a href="#/enum/SearchSubjectValue">SearchSubjectValue</a></td>
+        <td><a href="/enum/SearchSubjectValue">SearchSubjectValue</a></td>
         <td></td>
         <td>The subject(s) to filter results by.</td>
       </tr>
@@ -166,7 +166,7 @@ Search for public Kahoot!s on Discover!
         <th>description</th>
       </tr>
       <tr>
-        <td><a href="#/enum/SearchLanguage">SearchLanguage</a></td>
+        <td><a href="/enum/SearchLanguage">SearchLanguage</a></td>
         <td></td>
         <td>This can be a list/single language, separated by commas and uri-endoded.</td>
       </tr>

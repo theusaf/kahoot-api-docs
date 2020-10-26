@@ -1,6 +1,6 @@
 $An event created when the client disconnects or is kicked
 ## LiveEventDisconnect
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 ### Data
@@ -19,7 +19,7 @@ $An event created when the client disconnects or is kicked
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>10</td>
     <td></td>
   </tr>

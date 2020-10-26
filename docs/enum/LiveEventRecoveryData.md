@@ -201,7 +201,7 @@ Recovery Data contains a `data` property, which is the event data as well as a `
             <th>description</th>
           </tr>
           <td>getReady</td>
-          <td>JSON Object[<a href="#/enum/LiveEventQuestionReadyContent">LiveEventQuestionReadyContent</a>]</td>
+          <td>JSON Object[<a href="/enum/LiveEventQuestionReadyContent">LiveEventQuestionReadyContent</a>]</td>
           <td></td>
           <td>The get ready information.</td>
         </table>
@@ -269,7 +269,7 @@ Recovery Data contains a `data` property, which is the event data as well as a `
     </tr>
     <tr>
       <td>data</td>
-      <td>JSON Object[<a href="#/enum/LiveEventQuestionStartContent">LiveEventQuestionStartContent</a>]</td>
+      <td>JSON Object[<a href="/enum/LiveEventQuestionStartContent">LiveEventQuestionStartContent</a>]</td>
       <td></td>
       <td>The question start data.</td>
     </tr>
@@ -350,13 +350,13 @@ Recovery Data contains a `data` property, which is the event data as well as a `
           </tr>
           <tr>
             <td>revealAnswer</td>
-            <td>JSON Object[<a href="#/enum/LiveEventQuestionEndContent">LiveEventQuestionEndContent</a>]</td>
+            <td>JSON Object[<a href="/enum/LiveEventQuestionEndContent">LiveEventQuestionEndContent</a>]</td>
             <td></td>
             <td>The question end content.</td>
           </tr>
           <tr>
             <td>timeUp</td>
-            <td>JSON Object[<a href="#/enum/LiveEventTimeOver">LiveEventTimeOver</a>.content]</td>
+            <td>JSON Object[<a href="/enum/LiveEventTimeOver">LiveEventTimeOver</a>.content]</td>
             <td></td>
             <td>The time end content.</td>
           </tr>

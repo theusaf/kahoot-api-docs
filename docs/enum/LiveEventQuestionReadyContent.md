@@ -1,7 +1,7 @@
 $Content about the upcoming question, including the type of question and the layout of the question.
 ## LiveEventQuestionReadyContent
 <span class="type">String[JSON Object]</span>
-The content describing the [LiveEventQuestionReady](#/enum/LiveEventQuestionReady).
+The content describing the [LiveEventQuestionReady](/enum/LiveEventQuestionReady).
 
 <table>
   <tr>
@@ -18,13 +18,13 @@ The content describing the [LiveEventQuestionReady](#/enum/LiveEventQuestionRead
   </tr>
   <tr>
     <td>gameBlockType</td>
-    <td><a href="#/enum/LiveQuestionType">LiveQuestionType</a></td>
+    <td><a href="/enum/LiveQuestionType">LiveQuestionType</a></td>
     <td>quiz</td>
     <td>The type of the question.</td>
   </tr>
   <tr>
     <td>gameBlockLayout</td>
-    <td><a href="#/enum/GameBlockLayout">gameBlockLayout</a></td>
+    <td><a href="/enum/GameBlockLayout">gameBlockLayout</a></td>
     <td>CLASSIC</td>
     <td>The layout of the question. May be nonexistent.</td>
   </tr>

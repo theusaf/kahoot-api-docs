@@ -1,6 +1,6 @@
 $An event signifying the time end of a question.
 ## LiveEventTimeOver
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 An event signifying the time end of a question.
 
@@ -26,7 +26,7 @@ An event signifying the time end of a question.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>4</td>
     <td>Event id</td>
   </tr>

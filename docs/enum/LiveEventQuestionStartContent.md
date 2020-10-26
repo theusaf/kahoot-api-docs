@@ -1,7 +1,7 @@
 $Content about the question when the question starts, including the type, layout, and remaining time left in the question.
 ## LiveEventQuestionStartContent
 <span class="type">String[JSON Object]</span>
-The content describing the [LiveEventQuestionStart](#/enum/LiveEventQuestionStart).
+The content describing the [LiveEventQuestionStart](/enum/LiveEventQuestionStart).
 
 <table>
   <tr>
@@ -18,13 +18,13 @@ The content describing the [LiveEventQuestionStart](#/enum/LiveEventQuestionStar
   </tr>
   <tr>
     <td>gameBlockType</td>
-    <td><a href="#/enum/LiveQuestionType">LiveQuestionType</a></td>
+    <td><a href="/enum/LiveQuestionType">LiveQuestionType</a></td>
     <td>quiz</td>
     <td>The type of the question.</td>
   </tr>
   <tr>
     <td>gameBlockLayout</td>
-    <td><a href="#/enum/GameBlockLayout">gameBlockLayout</a></td>
+    <td><a href="/enum/GameBlockLayout">gameBlockLayout</a></td>
     <td>CLASSIC</td>
     <td>The layout of the question.</td>
   </tr>

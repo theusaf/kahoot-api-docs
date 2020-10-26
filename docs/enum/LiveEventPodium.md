@@ -1,6 +1,6 @@
 $Data about the podium information.
 ## LiveEventPodium
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 Data about the podium information.
@@ -27,7 +27,7 @@ Data about the podium information.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>13</td>
     <td></td>
   </tr>

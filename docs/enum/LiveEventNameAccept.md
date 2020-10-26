@@ -1,6 +1,6 @@
 $A packet sent when the name is accepted.
 ## LiveEventNameAccept
-<span class="extends"><a href="#/enum/LiveBaseEvent">LiveBaseEvent</a></span>
+<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseEvent</a></span>
 <span class="channel"><code>/service/player</code></span>
 
 A packet sent when the name is accepted.
@@ -26,7 +26,7 @@ A packet sent when the name is accepted.
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>14</td>
     <td></td>
   </tr>
@@ -38,7 +38,7 @@ A packet sent when the name is accepted.
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveEventNameAcceptContent">LiveEventNameAcceptContent</a></td>
+    <td><a href="/enum/LiveEventNameAcceptContent">LiveEventNameAcceptContent</a></td>
     <td></td>
     <td>The content of the packet.</td>
   </tr>

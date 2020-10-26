@@ -1,6 +1,6 @@
 $A JSON message containing information about the disconnected client in order to reconnect to the game.
 ## LiveReloginPacket
-<span class="extends"><a href="#/enum/LiveBaseMessage">LiveBaseMessage</a></span>
+<span class="extends"><a href="/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 
 **There should be a minimum delay of ~0.5s between handshake and sending this message.**
 
@@ -28,7 +28,7 @@ A JSON message containing information about the disconnected client in order to 
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveJoinPacketContent">LiveJoinPacketContent</a></td>
+    <td><a href="/enum/LiveJoinPacketContent">LiveJoinPacketContent</a></td>
     <td></td>
     <td>Information about the client.</td>
   </tr>

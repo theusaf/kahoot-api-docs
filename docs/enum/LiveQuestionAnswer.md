@@ -1,7 +1,7 @@
 $An answer to a Kahoot Question
 ## LiveQuestionAnswer
 <span class="extends">
-  <a href="#/enum/LiveBaseMessage">LiveBaseMessage</a>
+  <a href="/enum/LiveBaseMessage">LiveBaseMessage</a>
 </span>
 <span class="channel"><code>/service/controller</code></span>
 
@@ -17,7 +17,7 @@ An answer to a Kahoot Question
   </tr>
   <tr>
     <td>content</td>
-    <td><a href="#/enum/LiveQuestionAnswerContent">LiveQuestionAnswerContent</a></td>
+    <td><a href="/enum/LiveQuestionAnswerContent">LiveQuestionAnswerContent</a></td>
     <td></td>
     <td>The actual answer information</td>
   </tr>
@@ -35,7 +35,7 @@ An answer to a Kahoot Question
   </tr>
   <tr>
     <td>id</td>
-    <td><a href="#/enum/LiveEventID">LiveEventID</a></td>
+    <td><a href="/enum/LiveEventID">LiveEventID</a></td>
     <td>45</td>
     <td></td>
   </tr>
