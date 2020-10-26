@@ -8,8 +8,8 @@ The following explains how to calculate values for <a href="/enum/LiveTimesyncDa
 <div class="navigation">
   <div>
     <span>Sections</span>
-    <a link="?scrollTo=client">Client</a>
-    <a link="?scrollTo=host">Host</a>
+    <a link="?scrollTo=client" class="nav">Client</a>
+    <a link="?scrollTo=host" class="nav">Host</a>
   </div>
 </div>
 
