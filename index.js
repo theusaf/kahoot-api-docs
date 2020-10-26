@@ -13,7 +13,16 @@
       des = data.html.match(/^\$.*/i)[0].substr(1);
       data.html = data.html.replace(/^\$.*\n/i,"");
     }
-    data.html = data.html.replace("http-equiv=\"refresh\"",""); // remove extra redirect
+    if(data.html[0] === "<"){
+      data.html = "# Could not fetch the document\nThis may be due to a typo or the document has not been created yet."
+    }else{
+      setTimeout(function(){
+        var scripts = output.querySelectorAll("script");
+        for(var i = 0;i<scripts.length;i++){
+          try{eval(scripts[i].innerHTML)}catch(e){}
+        }
+      });
+    }
     output.innerHTML = marked(data.html);
     document.title = data.title;
     // other metadata
@@ -50,11 +59,7 @@
   }
   function FetchData(first,newloc){
     // newloc should be the URL to go to.
-    if(!newloc){newloc = {};}
-    if(sessionStorage.redirect){
-      newloc = new URL(sessionStorage.redirect);
-      delete sessionStorage.redirect;
-    }
+    if(!newloc){newloc = location;}
     if("History" in window){
       // redirect
       if((location || newloc).search.search("/") !== -1){ // probably has a path
@@ -214,9 +219,13 @@
       }
       var linkIndex = nodenames.indexOf("A");
       if(linkIndex !== -1){
-        event.preventDefault();
         var href = nodes[linkIndex].href;
         var url = new URL(href);
+        if(url.host === location.host){
+          event.preventDefault();
+        }else{
+          return;
+        }
         if(!("History" in window)){
           location.hash = "#" + url.pathname;
           return;
