@@ -2,6 +2,18 @@
 <html lang="en" dir="ltr">
   <head>
     <title>404 Not Found</title>
+    <script>
+      if(location.pathname.search(/\/docs\//i) !== 0){
+        // redirect
+        document.title = "Redirecting...";
+        var search = location.search;
+        var path = location.pathname;
+        var meta = document.createElement("meta");
+        meta.httpEquiv = "refresh";
+        meta.content = "0;URL='" + location.protocol + "//" + location.host + "/" + (search || "?") + path;
+        document.head.appendChild(meta);
+      }
+    </script>
   </head>
   <body>
     <h1>Could not fetch the document</h1>
@@ -12,7 +24,7 @@
     <script>
       if(location.pathname.search(/\/docs\//i) !== 0){
         // redirect
-        document.title = "Reirecting...";
+        document.title = "Redirecting...";
         var search = location.search;
         var path = location.pathname;
         location.href = `${location.protocol}//${location.host}/${search || "?"}${path}`;
