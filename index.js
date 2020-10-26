@@ -52,7 +52,7 @@
     if(!newloc){newloc = {};}
     if("History" in window){
       // redirect
-      if(location.search.search("/") != -1){ // probably has a path
+      if(location.search.search("/") !== -1){ // probably has a path
         cancelSearch = true;
         output.innerHTML = '<div id="prep">\
           <div style="flex: 1;">\
@@ -67,12 +67,12 @@
         try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
         try{document.querySelector(".selected").className = "";}catch(e){}
         try{link.className = "selected";}catch(e){}
-        if(path === "/" || path === "/search"){path = "/welcome";}
+        if(path === "/" || path === "/search" || !path){path = "/welcome";}
         var x = new XMLHttpRequest();
         x.open("GET","/docs" + path + ".md");
         x.send();
         x.onload = function(){
-          if(search === "?"){
+          if(search === "?" || !search){
             search = "";
           }
           // replace/push state
@@ -90,6 +90,10 @@
           oldhash = location.pathname;
         }
       }else{ // probably History api path
+        if(location.hash.search("/") !== -1){
+          // probably an old link
+          newloc = new URL(location.protocol + "//" + location.host + location.hash.split("#")[1]);
+        }
         var path = (newloc || location).pathname,
           search = (newloc || location).search
         try{document.querySelector('[name="' + search + '"]').scrollIntoView();}catch(e){}
@@ -101,12 +105,12 @@
         try{document.title = link.textContent + " | Kahoot API Documentation V2";}catch(e){}
         try{document.querySelector(".selected").className = "";}catch(e){}
         try{link.className = "selected";}catch(e){}
-        if(path === "/" || path === "/search"){path = "/welcome";}
+        if(path === "/" || path === "/search" || !path){path = "/welcome";}
         var x = new XMLHttpRequest();
         x.open("GET","/docs" + path + ".md");
         x.send();
         x.onload = function(){
-          if(search === "?"){
+          if(search === "?" || !search){
             search = "";
           }
           // replace/push state
@@ -195,9 +199,19 @@
       oldhash = location.pathname;
     });
     window.addEventListener("click",function(event){
-      if(event.target.nodeName === "A"){
+      var target = event.target;
+      var nodenames = [];
+      var nodes = [];
+      while(target){
+        nodenames.unshift(target.nodeName);
+        nodes.unshift(target);
+        target = target.parentNode;
+      }
+      var linkIndex = nodenames.indexOf("A");
+      if(linkIndex !== -1){
         event.preventDefault();
-        var url = new URL(event.target.href);
+        var href = nodes[linkIndex].href;
+        var url = new URL(href);
         if(!("History" in window)){
           location.hash = "#" + url.pathname;
           return;
