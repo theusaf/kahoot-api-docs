@@ -4,6 +4,7 @@
   var oldhash = null;
   // render a state
   function RenderDocument(data){
+    cancelSearch = true;
     if(!data){
       return;
     }
@@ -63,7 +64,6 @@
     if("History" in window){
       // redirect
       if((location || newloc).search.search("/") !== -1){ // probably has a path
-        cancelSearch = true;
         output.innerHTML = '<div id="prep">\
           <div style="flex: 1;">\
             <img src="/loading.svg" alt="Loading... Please wait">\
