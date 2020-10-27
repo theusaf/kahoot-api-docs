@@ -22,14 +22,14 @@ The official Kahoot! website for joining games. Always up-to-date and maintained
 A Kahoot! website for joining and winning games. Made by [theusaf](https://github.com/theusaf) and is actively maintained. It looks similar to kahoot.it and contains a list of Kahoot!s that is has played, allowing users to win some Kahoot!s without input.
   - Alt sites:
     - Maintained/created by theusaf
-      - tooooooo-fast.herokuapp.com
-      - kashoot-this.herokuapp.com
-      - kahoot-win.glitch.me (deprecated)
+      - [tooooooo-fast.herokuapp.com](https://tooooooo-fast.herokuapp.com)
+      - [kashoot-this.herokuapp.com](https://kashoot-this.herokuapp.com)
+      - [kahoot-win.glitch.me](https://kahoot-win.glitch.me) (deprecated)
     - Maintained/created by other users
-      - kahoot-live.herokuapp.com (outdated)
-      - kahoot-jack.herokuapp.com (up-to-date, more Kahooty)
-      - kahooters.herokuapp.com (slightly outdated)
-      - kahooters.yousefak.com (slightly outdated)
+      - [kahoot-live.herokuapp.com](https://kahoot-live.herokuapp.com) (outdated)
+      - [kahoot-jack.herokuapp.com](https://kahoot-jack.herokuapp.com) (up-to-date, more Kahooty)
+      - [kahooters.herokuapp.com](https://kahooters.herokuapp.com) (slightly outdated)
+      - [kahooters.yousefak.com](https://kahooters.yousefak.com) (slightly outdated)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
 A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. Does not support team mode.
