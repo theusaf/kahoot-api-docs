@@ -29,7 +29,6 @@ A Kahoot! website for joining and winning games. Made by [theusaf](https://githu
       - [kahoot-live.herokuapp.com](https://kahoot-live.herokuapp.com) (outdated)
       - [kahoot-jack.herokuapp.com](https://kahoot-jack.herokuapp.com) (up-to-date, more Kahooty)
       - [kahooters.herokuapp.com](https://kahooters.herokuapp.com) (slightly outdated)
-      - [kahooters.yousefak.com](https://kahooters.yousefak.com) (slightly outdated)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
 A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. Does not support team mode.
