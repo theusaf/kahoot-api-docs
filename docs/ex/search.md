@@ -40,7 +40,7 @@ let StringToFix = "The Ancient Origins of Halloween 🕷🕸",
 StringToFix.replace(combined,"*").replace(sub," ").replace(endCheck,"*"); // The Ancient Origins of Halloween *
 StringToFix2.replace(combined,"*").replace(sub," ").replace(endCheck,"*"); // Halloween* Theatre* Shakespeare*s Ghosts   Identify ghosts
 
-// These if statements fix some edge cases where the script repaces a bunch of characters into something like this:
+// These if statements fix some edge cases where the script replaces a bunch of characters into something like this:
 // "This*is*an*example" and then changes it to "This*is*an example".
 // The reason this is needed is that the first search can give unexpected results when searching.
 if((!StringToFix.match(/\s/gm) && StringToFix.length) && StringToFix.match(/\*/gm)){
