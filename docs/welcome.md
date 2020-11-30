@@ -12,6 +12,8 @@ This documentation lists events, urls, and functions used to interact with [Kaho
 
 Kahoot's API uses mostly [JSON](https://www.json.org/json-en.html) and relies on [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) for most of its functions. Other functions, such as searching use HTTP `GET` and `POST` requests.
 
+More specifically, Kahoot uses something called [CometD](https://cometd.org/), but this documentation uses plain websockets instead.
+
 There is a long-polling alternative for WebSockets. However, this documentation does not cover this at the moment.
 
 ### Prerequisites:
