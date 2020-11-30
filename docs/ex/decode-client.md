@@ -62,7 +62,7 @@ edict = {}
 exec(challenge,globals(),edict)
 return edict["fin"]
 ```
-Source: [KahootPY](https://github.com/theusaf/KahootPY/blob/master/kahoot/src/token.py)
+Source: [KahootPY](https://github.com/theusaf/KahootPY/blob/bdeed96c17ee91fa139b604b4d7cf30671d720f1/kahoot/src/token.py)
 
 You can also create your own code by grabbing the numbers and looping through the string to generate the correct code.
 
