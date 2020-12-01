@@ -1,6 +1,14 @@
 ## Frequently Asked Questions
+<div class="navigation">
+  <div>
+    <span>Navigation</span>
+    <a link="?scrollTo=default" class="nav">DEFAULT</a>
+    <a link="?scrollTo=list" class="nav">LIST?</a>
+    <a link="?scrollTo=datamerge" class="nav">DATA vs MERGE</a>
+  </div>
+</div>
 
-<a class="nam" link="?scrollTo=datamerge">default</a>
+<a class="nam" link="?scrollTo=default"></a>
 ### What does "DEFAULT" mean in the API Tables?
 `DEFAULT` is the value that is usually used by Kahoot! and you should probably not change this value when using the API.
 - `DEFAULT` may also mean valid values useable by the API
