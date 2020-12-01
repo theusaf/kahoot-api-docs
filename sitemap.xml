@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2020-10-27T16:21:15.221Z</lastmod>
+    <lastmod>2020-11-30T20:18:26.690Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/welcome</loc>
-    <lastmod>2020-09-21T14:23:03.873Z</lastmod>
+    <lastmod>2020-11-30T20:18:07.791Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -347,12 +347,12 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/ex/calculate-timesync</loc>
-    <lastmod>2020-10-26T22:34:46.338Z</lastmod>
+    <lastmod>2020-12-01T01:42:36.458Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://kahoot.js.org/ex/decode-client</loc>
-    <lastmod>2020-10-26T17:52:30.424Z</lastmod>
+    <lastmod>2020-11-30T19:38:04.661Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -367,7 +367,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/ex/search</loc>
-    <lastmod>2020-10-25T20:43:40.149Z</lastmod>
+    <lastmod>2020-11-22T00:56:06.514Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

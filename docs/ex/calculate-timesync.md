@@ -2,7 +2,8 @@ $A tutorial on how to calculate the timesync information needed for some client 
 ## Calculating the timesync
 The following explains how to calculate values for <a href="/enum/LiveTimesyncDataSync">LiveTimesyncDataSync</a>
 
-*Providing a constant value like 0 for lag and offset might work without issue. Needs more testing to figure out the effect of this value on the game.*
+These calculations are actually [Cometd TimeSyncExtensions](https://github.com/cometd/cometd/blob/502ab5bd830e761f4340a5d5fb6924bc743c5d04/cometd-javascript/common/src/main/webapp/js/cometd/TimeSyncExtension.js#L52)
+
 **This calculation only needs to be done once (during handshake). The client then uses these values for the remaining messages.**
 
 <div class="navigation">
