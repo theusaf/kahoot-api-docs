@@ -31,6 +31,12 @@ Information about the points data and answer streak.
     <td>The number of points earned (without bonuses)</td>
   </tr>
   <tr>
+    <td>lastGameBlockIndex</td>
+    <td>Number</td>
+    <td></td>
+    <td>The last question index.</td>
+  </tr>
+  <tr>
     <td>answerStreakPoints</td>
     <td>JSON Object</td>
     <td>

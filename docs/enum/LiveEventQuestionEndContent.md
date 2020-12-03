@@ -14,7 +14,7 @@ The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
     <td>choice</td>
     <td>Number/String/Array[Number]</td>
     <td>(needs testing)</td>
-    <td>The choice made by the player</td>
+    <td>The choice made by the player. This will be null (or an empty list for multi-choice) if the player did not answer.</td>
   </tr>
   <tr>
     <td>type</td>
@@ -32,7 +32,7 @@ The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
     <td>text</td>
     <td>String</td>
     <td></td>
-    <td>A string of all correct answers. (needs testing)</td>
+    <td>A string of the client's answer(s). If an image is used, this is an empty string. For jumbles, multi-select questions, and multi-select polls, each string is separated by a "|"</td>
   </tr>
   <tr>
     <td>receivedTime</td>
@@ -51,12 +51,6 @@ The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
     <td>Number</td>
     <td></td>
     <td>The points recieved for the question</td>
-  </tr>
-  <tr>
-    <td>correctAnswers</td>
-    <td>Array[String]</td>
-    <td></td>
-    <td>A list of the text content of correct answers (needs testing)</td>
   </tr>
   <tr>
     <td>correctChoices</td>
