@@ -6,7 +6,7 @@ A special identifier for various Kahoot Live events.
 
 - `2` - QuestionStart
 
-- `3` - GameEnd
+- `3` - GameBlockEnd
 
 - `4` - TimeUp
 
