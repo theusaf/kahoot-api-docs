@@ -1,4 +1,4 @@
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/theusaf/kahoot-api-docs/issues)
 [![HitCount](https://hits.dwyl.com/theusaf/kahoot-api-docs.svg)](https://hits.dwyl.com/theusaf/kahoot-api-docs)
 
 
