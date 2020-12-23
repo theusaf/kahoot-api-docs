@@ -19,7 +19,7 @@ A list of websites for playing, searching, hosting, creating, and botting Kahoot
 The official Kahoot! website for joining games. Always up-to-date and maintained by Kahoot!
 
 - ### [kahoot-win.herokuapp.com](https://kahoot-win.herokuapp.com)
-A Kahoot! website for joining and winning games. Made by [theusaf](https://github.com/theusaf) and is actively maintained. It looks similar to kahoot.it and contains a list of Kahoot!s that is has played, allowing users to win some Kahoot!s without input.
+A Kahoot! website for joining and winning games. Made by [theusaf](https://github.com/theusaf) and is actively maintained. It looks similar to kahoot.it and contains a list of Kahoot!s that is has played, allowing users to win some Kahoot!s without input. Supports team mode.
   - Alt sites:
     - Maintained/created by theusaf
       - [tooooooo-fast.herokuapp.com](https://tooooooo-fast.herokuapp.com)
@@ -28,13 +28,10 @@ A Kahoot! website for joining and winning games. Made by [theusaf](https://githu
     - Maintained/created by other users
       - [kahoot-live.herokuapp.com](https://kahoot-live.herokuapp.com) (outdated)
       - [kahoot-jack.herokuapp.com](https://kahoot-jack.herokuapp.com) (slightly outdated, more Kahooty)
-      - [kahooters.herokuapp.com](https://kahooters.herokuapp.com) (slightly outdated)
+      - ~[kahooters.herokuapp.com](https://kahooters.herokuapp.com)~ (down)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
-A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. Does not support team mode.
-
-- ### ~[mem.rip](https://mem.rip/kahoot/)~
-A Kahoot! botting website for spamming games. Made by [memcorrupt](https://mem.rip/). At the moment, this site is not working, but mem has announced that he plans to update it soon.
+A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. Supports team mode.
 
 - ### [ktools.tk](http://ktools.tk/)
 A Kahoot! botting website for spamming games. Based off an older version of Omegaboot and unmaintained. It's likely that it is not down because of low traffic. Does not support team mode.
