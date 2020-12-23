@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2020-12-03T04:19:51.033Z</lastmod>
+    <lastmod>2020-12-23T00:22:57.294Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -31,6 +31,11 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/class/host</loc>
+    <lastmod>2020-12-23T00:32:05.101Z</lastmod>
+    <priority>1</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/class/search</loc>
     <lastmod>2020-10-26T17:55:22.192Z</lastmod>
     <priority>1</priority>
@@ -43,6 +48,16 @@
   <url>
     <loc>https://kahoot.js.org/enum/GameBlockLayout</loc>
     <lastmod>2020-10-25T15:04:16.553Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/HostSessionData</loc>
+    <lastmod>2020-12-23T00:23:14.861Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/HostSessionResponse</loc>
+    <lastmod>2020-12-23T00:27:58.399Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
