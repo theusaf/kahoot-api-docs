@@ -52,6 +52,7 @@ The following sites do not appear to be working:
 - ~omegaboot.com~ (Not working, taken down by Kahoot!)
 - ~kahooters.org~ (Not working, webspam. The page never sends anything to a server and claims to receive requests, wasting users time.)
 - ~kahootbot.org~ (Not working, doesn't send any requests, server is down)
+- ~kahoot-bot.com~ (Not working, doesn't send any info, a scam.)
 
 <a class="nam" link="?scrollTo=host"></a>
 ## Host
