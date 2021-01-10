@@ -31,7 +31,7 @@ A Kahoot! website for joining and winning games. Made by [theusaf](https://githu
       - ~[kahooters.herokuapp.com](https://kahooters.herokuapp.com)~ (down)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
-A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. Supports team mode.
+A Kahoot! botting website for joining and winning games with a simple, feature-packed UI. Made by [Charley Wright](https://github.com/charleywright/Kahoot-rocks-old). You can search for quizzes and quickly select the quiz you are playing. It also has a database of quizzes to find quizzes without user input, but it doesn't fully work. Supports team mode.
 
 - ### [ktools.tk](http://ktools.tk/)
 A Kahoot! botting website for spamming games. Based off an older version of Omegaboot and unmaintained. It's likely that it is not down because of low traffic. Does not support team mode.
