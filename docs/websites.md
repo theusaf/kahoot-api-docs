@@ -18,10 +18,11 @@ A list of websites for playing, searching, hosting, creating, and botting Kahoot
 - ### [kahoot.it](https://kahoot.it)
 The official Kahoot! website for joining games. Always up-to-date and maintained by Kahoot!
 
-- ### [kahoot-win.herokuapp.com](https://kahoot-win.herokuapp.com)
+- ### [kahoot-win.com](https://kahoot-win.com)
 A Kahoot! website for joining and winning games. Made by [theusaf](https://github.com/theusaf) and is actively maintained. It looks similar to kahoot.it and contains a list of Kahoot!s that is has played, allowing users to win some Kahoot!s without input. Supports team mode.
   - Alt sites:
     - Maintained/created by theusaf
+      - [kahoot-win.herokuapp.com](https://kahoot-win.herokuapp.com/?noredir)
       - [tooooooo-fast.herokuapp.com](https://tooooooo-fast.herokuapp.com)
       - [kashoot-this.herokuapp.com](https://kashoot-this.herokuapp.com)
       - [kahoot-win.glitch.me](https://kahoot-win.glitch.me) (deprecated)
