@@ -57,10 +57,6 @@ def decode(message):
     res+=repl(message[i],i)
   return res
 fin = decode('G6CXXJd12LBRhyFvJMPl0GCJU7PzKGeCc4BtOkmPKBKsYb3lbjcobY9Ob4bp3nfsfaL7kDK7th2jcoiYKkgmN2jCT3z2krUnfnRn')
-# Below code is in main process (different file) Above code is the output of applying the first replacement (Cleanup) and then another replacement (JS -> PY).
-edict = {}
-exec(challenge,globals(),edict)
-return edict["fin"]
 ```
 Source: [KahootPY](https://github.com/theusaf/KahootPY/blob/bdeed96c17ee91fa139b604b4d7cf30671d720f1/kahoot/src/token.py)
 
