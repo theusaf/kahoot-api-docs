@@ -11,6 +11,12 @@ The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
     <th>description</th>
   </tr>
   <tr>
+    <td>hasAnswer</td>
+    <td>Boolean</td>
+    <td></td>
+    <td>Whether the client answered the question.</td>
+  </tr>
+  <tr>
     <td>choice</td>
     <td>Number/String/Array[Number]</td>
     <td>(needs testing)</td>
