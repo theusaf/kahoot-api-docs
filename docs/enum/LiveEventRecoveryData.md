@@ -351,8 +351,8 @@ Recovery Data contains a `data` property, which is the event data as well as a `
           <tr>
             <td>revealAnswer</td>
             <td>JSON Object[<a href="/enum/LiveEventQuestionEndContent">LiveEventQuestionEndContent</a>]</td>
-            <td></td>
-            <td>The question end content.</td>
+            <td><code>{"hasAnswer":false}</code></td>
+            <td>The question end content. May be the default if joining mid-game</td>
           </tr>
           <tr>
             <td>timeUp</td>
