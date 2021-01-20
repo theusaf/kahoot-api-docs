@@ -14,7 +14,7 @@ The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
     <td>hasAnswer</td>
     <td>Boolean</td>
     <td></td>
-    <td>Whether the client answered the question.</td>
+    <td>(needs testing) Whether the question has answers?</td>
   </tr>
   <tr>
     <td>choice</td>

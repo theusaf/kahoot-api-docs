@@ -1,6 +1,6 @@
 $A message that indicates the game is ready.
 ## HostStartedData
-<span class="extends"><a href="/enum/LiveBaseEvent">LiveBaseMessage</a></span>
+<span class="extends"><a href="/enum/LiveBaseMessage">LiveBaseMessage</a></span>
 <span class="channel"><code>/service/player</code></span>
 A message that indicates the game is ready.
 
