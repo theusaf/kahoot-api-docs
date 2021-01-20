@@ -119,7 +119,7 @@ Playing and hosting live Kahoot! games
     <p>End the game, send final results.</p>
     <p>Send a list of <a href="/enum/LiveEventQuizEnd">LiveEventQuizEnd</a>s, one per player</p>
   </div>
-  <a link="?scrollTo=KickPlayer" class="nav">KickPlayer</a>s
+  <a link="?scrollTo=KickPlayer" class="nam">KickPlayer</a>
   <div class="info">
     <p>Kick a player.</p>
     <p>Send a <a href="/enum/LiveEventDisconnect">LiveEventDisconnect</a>, with the content set to <code>{"kickCode": 1}</code></p>
@@ -134,7 +134,7 @@ Playing and hosting live Kahoot! games
     <p>Notify players that the question is about to start.</p>
     <p>Send a <a href="/enum/LiveEventQuestionReady">LiveEventQuestionReady</a></p>
   </div>
-  <a link="?scrollTo=ResetGame" class="nav">Reset Game</a>s
+  <a link="?scrollTo=ResetGame" class="nam">Reset Game</a>
   <div class="info">
     <p>Removes all players and restarts the game</p>
     <p>Send a <a href="/enum/LiveEventDisconnect">LiveEventDisconnect</a></p>
