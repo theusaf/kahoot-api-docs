@@ -25,6 +25,7 @@ Playing and hosting live Kahoot! games
     <a link="?scrollTo=ResetTwoFactorAuth" class="nav">Reset Two-Factor Auth</a>
     <a link="?scrollTo=RequestFeedback" class="nav">Request Feedback</a>
     <a link="?scrollTo=SendQuestionResults" class="nav">Send Question Results</a>
+    <a link="?scrollTo=SendRankings" class="nav">Send Rankings</a>
     <a link="?scrollTo=Start" class="nav">Start</a>
     <a link="?scrollTo=StartQuestion" class="nav">Start Question</a>
     <a link="?scrollTo=TimeOver" class="nav">Time Over</a>
@@ -34,6 +35,7 @@ Playing and hosting live Kahoot! games
     <span>Events</span>
     <a link="?scrollTo=DataRequested" class="nav">Data Requested</a>
     <a link="?scrollTo=Disconnect" class="nav">Disconnect</a>
+    <a link="?scrollTo=FeedbackSent" class="nav">Feedback Sent</a>
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
     <a link="?scrollTo=PlayerJoined" class="nav">Player Joined</a>
@@ -84,8 +86,6 @@ Playing and hosting live Kahoot! games
 ### Functions
 
 *Note: When sending events, it actually extends LiveBaseMessage, not LiveBaseEvent*
-
-*Also, `/service/controller` is actually `/controller/(gamepin)`*
 <div>
   <a link="?scrollTo=CreateHandshake" class="nam">Create Handshake</a>
   <div class="info">
@@ -154,6 +154,11 @@ Playing and hosting live Kahoot! games
     <p>Send the question results at the end of the question</p>
     <p>Send a list of <a href="/enum/LiveEventQuestionEnd">LiveEventQuestionEnd</a>s, one per player.</p>
   </div>
+  <a link="?scrollTo=SendRankings" class="nam">Send Rankings</a>
+  <div class="info">
+    <p>Send the final rankings of players</p>
+    <p>Send a list of <a href="/enum/LiveEventPodium">LiveEventPodium</a>s, one per player.</p>
+  </div>
   <a link="?scrollTo=Start" class="nam">Start</a>
   <div class="info">
     <p>Start the game.</p>
@@ -179,6 +184,8 @@ Playing and hosting live Kahoot! games
 ### Events
 
 *Note: When receiving events, the event extends LiveBaseEvent, not LiveBaseMessage*
+
+*Also, `/service/controller` is actually `/controller/(gamepin)`*
 <div>
   <a link="?scrollTo=DataRequested" class="nam">Data Requested</a>
   <div class="info">
@@ -191,6 +198,10 @@ Playing and hosting live Kahoot! games
     <p>The game has ended, the player was kicked, or Kahoot! disconnected the client from its server.</p>
     <p>Happens when the server sends a <a href="/enum/LiveEventDisconnect">LiveEventDisconnect</a>.</p>
     <p>Respond with a <a href="/enum/LiveLeavePacket">LiveLeavePacket</a>You may close the connection.</p>
+  </div>
+  <a link="?scrollTo=FeedbackSent" class="nam">Feedback Sent</a>
+  <div class="info">
+    <p>The server sends a <a href="/enum/LiveFeedbackPacket">LiveFeedbackPacket</a>, containing the player's feedback.</p>
   </div>
   <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
   <div class="info">

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2021-01-20T16:39:48.896Z</lastmod>
+    <lastmod>2021-01-20T22:39:00.767Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/class/host</loc>
-    <lastmod>2021-01-20T16:37:56.356Z</lastmod>
+    <lastmod>2021-01-20T22:45:12.166Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -52,7 +52,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/HostLockMessage</loc>
-    <lastmod>2021-01-20T16:13:59.593Z</lastmod>
+    <lastmod>2021-01-20T21:51:15.460Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -67,7 +67,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/HostStartedData</loc>
-    <lastmod>2021-01-20T16:11:21.290Z</lastmod>
+    <lastmod>2021-01-20T21:51:25.474Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -77,7 +77,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/HostUnlockMessage</loc>
-    <lastmod>2021-01-20T16:14:08.613Z</lastmod>
+    <lastmod>2021-01-20T21:51:35.634Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -151,6 +151,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/enum/LiveEventPlayerJoined</loc>
+    <lastmod>2021-01-20T22:23:45.441Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/LiveEventPlayerJoinedContent</loc>
+    <lastmod>2021-01-20T22:00:24.654Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/LiveEventPlayerLeft</loc>
+    <lastmod>2021-01-20T22:23:24.954Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/enum/LiveEventPodium</loc>
     <lastmod>2020-10-26T17:53:21.957Z</lastmod>
     <priority>0.5</priority>
@@ -162,7 +177,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/LiveEventQuestionEndContent</loc>
-    <lastmod>2021-01-19T21:00:24.726Z</lastmod>
+    <lastmod>2021-01-20T22:32:56.222Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
