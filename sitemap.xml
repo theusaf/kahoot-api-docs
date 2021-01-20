@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2021-01-19T21:00:44.699Z</lastmod>
+    <lastmod>2021-01-20T16:39:48.896Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/class/host</loc>
-    <lastmod>2020-12-23T02:59:58.177Z</lastmod>
+    <lastmod>2021-01-20T16:37:56.356Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -51,6 +51,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/enum/HostLockMessage</loc>
+    <lastmod>2021-01-20T16:13:59.593Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/enum/HostSessionData</loc>
     <lastmod>2020-12-23T00:23:14.861Z</lastmod>
     <priority>0.5</priority>
@@ -58,6 +63,21 @@
   <url>
     <loc>https://kahoot.js.org/enum/HostSessionResponse</loc>
     <lastmod>2020-12-23T00:27:58.399Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/HostStartedData</loc>
+    <lastmod>2021-01-20T16:11:21.290Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/HostStartedResponse</loc>
+    <lastmod>2021-01-20T16:11:26.138Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/HostUnlockMessage</loc>
+    <lastmod>2021-01-20T16:14:08.613Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
