@@ -42,6 +42,7 @@ Playing and hosting live Kahoot! games
     <a link="?scrollTo=PlayerLeft" class="nav">Player Left</a>
     <a link="?scrollTo=startedResponse" class="nav">Started Response</a>
     <a link="?scrollTo=status" class="nav">Status</a>
+    <a link="?scrollTo=TeamSent" class="nav">Team Sent</a>
     <a link="?scrollTo=timetrack" class="nav">Timetrack</a>
     <a link="?scrollTo=TwoFactorAnswered" class="nav">TwoFactorAnswered</a>
   </div>
@@ -239,6 +240,11 @@ Playing and hosting live Kahoot! games
     <p>Usually sent after the client tries to join a game.</p>
     <p>The server sends a <a href="/enum/LiveEventStatus">LiveEventStatus</a>.</p>
     <p>No response is needed.</p>
+  </div>
+  <a link="?scrollTo=TeamSent" class="nam">Team Sent</a>
+  <div class="info">
+    <p>The server sends a <a href="/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
+    <p>Respond with: <a href="/enum/LiveEventTeamAccept"></a>LiveEventTeamAccept</p>
   </div>
   <a link="?scrollTo=timetrack" class="nam">Timetrack</a>
   <div class="info">

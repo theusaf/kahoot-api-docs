@@ -6,19 +6,5 @@ These calculations are actually [Cometd TimeSyncExtensions](https://github.com/c
 
 **This calculation only needs to be done once (during handshake). The client then uses these values for the remaining messages.**
 
-<div class="navigation">
-  <div>
-    <span>Sections</span>
-    <a link="?scrollTo=client" class="nav">Client</a>
-    <a link="?scrollTo=host" class="nav">Host</a>
-  </div>
-</div>
-
-<a link="?scrollTo=client" class="nam"></a>
-### Client
 - l: `ROUND((CURRENT_DATE_MS - SERVER_TS.tc - SERVER_TS.p) / 2)`
 - o: `(SERVER_TS.ts - SERVER_TS.tc - l)`
-
-<a link="?scrollTo=host" class="nam"></a>
-### Host
-Coming soon

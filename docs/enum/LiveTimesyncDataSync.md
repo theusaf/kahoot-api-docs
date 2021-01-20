@@ -30,5 +30,4 @@ Information about the lag and time with the Kahoot server.
 </table>
 
 ### Calculate Time Sync
-- [Client](/ex/calculate-timesync?scrollTo=client)
-- [Host](/ex/calculate-timesync?scrollTo=host)
+- [Example](/ex/calculate-timesync)
