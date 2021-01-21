@@ -44,6 +44,7 @@ Playing and hosting live Kahoot! games
     <a link="?scrollTo=TeamSent" class="nav">Team Sent</a>
     <a link="?scrollTo=timetrack" class="nav">Timetrack</a>
     <a link="?scrollTo=TwoFactorAnswered" class="nav">TwoFactorAnswered</a>
+    <a link="?scrollTo=QuestionAnswered" class="nav">Question Answered</a>
   </div>
 </div>
 
