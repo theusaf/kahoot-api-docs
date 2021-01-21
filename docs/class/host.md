@@ -191,7 +191,7 @@ Playing and hosting live Kahoot! games
   <a link="?scrollTo=DataRequested" class="nam">Data Requested</a>
   <div class="info">
     <p>The player joined and requested recovery data.</p>
-    <p>Happens when the server sends a <a href="/enum/LiveRequestData">LiveRequestData</a>.</p>
+    <p>Happens when the server sends a <a href="/enum/LiveDataRequest">LiveDataRequest</a>.</p>
     <p>Respond with a <a href="/enum/LiveEventBackup">LiveEventBackup</a></p>
   </div>
   <a link="?scrollTo=FeedbackSent" class="nam">Feedback Sent</a>
