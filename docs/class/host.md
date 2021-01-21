@@ -167,7 +167,7 @@ Playing and hosting live Kahoot! games
     <p>Start the game.</p>
     <p>Send a <a href="/enum/LiveEventQuizStart">LiveEventQuizStart</a></p>
   </div>
-  <a link="?scrollTo=StartTeamTalk" class="nav">Start Team Talk</a>
+  <a link="?scrollTo=StartTeamTalk" class="nam">Start Team Talk</a>
   <div class="info">
     <p>Starts the team talk</p>
     <p>Send a <a href="/enum/LiveEventTeamTalk">LiveEventTeamTalk</a></p>
