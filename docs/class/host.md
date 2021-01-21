@@ -103,6 +103,7 @@ Playing and hosting live Kahoot! games
       <li>Create a websocket connection to <code>wss://play.kahoot.it/cometd/{gameid}/{token}</code></li>
       <li>Send a <a href="/enum/LiveClientHandshake">LiveClientHandshake</a></li>
       <li>Listen for events and respond to them. Also, emit events for certain actions.</li>
+      <li>Send a <a href="/enum/HostStartedData">HostStartedData</a></li>
     </ol>
   </div>
   <a link="?scrollTo=Lock" class="nam">Lock</a>
