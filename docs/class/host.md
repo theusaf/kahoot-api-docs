@@ -27,6 +27,7 @@ Playing and hosting live Kahoot! games
     <a link="?scrollTo=SendQuestionResults" class="nav">Send Question Results</a>
     <a link="?scrollTo=SendRankings" class="nav">Send Rankings</a>
     <a link="?scrollTo=Start" class="nav">Start</a>
+    <a link="?scrollTo=StartTeamTalk" class="nav">Start Team Talk</a>
     <a link="?scrollTo=StartQuestion" class="nav">Start Question</a>
     <a link="?scrollTo=TimeOver" class="nav">Time Over</a>
     <a link="?scrollTo=Unlock" class="nav">Unlock</a>
@@ -165,6 +166,11 @@ Playing and hosting live Kahoot! games
   <div class="info">
     <p>Start the game.</p>
     <p>Send a <a href="/enum/LiveEventQuizStart">LiveEventQuizStart</a></p>
+  </div>
+  <a link="?scrollTo=StartTeamTalk" class="nav">Start Team Talk</a>
+  <div class="info">
+    <p>Starts the team talk</p>
+    <p>Send a <a href="/enum/LiveEventTeamTalk">LiveEventTeamTalk</a></p>
   </div>
   <a link="?scrollTo=StartQuestion" class="nam">Start Question</a>
   <div class="info">
