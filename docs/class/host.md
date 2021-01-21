@@ -238,7 +238,7 @@ Playing and hosting live Kahoot! games
   <a link="?scrollTo=TeamSent" class="nam">Team Sent</a>
   <div class="info">
     <p>The server sends a <a href="/enum/LiveJoinedTeamPacket">LiveJoinedTeamPacket</a>.</p>
-    <p>Respond with: <a href="/enum/LiveEventTeamAccept"></a>LiveEventTeamAccept</p>
+    <p>Respond with: <a href="/enum/LiveEventTeamAccept">LiveEventTeamAccept</a></p>
   </div>
   <a link="?scrollTo=timetrack" class="nam">Timetrack</a>
   <div class="info">
