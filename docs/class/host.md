@@ -196,7 +196,7 @@ Playing and hosting live Kahoot! games
   </div>
   <a link="?scrollTo=FeedbackSent" class="nam">Feedback Sent</a>
   <div class="info">
-    <p>The server sends a <a href="/enum/LiveFeedbackPacket">LiveFeedbackPacket</a>, containing the player's feedback.</p>
+    <p>The server sends a <a href="/enum/LiveFeedbackSent">LiveFeedbackSent</a>, containing the player's feedback.</p>
   </div>
   <a link="?scrollTo=HandshakeAccepted" class="nam">HandshakeAccepted</a>
   <div class="info">
@@ -237,7 +237,7 @@ Playing and hosting live Kahoot! games
   </div>
   <a link="?scrollTo=TeamSent" class="nam">Team Sent</a>
   <div class="info">
-    <p>The server sends a <a href="/enum/LiveJoinTeamPacket">LiveJoinTeamPacket</a>.</p>
+    <p>The server sends a <a href="/enum/LiveJoinedTeamPacket">LiveJoinedTeamPacket</a>.</p>
     <p>Respond with: <a href="/enum/LiveEventTeamAccept"></a>LiveEventTeamAccept</p>
   </div>
   <a link="?scrollTo=timetrack" class="nam">Timetrack</a>
@@ -247,12 +247,12 @@ Playing and hosting live Kahoot! games
   </div>
   <a link="?scrollTo=TwoFactorAnswered" class="nam">TwoFactorAnswered</a>
   <div class="info">
-    <p>The server sends a <a href="/enum/LiveTwoStepAnswer">LiveTwoStepAnswer</a></p>
+    <p>The server sends a <a href="/enum/LiveTwoStepAnswered">LiveTwoStepAnswered</a></p>
     <p>If correct, respond with <a href="/enum/LiveEventTwoFactorRight">LiveEventTwoFactorRight</a>. If wrong, respond with <a href="/enum/LiveEventTwoFactorWrong">LiveEventTwoFactorWrong</a></p>
   </div>
   <a link="?scrollTo=QuestionAnswered" class="nam">Question Answered</a>
   <div class="info">
-    <p>The server sends a <a href="/enum/LiveQuestionAnswer">LiveQuestionAnswer</a></p>
+    <p>The server sends a <a href="/enum/LiveQuestionAnswered">LiveQuestionAnswered</a></p>
     <p>No response needed.</p>
   </div>
 </div>
