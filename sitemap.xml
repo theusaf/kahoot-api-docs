@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2021-01-20T22:39:00.767Z</lastmod>
+    <lastmod>2021-01-20T22:58:23.976Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/class/host</loc>
-    <lastmod>2021-01-20T22:45:12.166Z</lastmod>
+    <lastmod>2021-01-21T01:14:51.568Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -367,7 +367,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/LiveTimesyncDataSync</loc>
-    <lastmod>2020-10-26T17:54:55.316Z</lastmod>
+    <lastmod>2021-01-20T22:51:03.470Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -397,7 +397,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/ex/calculate-timesync</loc>
-    <lastmod>2020-12-01T01:42:36.458Z</lastmod>
+    <lastmod>2021-01-20T22:50:13.772Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

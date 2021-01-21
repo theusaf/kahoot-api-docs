@@ -34,7 +34,7 @@ Playing and hosting live Kahoot! games
   <div>
     <span>Events</span>
     <a link="?scrollTo=DataRequested" class="nav">Data Requested</a>
-    <a link="?scrollTo=Disconnect" class="nav">Disconnect</a>
+    <a link="?scrollTo=DisconnectEvent" class="nav">Disconnect</a>
     <a link="?scrollTo=FeedbackSent" class="nav">Feedback Sent</a>
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
@@ -194,12 +194,6 @@ Playing and hosting live Kahoot! games
     <p>The player joined and requested recovery data.</p>
     <p>Happens when the server sends a <a href="/enum/LiveRequestData">LiveRequestData</a>.</p>
     <p>Respond with a <a href="/enum/LiveEventBackup">LiveEventBackup</a></p>
-  </div>
-  <a link="?scrollTo=Disconnect" class="nam">Disconnect</a>
-  <div class="info">
-    <p>The game has ended, the player was kicked, or Kahoot! disconnected the client from its server.</p>
-    <p>Happens when the server sends a <a href="/enum/LiveEventDisconnect">LiveEventDisconnect</a>.</p>
-    <p>Respond with a <a href="/enum/LiveLeavePacket">LiveLeavePacket</a>You may close the connection.</p>
   </div>
   <a link="?scrollTo=FeedbackSent" class="nam">Feedback Sent</a>
   <div class="info">
