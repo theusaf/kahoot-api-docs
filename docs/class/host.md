@@ -34,7 +34,6 @@ Playing and hosting live Kahoot! games
   <div>
     <span>Events</span>
     <a link="?scrollTo=DataRequested" class="nav">Data Requested</a>
-    <a link="?scrollTo=DisconnectEvent" class="nav">Disconnect</a>
     <a link="?scrollTo=FeedbackSent" class="nav">Feedback Sent</a>
     <a link="?scrollTo=HandshakeAccepted" class="nav">HandshakeAccepted</a>
     <a link="?scrollTo=ping" class="nav">Ping</a>
