@@ -71,6 +71,12 @@ The content describing the [LiveEventQuestionEnd](/enum/LiveEventQuestionEnd).
     <td>The total score for the player</td>
   </tr>
   <tr>
+    <td>lastGameBlockIndex</td>
+    <td>Number</td>
+    <td></td>
+    <td>The previous game block index</td>
+  </tr>
+  <tr>
     <td>pointsData</td>
     <td><a href="/enum/LiveEventQuestionPointsData">LiveEventQuestionPointsData</a></td>
     <td></td>
