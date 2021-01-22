@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2021-01-20T22:58:23.976Z</lastmod>
+    <lastmod>2021-01-22T01:49:26.078Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -32,7 +32,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/class/host</loc>
-    <lastmod>2021-01-21T01:14:51.568Z</lastmod>
+    <lastmod>2021-01-21T18:49:55.988Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -108,6 +108,11 @@
   <url>
     <loc>https://kahoot.js.org/enum/LiveConnectionPacket</loc>
     <lastmod>2020-10-26T17:53:03.437Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/LiveDataRequest</loc>
+    <lastmod>2021-01-21T01:29:38.155Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -291,6 +296,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/enum/LiveFeedbackSent</loc>
+    <lastmod>2021-01-21T01:55:24.076Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/enum/LiveHandshakeAdvice</loc>
     <lastmod>2020-10-25T15:12:45.781Z</lastmod>
     <priority>0.5</priority>
@@ -321,6 +331,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/enum/LiveJoinedTeamPacket</loc>
+    <lastmod>2021-01-21T01:54:07.761Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/enum/LiveLeavePacket</loc>
     <lastmod>2020-10-26T17:54:36.030Z</lastmod>
     <priority>0.5</priority>
@@ -338,6 +353,11 @@
   <url>
     <loc>https://kahoot.js.org/enum/LiveQuestionAnswerContent</loc>
     <lastmod>2020-10-26T17:54:42.689Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/enum/LiveQuestionAnswered</loc>
+    <lastmod>2021-01-21T01:52:03.401Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -376,6 +396,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kahoot.js.org/enum/LiveTwoStepAnswered</loc>
+    <lastmod>2021-01-21T01:52:38.167Z</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://kahoot.js.org/enum/SearchLanguage</loc>
     <lastmod>2020-10-25T17:50:41.745Z</lastmod>
     <priority>0.5</priority>
@@ -398,6 +423,11 @@
   <url>
     <loc>https://kahoot.js.org/ex/calculate-timesync</loc>
     <lastmod>2021-01-20T22:50:13.772Z</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://kahoot.js.org/ex/check-profanities</loc>
+    <lastmod>2021-01-22T02:05:42.700Z</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
