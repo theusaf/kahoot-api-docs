@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://kahoot.js.org</loc>
-    <lastmod>2021-01-22T01:49:26.078Z</lastmod>
+    <lastmod>2021-01-22T22:30:24.189Z</lastmod>
     <priority>1</priority>
   </url>
   <url>
@@ -182,7 +182,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/LiveEventQuestionEndContent</loc>
-    <lastmod>2021-01-20T22:32:56.222Z</lastmod>
+    <lastmod>2021-01-22T22:24:42.892Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -207,7 +207,7 @@
   </url>
   <url>
     <loc>https://kahoot.js.org/enum/LiveEventQuestionStartContent</loc>
-    <lastmod>2020-10-26T17:53:38.997Z</lastmod>
+    <lastmod>2021-01-22T22:30:04.538Z</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

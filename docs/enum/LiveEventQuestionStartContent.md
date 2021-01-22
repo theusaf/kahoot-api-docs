@@ -38,6 +38,19 @@ The content describing the [LiveEventQuestionStart](/enum/LiveEventQuestionStart
     <td>timeAvailable</td>
     <td>Number</td>
     <td>20000</td>
+    <td>How much time is in the question.</td>
+  </tr>
+  <tr>
+    <td>timeLeft</td>
+    <td>Number</td>
+    <td>20000</td>
     <td>How much time is left before the question ends.</td>
+  </tr>
+  <tr>
+    <td>numberOfAnswersAllowed</td>
+    <td>Number</td>
+    <td>1</td>
+    <td>How many answers are allowed.</td>
+    <!-- I am not entirely sure why this is in. Are they adding another question type? -->
   </tr>
 </table>
