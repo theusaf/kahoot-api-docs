@@ -60,7 +60,7 @@ Search for public Kahoot!s on Discover!
       </tr>
       <tr>
         <td>Number</td>
-        <td>0 <em>(Min: 0)</em></td>
+        <td>0 <em>(Min: 0)</em> <em>(Max: 9999)</em></td>
         <td>When searching, Kahoot! will return the results in their list starting from this index. Results before this index will be omitted. If this number exceeds the number of results for the query, an empty list will be returned.</td>
       </tr>
     </table>
