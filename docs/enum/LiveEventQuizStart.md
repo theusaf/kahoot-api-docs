@@ -38,7 +38,8 @@ An event signifying the start of the quiz
         <code>
 <!--   -->{
 <!--   -->  "quizType": "quiz",
-<!--   -->  "quizQuestionAnswers": [4,4,...]
+<!--   -->  "quizQuestionAnswers": [4,4,...],
+<!--   -->  "quizTitle": "..."
 <!--   -->}
         </code>
       </pre>
@@ -48,6 +49,7 @@ An event signifying the start of the quiz
       <ul>
         <li>quizType - The type of quiz. (Not used, always 'quiz')</li>
         <li>quizQuestionAnswers - A list of numbers stating how many answers are in each question.</li>
+        <li>quizTitle - The name of the quiz.</li>
       </ul>
     </td>
   </tr>
