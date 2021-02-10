@@ -28,7 +28,8 @@ A Kahoot! website for joining and winning games. Made by [theusaf](https://githu
       - [kahoot-win.glitch.me](https://kahoot-win.glitch.me) (deprecated)
     - Maintained/created by other users
       - [kahoot-live.herokuapp.com](https://kahoot-live.herokuapp.com) (outdated)
-      - [kahoot-jack.herokuapp.com](https://kahoot-jack.herokuapp.com) (slightly outdated, more Kahooty)
+      - [kahoot-jack.herokuapp.com](https://kahoot-jack.herokuapp.com) (outdated, more Kahooty)
+      - [kahoot.apknxt.com](https://kahoot.apknxt.com/) (slightly outdated)
       - ~[kahooters.herokuapp.com](https://kahooters.herokuapp.com)~ (down)
 
 - ### [kahoot.rocks](https://kahoot.rocks)
