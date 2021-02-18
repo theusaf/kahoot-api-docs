@@ -6,3 +6,10 @@ package-lock.json
 info.json
 generate-sitemap.js
 .surgeignore
+docs/class
+docs/enum
+docs/ex
+docs/package
+docs/faq.md
+docs/getting-started.md
+docs/websites.md
